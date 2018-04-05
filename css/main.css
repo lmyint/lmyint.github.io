@@ -1,9 +1,8 @@
-@import url(//fonts.googleapis.com/css?family=Handlee|Roboto:regular,black);
+@import url(//fonts.googleapis.com/css?family=Handlee|Lato:light,bold,black);
 
 body {
-	font-family: "Roboto", sans-serif;
-	/*color: #A5A5A3;*/
-	color: #B2B2B2;
+	font-family: "Lato", sans-serif;
+	color: #d8d8d8;
 	background-color: #3A3D42;
 }
 
@@ -25,6 +24,7 @@ body {
 	padding: 6px 8px 6px 60px;
 	text-decoration: none;
 	font-size: 25px;
+	font-weight: bold;
 	color: #818181;
 	display: block;
 }
