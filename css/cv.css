@@ -27,6 +27,10 @@ body b {
 	font-weight: bold;
 }
 
+body i {
+	font-style: italic;
+}
+
 .clear {
 	clear: both;
 }
@@ -46,7 +50,7 @@ p {
 }
 
 .mainDetails {
-	padding: 25px 35px;
+	padding: 25px 25px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -65,7 +69,7 @@ p {
 }
 
 #mainArea {
-	padding: 0 40px;
+	padding: 0px 25px;
 }
 
 #headshot {
@@ -146,9 +150,16 @@ section:last-child {
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	margin-bottom: -2px;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+
+.contentHeader {
+	font-weight: bold;
+}
+
+.contentDate {
+	float: right;
 }
 
 .sectionContent ol, ul {
@@ -156,8 +167,8 @@ section:last-child {
 }
 
 .subDetails {
-	font-size: 0.85em;
-	font-style: italic;
+	font-size: 0.95em;
+	/*font-style: italic;*/
 	margin-bottom: 2px;
 }
 
