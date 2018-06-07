@@ -2,124 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Leslie Myint</title>
-    <link>/home/</link>
+    <link>https://lmyint.github.io/home/</link>
     <description>Recent content in Homes on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lmyint.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>/home/hero/</link>
+      <link>https://lmyint.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>/home/hero/</guid>
+      <guid>https://lmyint.github.io/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://lmyint.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://lmyint.github.io/home/about/</guid>
       <description>About me I received my PhD in biostatistics from the Johns Hopkins Bloomberg School of Public Health where I worked with Kasper Daniel Hansen on statistical methodology for high-throughput biology and with Jeff Leek and Leah Jager on understanding the role of human behavior in data analysis.
 I will be starting as an Assistant Professor at Macalester College in the Department of Mathematics, Statistics, and Computer Science in Fall 2018.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://lmyint.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://lmyint.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://lmyint.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://lmyint.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://lmyint.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://lmyint.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://lmyint.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://lmyint.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <link>https://lmyint.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>https://lmyint.github.io/home/teaching/</guid>
       <description>I will be teaching the following courses at Macalester for the 2018-9 academic year.
  MATH155: Introduction to Statistical Modeling (Fall) MATH253: Machine Learning (Spring)  </description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://lmyint.github.io/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://lmyint.github.io/home/cv/</guid>
       <description>My CV is available in HTML or PDF form.</description>
     </item>
     
     <item>
       <title>Fun</title>
-      <link>/home/fun/</link>
+      <link>https://lmyint.github.io/home/fun/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/fun/</guid>
+      <guid>https://lmyint.github.io/home/fun/</guid>
       <description>I am an avid Dungeons and Dragons player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!
  Map Annotator: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas. R + Magic the Gathering: (Slides) A foray into the rvest package in R with an application for organizing information about Magic the Gathering decklists.</description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>https://lmyint.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://lmyint.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://lmyint.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://lmyint.github.io/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://lmyint.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://lmyint.github.io/home/tags/</guid>
       <description></description>
     </item>
     
