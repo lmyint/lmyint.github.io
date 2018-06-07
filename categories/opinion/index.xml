@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion on Leslie Myint</title>
-    <link>https://lmyint.github.io/categories/opinion/</link>
+    <link>/categories/opinion/</link>
     <description>Recent content in Opinion on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 00:46:20 +0000</lastBuildDate>
     
-	<atom:link href="https://lmyint.github.io/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:
  Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.</description>
     </item>
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog!</description>
     </item>
     

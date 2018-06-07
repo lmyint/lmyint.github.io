@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leslie Myint on Leslie Myint</title>
-    <link>https://lmyint.github.io/</link>
+    <link>/</link>
     <description>Recent content in Leslie Myint on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>
 
 &lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
 &lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
@@ -187,10 +187,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
 &lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
 &lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
@@ -218,10 +218,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Teaching real math with computers</title>
-      <link>https://lmyint.github.io/post/teaching-real-math-with-computers/</link>
+      <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/teaching-real-math-with-computers/</guid>
+      <guid>/post/teaching-real-math-with-computers/</guid>
       <description>
 
 &lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
@@ -260,10 +260,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
-      <link>https://lmyint.github.io/post/adapting-education-style/</link>
+      <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/adapting-education-style/</guid>
+      <guid>/post/adapting-education-style/</guid>
       <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
 
 &lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
@@ -276,10 +276,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Motivating the question</title>
-      <link>https://lmyint.github.io/post/motivating-the-question/</link>
+      <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/motivating-the-question/</guid>
+      <guid>/post/motivating-the-question/</guid>
       <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
 
 &lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
@@ -308,10 +308,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>https://lmyint.github.io/post/imp-perspectives/</link>
+      <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/imp-perspectives/</guid>
+      <guid>/post/imp-perspectives/</guid>
       <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
 
 &lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
@@ -324,10 +324,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>&lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
 &lt;p&gt;So let’s get to the interesting stuff (I hope)! I love statistics, but I know that most people do not feel the same way that I do. I know I can’t inspire a love of the field for everyone who reads this, but I do want to motivate statistics and offer some opinions as to why statistics tends to elicit grimaces from non-practitioners.&lt;/p&gt;
 &lt;p&gt;As I was planning to start this blog, I asked my friends about their opinions about statistics, and it was pointed out that a particularly unsatisfying part of learning statistics is that students tend to get the feeling that they aren’t certain about anything. I won’t try to deny this because it’s completely true. But when are we ever 100% certain about anything &lt;strong&gt;interesting&lt;/strong&gt;? See if you can come up with an example of something that you know with absolute certainty and that actually raises your eyebrows. I’m coming up with “I will type the word ‘statistics’ at least one more time in this post” and “I will eat a brownie in the next week.” These are completely inevitable and therefore (to me) completely uninteresting statements. Even inevitabilities can have degrees of uncertainty when we pose them in a different way:&lt;/p&gt;
@@ -349,7 +349,7 @@ prob_chosen &amp;lt;- 1-prob_notchosen
 par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
 plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
 plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
 &lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
 </description>
@@ -357,10 +357,10 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
     
     <item>
       <title></title>
-      <link>https://lmyint.github.io/cv/</link>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/cv/</guid>
+      <guid>/cv/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;

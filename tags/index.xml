@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Leslie Myint</title>
-    <link>https://lmyint.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://lmyint.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://lmyint.github.io/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://lmyint.github.io/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
       <title>Likelihood</title>
-      <link>https://lmyint.github.io/tags/likelihood/</link>
+      <link>/tags/likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/tags/likelihood/</guid>
+      <guid>/tags/likelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OAuth</title>
-      <link>https://lmyint.github.io/tags/oauth/</link>
+      <link>/tags/oauth/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/tags/oauth/</guid>
+      <guid>/tags/oauth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny</title>
-      <link>https://lmyint.github.io/tags/shiny/</link>
+      <link>/tags/shiny/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/tags/shiny/</guid>
+      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     
