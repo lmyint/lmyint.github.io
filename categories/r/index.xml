@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Leslie Myint</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Leslie Myint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 18:24:29 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Shiny app with Google login</title>
+      <link>/post/shiny-app-with-google-login/</link>
+      <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
+      
+      <guid>/post/shiny-app-with-google-login/</guid>
+      <description>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook.</description>
+    </item>
+    
+  </channel>
+</rss>

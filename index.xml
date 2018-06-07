@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leslie Myint on Leslie Myint</title>
+    <link>/</link>
+    <description>Recent content in Leslie Myint on Leslie Myint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fight every battle everywhere: this is science</title>
+      <link>/post/fight-every-battle/</link>
+      <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
+      
+      <guid>/post/fight-every-battle/</guid>
+      <description>
+
+&lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As I let my mind wander away from work for a bit today, I realized that this is a wonderful quote about science!&lt;/p&gt;
+
+&lt;h3 id=&#34;fight-every-battle-everywhere-always-in-your-mind&#34;&gt;Fight every battle everywhere, always, in your mind&lt;/h3&gt;
+
+&lt;p&gt;Baelish is a shrewd, obsessive planner. In planning for everything that could possibly happen, he always seems to be prepared, get what he wants, and stay alive. Just like staying alive in Westeros in positions of power, doing good science can be quite difficult because we are set adrift in extremely complex systems. There are so many paths that that can be followed to answer a research question (including the formulation of the question itself!), and all could be the subject of an intellectual battle with a critic. Studying the effect of yearly bonuses for teachers on long-term student outcomes? How do you define long-term? What outcomes will you measure and how? How will you prevent dropout? How do you make differing bonus amounts comparable for teachers who differ in terms of what they teach, where they live, what composition of students they teach from year to year? How would you even define &amp;ldquo;composition of students&amp;rdquo;? Also why study student outcomes as opposed to community outcomes? There is no way that a single study could address all of these concerns, or the ones that I couldn&amp;rsquo;t think of, but these concerns need to be thought about because they need to be &lt;em&gt;answered&lt;/em&gt; for us to have any hope of meaningful, actionable conclusions. Just the act of forecasting these hypothetical intellectual battles can motivate the design of better studies.&lt;/p&gt;
+
+&lt;h3 id=&#34;everyone-is-your-enemy-everyone-is-your-friend&#34;&gt;Everyone is your enemy, everyone is your friend&lt;/h3&gt;
+
+&lt;p&gt;Baelish is calculating and knows how effective people can be in various contexts. It can be helpful to think of everyone in the scientific community as your enemy—enemies ready to question every aspect of your work and find every possible hole—but only if it indeed motivates _you_ to do those very things. Only by heavily scrutinizing our own work can we make ourselves the best scientists possible. Acknowledging limitations in private and subsequently making them known to others is key to moving the state of knowledge forward. I do want to de-emphasize any paranoid or hateful connotations of this quote though! Some people in my field take the &amp;ldquo;everyone is your enemy&amp;rdquo; part too seriously and critique others in inflammatory ways.&lt;/p&gt;
+
+&lt;p&gt;Now the friends part&amp;hellip;this probably works out better for science than for Baelish. Scientists form a community, and ideally &lt;a href=&#34;https://simplystatistics.org/2015/12/11/instead-of-research-on-reproducibility-just-do-reproducible-research/&#34; target=&#34;_blank&#34;&gt;sharing everything&lt;/a&gt; about our work would facilitate a team effort to find even more limitations and address them fruitfully to get leaps and bounds closer to useful answers. But my impression is that things generally don&amp;rsquo;t happen this way. Groups work somewhat in isolation on different aspects of a problem. Perhaps consortia try to harmonize efforts in some respects, but useful information is still needed from external sources and not able to be integrated easily. Just as it is hard in Westeros to find good allies, it can be difficult in science to find good collaborators. But when it does happen, great deeds are in the works.&lt;/p&gt;
+
+&lt;h3 id=&#34;every-possible-series-of-events-is-happening-all-at-once&#34;&gt;Every possible series of events is happening all at once&lt;/h3&gt;
+
+&lt;p&gt;In Westeros, livelihoods dance on the whims of nobles and on the breath of armies that can be traded with coin coffers or decimated in an afternoon. This creates a palpable urgency for Baelish to always stay ahead of the game. This immediacy isn&amp;rsquo;t really felt in science. We don&amp;rsquo;t gamble with our lives when we submit a paper and wait for the review process to unfold. I think that the scientific community is lured to progress slowly with our &lt;a href=&#34;http://www.sciencemag.org/news/2015/12/got-just-single-observation-new-journal-will-publish-it&#34; target=&#34;_blank&#34;&gt;recognition system&lt;/a&gt; favoring large numbers of publications. Researchers who have large projects are incentivized to break the project up into several publications. I don&amp;rsquo;t think this is necessarily bad if the scientists have actually completed this larger body of research. The flaw I see is if it incentivizes scientists to publish work that isn&amp;rsquo;t as complete out of time pressure and fail to follow up with more complete validation because they feel the validation work isn&amp;rsquo;t &amp;ldquo;enough&amp;rdquo; for its own publication. There is &lt;a href=&#34;http://www.sciencemag.org/news/2016/02/if-you-fail-reproduce-another-scientist-s-results-journal-wants-know&#34; target=&#34;_blank&#34;&gt;some effort to recognize replication attempts&lt;/a&gt;, but I wish that there were more urgency and incentive to conduct more complete studies the first time around because it sets the baseline higher for future work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a Shiny app with Google login</title>
+      <link>/post/shiny-app-with-google-login/</link>
+      <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
+      
+      <guid>/post/shiny-app-with-google-login/</guid>
+      <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
+&lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
+&lt;p&gt;You will need the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR&#34;&gt;&lt;code&gt;googleAuthR&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;&lt;code&gt;googleID&lt;/code&gt;&lt;/a&gt; packages to allow for Google authentication and login. If you plan to publish your app on shinyapps.io, you’ll also need the &lt;code&gt;shinyjs&lt;/code&gt; package to avoid a clunky “Disconnected from the server” message on logout. You can install these packages with&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(c(&amp;quot;googleAuthR&amp;quot;, &amp;quot;shinyjs&amp;quot;))
+devtools::install_github(&amp;quot;MarkEdmondson1234/googleID&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is important to install the &lt;code&gt;googleID&lt;/code&gt; package with the command above to avoid an “Unable to retrieve package records” error when publishing your app (see &lt;a href=&#34;https://groups.google.com/forum/#!topic/shiny-discuss/l6nug9hMh7g&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-2-setup-google-apis&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 2: Setup Google APIs&lt;/h1&gt;
+&lt;div id=&#34;setup-a-google-api-project&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup a Google API project&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Make sure that you are logged into Google and visit the &lt;a href=&#34;https://console.developers.google.com/iam-admin/projects&#34;&gt;Google APIs project page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;a href=&#34;https://console.developers.google.com/apis/api/plus/overview&#34;&gt;Google+ API link&lt;/a&gt; under “Social APIs” and click the “Enable” link at the top to activate the Google+ API.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;setup-authentication-credentials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup authentication credentials&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Click the “Credentials” link in the menu on the left.&lt;/li&gt;
+&lt;li&gt;Navigate to the “OAuth consent screen” tab near the top.&lt;/li&gt;
+&lt;li&gt;Fill in the “Product name shown to users” form with the name of your Shiny application. The information you provide in this tab populate the authentication screen that pops up when users click the “Login with Google” link in your app (&lt;a href=&#34;https://developers.google.com/accounts/images/OAuth2Consent.png&#34;&gt;example&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Navigate to the “Credentials” tab at the top.&lt;/li&gt;
+&lt;li&gt;On the “Create Credentials” dropdown menu, select “OAuth client ID” and select “Web application” for the application type.&lt;/li&gt;
+&lt;li&gt;Fill in any descriptive name for this authentication client.&lt;/li&gt;
+&lt;li&gt;In the redirect URLs field, fill in
+&lt;ul&gt;
+&lt;li&gt;the URL for your Shiny app (e.g. &lt;a href=&#34;https://yourdomain.shinyapps.io/appName&#34; class=&#34;uri&#34;&gt;https://yourdomain.shinyapps.io/appName&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://127.0.0.1:1221&#34; class=&#34;uri&#34;&gt;http://127.0.0.1:1221&lt;/a&gt; This is to facilitate local development and testing of your app.&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;After saving this information, a client ID and secret will pop up. Copy and paste these for use in your code later.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-3-code&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 3: Code&lt;/h1&gt;
+&lt;p&gt;Include the following code at the top of your &lt;code&gt;app.R&lt;/code&gt; file to setup scopes for the relevant API functions you’ll be using and to specify the client ID and secret you received in step 8 above:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;options(googleAuthR.scopes.selected = c(&amp;quot;https://www.googleapis.com/auth/userinfo.email&amp;quot;,
+                                        &amp;quot;https://www.googleapis.com/auth/userinfo.profile&amp;quot;))
+options(&amp;quot;googleAuthR.webapp.client_id&amp;quot; = &amp;quot;YOUR_CLIENT_ID&amp;quot;)
+options(&amp;quot;googleAuthR.webapp.client_secret&amp;quot; = &amp;quot;YOUR_CLIENT_SECRET&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Below is the shell of an app.R file that will create a login/logout button using Google authentication. I’ll explain the individual components afterward.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ui &amp;lt;- navbarPage(
+    title = &amp;quot;App Name&amp;quot;,
+    windowTitle = &amp;quot;Browser window title&amp;quot;,
+    tabPanel(&amp;quot;Tab 1&amp;quot;,
+        useShinyjs(),
+        sidebarLayout(
+            sidebarPanel(
+                p(&amp;quot;Welcome!&amp;quot;),
+                googleAuthUI(&amp;quot;gauth_login&amp;quot;)
+            ),
+            mainPanel(
+                textOutput(&amp;quot;display_username&amp;quot;)
+            )
+        )
+    ),
+    tabPanel(&amp;quot;Tab 2&amp;quot;,
+        p(&amp;quot;Layout for tab 2&amp;quot;)
+    )
+)
+
+server &amp;lt;- function(input, output, session) {
+    ## Global variables needed throughout the app
+    rv &amp;lt;- reactiveValues(
+        login = FALSE
+    )
+
+    ## Authentication
+    accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
+        login_class = &amp;quot;btn btn-primary&amp;quot;,
+        logout_class = &amp;quot;btn btn-primary&amp;quot;)
+    userDetails &amp;lt;- reactive({
+        validate(
+            need(accessToken(), &amp;quot;not logged in&amp;quot;)
+        )
+        rv$login &amp;lt;- TRUE
+        with_shiny(get_user_info, shiny_access_token = accessToken())
+    })
+
+    ## Display user&amp;#39;s Google display name after successful login
+    output$display_username &amp;lt;- renderText({
+        validate(
+            need(userDetails(), &amp;quot;getting user details&amp;quot;)
+        )
+        userDetails()$displayName
+    })
+
+    ## Workaround to avoid shinyaps.io URL problems
+    observe({
+        if (rv$login) {
+            shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
+                shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
+        }
+    })
+}
+
+shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The login/logout button is created as part of the UI by calling the &lt;code&gt;googleAuthUI&lt;/code&gt; function and supplying an ID:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;googleAuthUI(&amp;quot;gauth_login&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use the same ID to call the Google authentication module with &lt;code&gt;callModule&lt;/code&gt;. It is also possible to set the classes of the login and logout buttons. For styling purposes, I’ve set the classes of the login and logout buttons to be the same which renders the buttons as flat blue buttons with white text. By default, the logout button just has the &lt;code&gt;btn&lt;/code&gt; class and is a standard silver button.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
+    login_class = &amp;quot;btn btn-primary&amp;quot;,
+    logout_class = &amp;quot;btn btn-primary&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;userDetails&lt;/code&gt; object is a reactive expression that is a list of several pieces of information from the user’s Google profile (see the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;googleID example&lt;/a&gt;). Until the access token is generated, any output that depends on &lt;code&gt;userDetails&lt;/code&gt; will instead display “not logged in.”&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;userDetails &amp;lt;- reactive({
+    validate(
+        need(accessToken(), &amp;quot;not logged in&amp;quot;)
+    )
+    rv$login &amp;lt;- TRUE
+    with_shiny(get_user_info, shiny_access_token = accessToken())
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If parts of the UI are to be rendered based on this information after user login, include a &lt;code&gt;validate()&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;output$display_username &amp;lt;- renderText({
+    validate(
+        need(userDetails(), &amp;quot;getting user details&amp;quot;)
+    )
+    userDetails()$displayName
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Without the last piece of code using &lt;code&gt;shinyjs&lt;/code&gt;, clicking the logout button would cause the app to be &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR/issues/17&#34;&gt;disconnected from the server&lt;/a&gt;. This results in a clunky, undesirable logout experience. This last piece of code redirects to the specified URL when the logout button is clicked.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;observe({
+    if (rv$login) {
+        shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
+            shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
+    }
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-considerations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Other considerations&lt;/h1&gt;
+&lt;p&gt;The steps above should help you quickly get started developing a Shiny application with Google login. The meat of the app will depend on your needs, but if you want to keep track of user information, consider using some &lt;a href=&#34;https://shiny.rstudio.com/articles/persistent-data-storage.html&#34;&gt;online file system or database&lt;/a&gt; to map users’ Google IDs to your app’s own set of profile information.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is likelihood?</title>
+      <link>/post/what-is-likelihood/</link>
+      <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
+      
+      <guid>/post/what-is-likelihood/</guid>
+      <description>&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
+&lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
+&lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
+&lt;p&gt;“So what &lt;em&gt;is&lt;/em&gt; likelihood?”&lt;/p&gt;
+&lt;p&gt;“Good question! Let me ask you this: what’s the probability of rolling a one on a six-sided die?”&lt;/p&gt;
+&lt;p&gt;“One-sixth…”&lt;/p&gt;
+&lt;p&gt;“Ah - what if I told you that it was actually 90%?”&lt;/p&gt;
+&lt;p&gt;Silence or contemplation.&lt;/p&gt;
+&lt;p&gt;“So why did you say one-sixth?”&lt;/p&gt;
+&lt;p&gt;“Because there’s a single one out of the six sides.”&lt;/p&gt;
+&lt;p&gt;“Right - so you assumed a &lt;strong&gt;model&lt;/strong&gt; of a fair die. And using a model for a fair die, each number has a one-sixth chance of being rolled. I assumed a model of an exquisitely crafted loaded die where the chance of getting a one is 90% and the other five numbers is 2% each.”&lt;/p&gt;
+&lt;p&gt;“Ok…”&lt;/p&gt;
+&lt;p&gt;“We’re getting close to the meat of it! So I have a model in mind, and you have a model in mind…who’s right? The only way to hope to answer this is with data. Say I rolled this hypothetical die and got a 2, 3, 4, 6, and then a 2. What die model do you think is better?”&lt;/p&gt;
+&lt;p&gt;“The fair one.”&lt;/p&gt;
+&lt;p&gt;“Right - why?”&lt;/p&gt;
+&lt;p&gt;“There wasn’t even a single one rolled, and your loaded die is supposed to have a 90% chance to roll a one.”&lt;/p&gt;
+&lt;p&gt;“Excellent! So the &lt;strong&gt;likelihood&lt;/strong&gt; of our data is higher for the fair die than for my loaded die, which is what led you to prefer the fair die model. Specifically you can calculate the likelihood of the data under your fair die model as &lt;span class=&#34;math inline&#34;&gt;\(\left(\frac{1}{6}\right)^5\)&lt;/span&gt;, and I can calculate the likelihood of the data under my loaded die model as &lt;span class=&#34;math inline&#34;&gt;\((0.02)^5\)&lt;/span&gt;, which is way lower. We can apply the thinking for this scenario analogously to regression! In regression, we are proposing models for the data just like we were in this dice scenario. It’s just that we’re using a different probability model. Specifically, we assume that the outcomes come from a normal distribution and that the mean of the distribution is some linear combination of covariates. Knowing the covariate information for everyone in our data is just like knowing the sequence of die rolls, and knowing the density function for the normal distribution is just like knowing the probabilities for the six sides of the die!”&lt;/p&gt;
+&lt;p&gt;The last bit of this would vary depending on the student’s understanding of the assumptions and setup of linear regression, but I like this line of explanation more than my original one for two teaching strategies that it employs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Setting the student up to be contradicted.&lt;/strong&gt; Arguably lessons are more memorable for students when they are fairly confident in an answer but end up being told otherwise. Here I wanted to make them think intuitively about a common situation but bring to light their unconscious assumptions by bringing in unusual but plausible assumptions of my own. One of the main points of the explanation, the key dependence of likelihood on the model being proposed, hinges on this awareness of the connection between having a model in mind and being able to calculate probabilities. So making this memorable is key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Framing the unfamiliar in the familiar.&lt;/strong&gt; Abstract concepts are often so because students are not accustomed to the language that we instructors are using to describe them. However, by framing the concept in a familiar context, students can more easily make the leap. It’s also a nice way to explain something twice without just repeating yourself twice. Essentially, analogies are the way to go when explaining something complex.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching real math with computers</title>
+      <link>/post/teaching-real-math-with-computers/</link>
+      <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
+      
+      <guid>/post/teaching-real-math-with-computers/</guid>
+      <description>
+
+&lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
+
+&lt;h1 id=&#34;mathematics-can-be-taught-via-programming&#34;&gt;Mathematics can be taught via programming&lt;/h1&gt;
+
+&lt;p&gt;Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts. I completely agree that if you truly understand a concept, you can program it, but it’s worthwhile trying to consider how this might actually play out in middle and high school curricula.&lt;/p&gt;
+
+&lt;p&gt;It is useful to think about why this was such an interesting idea to many people in the first place. (It did get a TED talk after all.) The main point is that programming is not something that most people have any real idea of until they try it. I really didn’t understand what programming was about until I took an introductory class in college. I ended up loving it because I enjoyed the thorough and organized type of thinking that it encouraged, and I saw how useful it could be. People who are programmers or use programming regularly, like Mr. Wolfram, are very much convinced of its utility and are naturally excited about introducing this type of thinking earlier on in the education process. There are a few points that came to mind when weighing the pros and cons of a programming-oriented mathematics education:&lt;/p&gt;
+
+&lt;h2 id=&#34;programming-can-be-a-great-way-to-reinforce-concepts&#34;&gt;Programming can be a great way to &lt;strong&gt;reinforce&lt;/strong&gt; concepts&lt;/h2&gt;
+
+&lt;p&gt;I remember learning how to solve the tower of Hanoi puzzle in the children’s section of museums and in puzzle games long before I saw it again in my freshman year programming class. If placed before me, I probably would have been able to go through the motions from rough recollections or intuition, but the task at hand was to write a program that would solve an arbitrary tower of Hanoi puzzle (i.e. with any number of discs). Suddenly rough intuition needed to be transformed into a precise set of instructions, and it was the fact that I was seeing a familiar problem recast in a more general way that made the exercise relevant and memorable.&lt;/p&gt;
+
+&lt;p&gt;With standard pre-college mathematics education, a similar strategy could be adopted. As a specific example, solving systems of two equations with two unknowns is a standard algebra topic that could benefit from programming-type exercises. After students learn the technique of solving these problems, they hone their skills on practice problems and ideally are able to develop intuition on how to solve them by sight. Making this intuition more precise is where a programming exercise could come in. After students gain facility with solving the problems, we have them make their understanding more rigorous by asking them to write a very specific set of instructions to solve any such system of equations. Suddenly they must think about how &lt;em&gt;exactly&lt;/em&gt; they choose the scaling numbers for the equations and how they choose to add or subtract the two equations.&lt;/p&gt;
+
+&lt;h2 id=&#34;programming-is-probably-not-the-best-way-to-introduce-a-topic&#34;&gt;Programming is probably not the best way to &lt;strong&gt;introduce&lt;/strong&gt; a topic&lt;/h2&gt;
+
+&lt;p&gt;Just because an activity truly assesses understanding doesn’t mean that it automatically lays the foundation for a lesson plan. If all of my algebra lessons had been formatted as a series of instructions in the way that a programming perspective would emphasize, I know I would have enjoyed my math class a lot less. And I definitely would not have been ready to write a program to solve arbitrary systems of equations the day the topic was introduced. When material is presented as formulaic, as a procedure, students are compelled to simply memorize the steps involved in solving problems. The intuition is removed, and the concepts don’t stick past the next test. I still think that teachers should strive to motivate the material as much as possible—whether that be through telling a story or getting students to see how useful the concept can be. This is important in both a classroom instructional setting and in a homework design setting.&lt;/p&gt;
+
+&lt;h2 id=&#34;some-features-of-programming-can-be-useful-for-structuring-material&#34;&gt;Some features of programming can be useful for &lt;strong&gt;structuring&lt;/strong&gt; material&lt;/h2&gt;
+
+&lt;p&gt;One of the main reasons why people write code is to organize groups of related procedures and perform them in a consistent way in many different occasions. I can see this being useful in a geometry classroom, for example. Students could organize their knowledge of geometrical formulas by having classes containing functions used for computing perimeters, areas, and volumes. Also, the process of writing the actual functions is an exercise in helping students remember precisely what quantities are needed to calculate others. The way that students would end up using these functions is another source of excitement for people who code regularly. Students would use their library of geometry functions to solve more involved problems by creating an organized sequence of function calls to solve each step of the problem in sequence. Programmers love being able to clearly see the overall flow of a complex procedure as a sequence of smaller tasks. Essentially, the function-oriented nature of programming enables students to put &lt;a href=&#34;http://simplystatistics.org/2015/02/04/knowledge-units-the-atoms-of-statistical-education/&#34; target=&#34;_blank&#34;&gt;knowledge units&lt;/a&gt; into a documented story-like framework, which hopefully would encourage big picture understanding.&lt;/p&gt;
+
+&lt;h1 id=&#34;technology-can-enrich-education-not-dumb-it-down&#34;&gt;Technology can enrich education, not &amp;ldquo;dumb it down&amp;rdquo;&lt;/h1&gt;
+
+&lt;p&gt;While Mr. Wolfram’s big idea was to use programming to teach math, I think the main subtheme of his talk was the increased incorporation of technology in math classrooms. Not &amp;ldquo;&lt;a href=&#34;http://www.informationweek.com/mobile/ipads-in-the-classroom-worth-doing-right/d/d-id/1110490?&#34; target=&#34;_blank&#34;&gt;technology for technology’s sake&lt;/a&gt;&amp;rdquo; in terms of gadgets like &lt;a href=&#34;http://theinnovativeeducator.blogspot.com/2010/05/why-smartboards-are-dumb-initiative.html&#34; target=&#34;_blank&#34;&gt;Smartboards&lt;/a&gt; and iPads, but thoughtfully constructed, computer-oriented lesson-plans, assignments, and activities. Technology, when appropriately used, can enrich education, and I think that the main avenue for this is through simulation and exploration.&lt;/p&gt;
+
+&lt;p&gt;Simulation can be an amazing activity for getting students to think about real-world applications of what they are learning. For example, a lot of the simulations provided on &lt;a href=&#34;http://serc.carleton.edu/sp/library/simulations/examples.html&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt; have to do with the very practical task of learning about economics and could quite feasibly fit into an algebra curriculum. Just covered equations of lines? Well how about reinforcing those concepts and showing their utility by exploring linear trends that pop up in economics? If it is not common already, simulations should be more seriously considered by educators as add-on exercises to enhance a curriculum. I find simulations appealing as a teaching tool because they allow students to quickly try lots of things, allowing them to see a wide variety of phenomena in a short span of time. Most importantly, this allows them to &lt;strong&gt;discuss&lt;/strong&gt; and &lt;strong&gt;write&lt;/strong&gt; much more just because they have observed so much that they can comment on. Talking, and even more so writing due to its slower and more structured nature, is a &lt;a href=&#34;http://files.eric.ed.gov/fulltext/ED544239.pdf&#34; target=&#34;_blank&#34;&gt;great way&lt;/a&gt; to assess the extent to which students understand a topic, and if high quality writing is emphasized, it can really get students to internalize ideas. So in short, technology should be used as a means of facilitating a high volume of &lt;strong&gt;exploration&lt;/strong&gt; so as to facilitate more &lt;strong&gt;writing&lt;/strong&gt; and &lt;strong&gt;discussion&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Programming can definitely enrich math education by helping students organize concepts and reinforce their understanding of the material. However, we still have to make sure that we motivate material and put it into a memorable context for students. Regarding the broader goal of increasing the presence of technology in education, expensive and ineffective approaches should be abandoned for activities that can be performed on computers and equipment already available in schools. Activities such as simulations can markedly deepen investigation of a topic and are easily performed with the materials available in most classrooms. Amending curricula to incorporate these ideas and activities might involve some time investment, but it could definitely improve the quality of student learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adapting education style to improve relevance and practical skills</title>
+      <link>/post/adapting-education-style/</link>
+      <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
+      
+      <guid>/post/adapting-education-style/</guid>
+      <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
+
+&lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
+
+&lt;p&gt;As I’ve explained in previous posts, case-based learning is a great way to motivate the concepts being taught in class so that students can see their practical uses and therefore remember the ideas for the long-term. In creating examples and giving context to classroom content, we need to think hard about what those examples will be. Perhaps the best way to really engage students and get them to care about what they’re learning is to use the most current issues possible. For example, I think that someone who decided to create a case-based statistics course for the current generation might have a lot of success using both news and research articles about social inequality. I think the key is to relate what is being presented in the news to what research has actually been performed and get students to closely examine the relationship between these sources of information.&lt;/p&gt;
+
+&lt;p&gt;Rational argumentation is another skill that is lacking in our generation. Very often we tend to talk to and become friends with like-minded people, and we are not as easily forced to question our views and see fallacies in the bases for our opinions. Forcing conversation in an educational setting is a great way to break that comfort zone because there is such a diversity of opinion. I love that the statistics course that I taught for emphasized writing because it forced students to at least put some words behind what they were learning. Just having those words is several steps above rote calculation and memorization in terms of really embedding meaning and understanding. But the way to truly make the most of those words is to construct them carefully to tell a story, to make a point. Words as a list of facts do little to reinforce understanding. To this end, I think that educators should elevate the role of writing to the level of speech and debate. I see this having great potential in mathematics and statistics classrooms. Throughout a statistics course we teach students about tools and the assumptions behind them that are used to draw conclusions from data. To truly assess their understanding of statistical concepts and to put these concepts in a meaningful context, perhaps one of the key assignments or activities of the course would be to read scientific papers and have a debate. In this way, we can prepare students for the types of discussions that they’ll have throughout their life by helping them recognize reasoning flaws in the arguments of others as well as their own.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motivating the question</title>
+      <link>/post/motivating-the-question/</link>
+      <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
+      
+      <guid>/post/motivating-the-question/</guid>
+      <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
+
+&lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
+
+&lt;p&gt;As I explained in my &lt;a href=&#34;../imp-perspectives&#34;&gt;last post&lt;/a&gt;, the Interactive Mathematics Program (IMP) puts in an admirable effort to motivate the need for mathematical concepts. It presents a tough multi-faceted problem at the beginning of each unit and develops the need for various math topics as it pertains to this overarching problem. I felt that one of the most memorable and instructive units was one in which we attempted to solve the unit problem on the very first day without any formal tools whatsoever. The best part (though frustrating at the time for me) was that this was &lt;em&gt;really hard&lt;/em&gt;. There is definitely something that can be said for having students try to do things inefficiently to learn the &lt;em&gt;merits&lt;/em&gt; of the concepts that teachers are so excited to get to. Or in Dan’s words, there is definitely something that can be said for &amp;ldquo;being less helpful&amp;rdquo;—not jumping straight to teaching students about power tools but momentarily convincing them that the logs on their desks can only be cut with butter knives.&lt;/p&gt;
+
+&lt;p&gt;Introductory statistics courses can definitely benefit from a more problem-oriented and &amp;ldquo;less helpful&amp;rdquo; mentality. For one, I think there is a deluge of formulae for students to learn, and most of the time, the reasons for using them were never really developed or lost in the memorization process. The topic of confidence intervals serves as a great example here. We drill into students’ minds that the formula for a confidence interval is an estimate plus or minus some multiple of the standard error. And we can tell them that the interval gives us a range of possible values for the true population mean. But why are these possible values good ones? Why do we even have to give a confidence interval? Why isn’t it enough to just say that the mean is &lt;em&gt;around&lt;/em&gt; 5, say? When do I ever see confidence intervals in real life?&lt;/p&gt;
+
+&lt;p&gt;A better way to teach this idea than to present a formula and give a two-minute interpretation is to make students see how the idea of a confidence interval is one they are exposed to frequently but in disguise. One way to do this is to present the students with common types of advertisement tricks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://images.teamsugar.com/files/upl2/1/15259/20_2009/ce49a981caec0edd_cheerios.preview.jpg&#34; width=550&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.popsugar.com/food/FDA-Packaged-Foods-Health-Claims-Make-Them-Drugs-3147756&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://lesliemyint.files.wordpress.com/2014/10/c7ae7-colgate.jpg&#34; width=550&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.bitedowndeals.com/blog/category/preventive-dentistry&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;The statistics presented on these ads are instinctively somewhat convincing. Hey a 4% reduction in cholesterol is pretty good. Wow, 90% of doctors recommend this product! These are definitely worth buying! But we can also think about what numbers on these ads would make us less convinced of the products&amp;rsquo; worth. A cholesterol reduction of 0 to 1% would definitely not make me want to buy Cheerios. And I would be much less impressed by this Colgate toothpaste if 50% or less of doctors recommended it.&lt;/p&gt;
+
+&lt;p&gt;Now we give the students data—several sets of data that support or fail to substantiate the Cheerios claim to varying degrees—and ask them to make their own conclusions based on this data. I would expect many of them to take the average lowering of cholesterol as a summary measure; some might look at the median or mode; some might look at the percentage of people who had their cholesterol lowered by some minimal percentage level. No matter how they choose to look at the data the key idea is that the students see how their chosen summary measure(s) vary from dataset to dataset. Sometimes the claims in the ad are supported, and other times they are definitely not. It’s just that companies often only report their summary measures and not how much that measure would vary had they tested their product on different groups of individuals.&lt;/p&gt;
+
+&lt;p&gt;After this point, I think that students would be a little more ready to learn about confidence intervals because they have seen how advertisements, something they encounter all the time, can use (or really conceal) them in misleading ways. And no one likes being duped.&lt;/p&gt;
+
+&lt;p&gt;This is by far not the best way of motivating confidence intervals, but it is a lot more than can be said for the majority of introductory statistics classes. Just taking a little bit more time to think about the everyday applications of statistics can go a long way in making lessons less formulaic and more engaging, and this is something that the statistics community should strive for.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perspectives on the Interactive Mathematics Program</title>
+      <link>/post/imp-perspectives/</link>
+      <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
+      
+      <guid>/post/imp-perspectives/</guid>
+      <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
+
+&lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
+
+&lt;p&gt;Another aspect of IMP that is particularly well suited to higher education is its emphasis on summarizing and organizing knowledge gained over the course of a unit. At the end of every unit, students are required to create a portfolio of reflections, class notes, and assignments that were instrumental in their comprehension of the main topics. So for example, in my “Cookies” portfolio, I included the first day of class activity that had us take a stab at the unit problem. I also included my class notes on feasible regions and solving systems of linear inequalities. I also wrote a cover letter summarizing the goals of the unit, what I learned from the assignments that I included in the portfolio, and my impressions of how these concepts were useful in everyday life. Portfolio time was always a laborious and dreadful experience for me during middle and high school, but I recognize now how useful a practice it is for being serious about retaining knowledge. As a graduate student, I have been exposed to several fundamental concepts time and time again in different courses, and I have found myself consciously wishing that I had put together portfolios for many of the classes that I took during college. Not only is the act of putting together a portfolio an invaluable synthesis activity, but the portfolio also serves as a one-of-a-kind reference manual. Because it is a collection of notes, homeworks, etc. created, curated, and edited by you, it can be infinitely more readable then a textbook. If you want it to, it can contain all of the steps in the proofs of key theorems, all of the exhaustive explanation that you worked through on your own, all of the fine details that finally made a concept click. A portfolio is a mini-textbook written in the language of your mind and can thus potentially serve as a reference for a very long time. It is a wonderful idea for IMP to introduce this concept to younger students, and I feel that it would be very useful for many high school and college classes to adopt.&lt;/p&gt;
+
+&lt;p&gt;So essentially the Interactive Mathematics Program, though by no means flawless, takes steps beyond traditional education practices that definitely have merit. Its case-based structuring of learning and its emphasis on creating concept portfolios can really impact the depth of learning and are ideas that nearly all higher education courses can benefit from.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why statistics can be scary</title>
+      <link>/post/why-statistics-can-be-scary/</link>
+      <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
+      
+      <guid>/post/why-statistics-can-be-scary/</guid>
+      <description>&lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
+&lt;p&gt;So let’s get to the interesting stuff (I hope)! I love statistics, but I know that most people do not feel the same way that I do. I know I can’t inspire a love of the field for everyone who reads this, but I do want to motivate statistics and offer some opinions as to why statistics tends to elicit grimaces from non-practitioners.&lt;/p&gt;
+&lt;p&gt;As I was planning to start this blog, I asked my friends about their opinions about statistics, and it was pointed out that a particularly unsatisfying part of learning statistics is that students tend to get the feeling that they aren’t certain about anything. I won’t try to deny this because it’s completely true. But when are we ever 100% certain about anything &lt;strong&gt;interesting&lt;/strong&gt;? See if you can come up with an example of something that you know with absolute certainty and that actually raises your eyebrows. I’m coming up with “I will type the word ‘statistics’ at least one more time in this post” and “I will eat a brownie in the next week.” These are completely inevitable and therefore (to me) completely uninteresting statements. Even inevitabilities can have degrees of uncertainty when we pose them in a different way:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“A new president will be elected next term.” But &lt;strong&gt;who&lt;/strong&gt; will win the election?&lt;/li&gt;
+&lt;li&gt;“March Madness will come to an end soon.” But &lt;strong&gt;what team&lt;/strong&gt; will come out on top?&lt;/li&gt;
+&lt;li&gt;“Another research paper in statistical genomics will be published in the next month.” But will it be any &lt;strong&gt;good&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;“The government will spend money on scientific research next year.” But &lt;strong&gt;how much&lt;/strong&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The point is that although we are certain about the occurrence or non-occurrences of many events, we tend to be more interested in the &lt;strong&gt;details&lt;/strong&gt; surrounding these events, and these details are what give rise to uncertainty. Statistics cannot change this inherent uncertainty in the world but it can give us a tool to make more informed predictions. For example, if I were trying to find the best place to buy gas in my neighborhood, I could look at the daily history of prices per gallon at all of the local stations and do a statistical analysis to determine which station tends to be the cheapest. Statistics will not allow me to be certain of the price per gallon at these stations tomorrow. The only way I could know this with certainty is if I had infinite and perfect knowledge of how gas prices are determined each day. This would entail knowing everything about the workings of the economy and the mindsets of CEOs of gas companies among many other things. But I don’t have this infinite knowledge. I have to work with the limited data available to me, and statistics is a structured framework for doing so.&lt;/p&gt;
+&lt;p&gt;The structure in statistics is in large part governed by models. Model specification is a core part of statistics, and I contend that it is also what makes our field so scary. Models can be useful because they allow us to propose reasons for why we observe what we do in a concrete, structured, and reproducible way. I’ll illustrate this with an example.&lt;/p&gt;
+&lt;p&gt;Suppose you work at a company that does a weekly lottery for a gift certificate to a local restaurant. Each week, a computer randomly selects one of the 500 total employees to receive the prize so that each of the 500 employees has an equal chance of being picked (1 in 500). For many, intuition says, “I should have a higher chance of being selected as the weeks go by.” This is not a correct statement, but it is an easy mistake to make if you are not thinking about the mathematics behind the statement. This is why models can be useful. They can help us translate statements like these into mathematical expressions that precisely quantify the probabilities we are trying to calculate. This lottery is exactly an example of what statisticians would call a “binomial experiment.” It is a model that allows us to calculate the probability of different numbers of successes in a series of independent trials and allows us to supply the (fixed) probability of success, the number of trials, and the number of successes. So in this situation, the fixed probability of success is 1/500, the number of trials is the number of weeks the lottery has been taking place, and the number of successes of interest is zero because we are interested in the probability of never being picked in a given number of weeks.&lt;/p&gt;
+&lt;p&gt;The statement “I should have a higher chance of being selected as the weeks go by” translates to the question “What is the probability that I am chosen in week X?” and is a question that is easily answerable by our model of the lottery. Because our model requires a fixed probability of success (1/500), the probability of being chosen in week X is 1/500 &lt;strong&gt;regardless of what week it is&lt;/strong&gt;. More intuitively, why is this so? Our question is one about the characteristics of the &lt;strong&gt;lottery&lt;/strong&gt;, which is a fixed procedure. We can’t change the fact that there are 500 employees, and we can’t change the computer that is picking between the 500 employees equally.&lt;/p&gt;
+&lt;p&gt;However, by keeping in mind that our model of the lottery allows us to calculate probabilities of numbers of successes, we should instead ask, “What is the probability that I am chosen exactly zero times in X weeks?” which translates to the intuition “It should be increasing unlikely for me to never be picked in all the weeks the lottery has been going on.” This question concerns the outcome of the lottery, which is uncertain, whereas we had previously been inquiring about a characteristic of the lottery design, which was quite certain. Our model easily answers this question, and the probabilities as a function of the number of weeks X are shown in the graph on the left below. The probabilities for the complementary question “What is the probability that I am chosen at least once in X weeks?” are shown below on the right. (The R code for making the plots is also shown below.)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;p &amp;lt;- 1/500
+weeks &amp;lt;- 1:500
+prob_notchosen &amp;lt;- (1-p)^weeks
+prob_chosen &amp;lt;- 1-prob_notchosen
+par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
+plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
+plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
+&lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Leslie Myint - Curriculum Vitae&lt;/title&gt;
+
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;/&gt;
+&lt;meta name=&#34;description&#34; content=&#34;The Curriculum Vitae of Leslie Myint.&#34;/&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt; 
+
+&lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;../../css/cv.css&#34;&gt;
+&lt;link href=&#39;https://fonts.googleapis.com/css?family=Rokkitt:regular,bold|Lato:regular,black&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src=&#34;//html5shiv.googlecode.com/svn/trunk/html5.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body id=&#34;top&#34;&gt;
+&lt;div id=&#34;cv&#34; class=&#34;instaFade&#34;&gt;
+	&lt;div class=&#34;mainDetails&#34;&gt;
+		&lt;div id=&#34;name&#34;&gt;
+			&lt;h1 class=&#34;quickFade delayOne&#34;&gt;Leslie Myint&lt;/h1&gt;
+		&lt;/div&gt;
+		
+		&lt;div id=&#34;contactDetails&#34; class=&#34;quickFade delayTwo&#34;&gt;
+			&lt;ul&gt;
+				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint1@jhu.edu&#34; target=&#34;_blank&#34;&gt;lmyint1@jhu.edu&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;w: &lt;a href=&#34;lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;br /&gt;
+		&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;div id=&#34;mainArea&#34; class=&#34;quickFade delayThree&#34;&gt;
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Education&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;PhD in Biostatistics&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2018&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Dissertation: Evidence-Based Methods in Studies of Biology and Data Analysis&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Kasper Daniel Hansen&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;BS in Biomedical Engineering&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2013&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins University&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Secondary major: Applied Mathematics and Statistics&lt;br /&gt; Minor: Computer Science&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Work Experience&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Assistant Professor&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;Start: August 2018&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Macalester College, Saint Paul, MN&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Johns Hopkins Biostatistics Center&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;July 2016 - August 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Student statistical consultant&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health, Baltimore, MD&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Carol Thompson, MS&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Siemens Competition&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;2016 - 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Stage I, II, and finalist judge&lt;/p&gt;
+					&lt;p&gt;Categories: Computer Science, Mathematics, Bioinformatics, Cell/Cancer Biology, and Genetics&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Publications&lt;/h1&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;h2&gt;Published&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;Monroe, Anne K., &lt;em&gt;Leslie Myint&lt;/em&gt;, Richard Rutstein, Judith Aberg, Stephen Boswell, Allison Agwu, Kelly Gebo, Richard Moore, and HIV Research Network. 2018. &#34;Factors Associated with Gaps in Medicaid Enrollment among People with HIV and the Effect of Gaps on Viral Suppression.&#34; Journal of Acquired Immune Deficiency Syndromes, April. https://doi.org/10.1097/QAI.0000000000001702.&lt;/li&gt;
+					&lt;li&gt;Kang, Joon Y., Amin H. Rabiei, &lt;em&gt;Leslie Myint&lt;/em&gt;, and Maromi Nei. 2017. &#34;Equivocal Significance of Post-Ictal Generalized EEG Suppression as a Marker of SUDEP Risk.&#34; Seizure: The Journal of the British Epilepsy Association 48 (May): 28–32. https://doi.org/10.1016/j.seizure.2017.03.017.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. “Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.” Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+				&lt;h2&gt;Preprints&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Dimitrios G. Avramopoulos, Loyal A. Goff, and Kasper Hansen. 2017. &#34;Linear Models Enable Powerful Differential Activity Analysis in Massively Parallel Reporter Assays.&#34; bioRxiv. doi:10.1101/196394.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Jeffrey T. Leek, and Leah R. Jager. 2017. &#34;Explanation Implies Causation?&#34; bioRxiv. https://doi.org/10.1101/218784.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+		
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Presentations&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Magical Web Scraping with rvest&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore R Ladies Group (&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						May 2018
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Joint Preprocessing of Samples Improves Power in Differential Analysis for Mass Spectrometry-Based Metabolomics&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: JHU Biophysics&lt;br /&gt;
+						December 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Shiny Applications for Teaching and Dungeons and Dragons&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore UseR Group (&lt;a href=&#34;https://docs.google.com/presentation/d/15NZkZdaEcrWlTTVZlTovOp7t_JkSbI73l1Fyxjf4i0U/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						September 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;A Method for Joint Processing of Mass Spectrometry-Based Metabolomics Data for Improved Differential Analysis&lt;/b&gt;&lt;br /&gt;
+						Poster: ENAR, Washington D.C.&lt;br /&gt;
+						March 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Software&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
+				&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Teaching&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins Bloomberg School of Public Health&lt;/h2&gt;
+					&lt;i&gt;Instructor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Statistical Thinking for Informed Decision Making (2 semesters)&lt;br /&gt;
+							I developed this course as part of the &lt;a href=&#34;http://krieger.jhu.edu/publichealth/gordis-teaching-fellowship/&#34;&gt;Gordis Teaching Fellowship&lt;/a&gt;, a school-wide award that provides funds to design and teach an undergraduate class. A news article-motivated introduction to major biostatistical areas, including causal inference, survey sampling, and survival analysis.
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Public Health Biostatistics (3 semesters)&lt;/li&gt;
+						&lt;li&gt;Introduction to R for Public Health Researchers (1 course)&lt;/li&gt;
+						&lt;li&gt;Statistical Methods in Public Health (3 quarters)&lt;/li&gt;
+						&lt;li&gt;Data Analysis Workshop (2 courses)&lt;/li&gt;
+						&lt;li&gt;Statistics for Genomics (1 quarter)&lt;/li&gt;
+						&lt;li&gt;Statistics for Laboratory Scientists (2 quarters)&lt;/li&gt;
+						&lt;li&gt;Summer Institute: Statistical Reasoning in Public Health (2 courses)&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Tutor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Statistical Methods in Public Health (2 quarters)&lt;/li&gt;
+						&lt;li&gt;
+							Mentor for Center for Talented Youth Cogito Research Award Recipient (3 months)
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins University&lt;/h2&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Introduction to Java (1 semester)&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Awards&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Helen Abbey Award&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2017&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Excellence in teaching (&lt;a href=&#34;http://www.jhsph.edu/departments/biostatistics/about-us/honors-and-awards/index.html#helen-abbey&#34;&gt;website&lt;/a&gt;)&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Service&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;ul&gt;
+					&lt;li&gt;2018: Referee - &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;2018: Referee - American Journal of Epidemiology&lt;/li&gt;
+					&lt;li&gt;2017: Referee - Observational Studies&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+		
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Technical Skills&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;b&gt;Programming languages&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;R&lt;/li&gt;
+					&lt;li&gt;Stata&lt;/li&gt;
+					&lt;li&gt;Python&lt;/li&gt;
+					&lt;li&gt;Java&lt;/li&gt;
+					&lt;li&gt;Matlab&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Application development&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Shiny&lt;/li&gt;
+					&lt;li&gt;HTML&lt;/li&gt;
+					&lt;li&gt;CSS&lt;/li&gt;
+					&lt;li&gt;Javascript&lt;/li&gt;
+					&lt;li&gt;d3.js&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Other&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Git&lt;/li&gt;
+					&lt;li&gt;RMarkdown&lt;/li&gt;
+					&lt;li&gt;Adobe Photoshop&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+var gaJsHost = ((&#34;https:&#34; == document.location.protocol) ? &#34;https://ssl.&#34; : &#34;http://www.&#34;);
+document.write(unescape(&#34;%3Cscript src=&#39;&#34; + gaJsHost + &#34;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&#34;));
+&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+var pageTracker = _gat._getTracker(&#34;UA-3753241-1&#34;);
+pageTracker._initData();
+pageTracker._trackPageview();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
