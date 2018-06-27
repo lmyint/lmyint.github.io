@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Leslie Myint</title>
-    <link>/categories/r/</link>
+    <link>https://lmyint.github.io/categories/r/</link>
     <description>Recent content in R on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://lmyint.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>/post/hugo-academic-tips/</link>
+      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/hugo-academic-tips/</guid>
+      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
       <description>
 
 &lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
@@ -104,12 +104,12 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
 &lt;li&gt;Create &lt;code&gt;layouts/categories/category.rss.xml&lt;/code&gt; and use the default RSS template at the bottom of the page replacing&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;with&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;After this, the RSS feeds for your category pages should have full post content.&lt;/p&gt;
@@ -177,10 +177,10 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>/post/shiny-app-with-google-login/</link>
+      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>/post/shiny-app-with-google-login/</guid>
+      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
       <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
 &lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
