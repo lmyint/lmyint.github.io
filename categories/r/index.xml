@@ -7,10 +7,173 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 18:24:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tips for using the Hugo academic theme</title>
+      <link>/post/hugo-academic-tips/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hugo-academic-tips/</guid>
+      <description>
+
+&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
+
+&lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/personal_site&#34; target=&#34;_blank&#34;&gt;Hugo content and source files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34;&gt;Public, rendered site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown book&lt;/a&gt; by Yihui Xie, Amber Thomas, and Alison Presmanes Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34;&gt;Up and running with blogdown&lt;/a&gt; by Alison Presmanes Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amber.rbind.io/blog/2016/12/19/creatingsite/&#34; target=&#34;_blank&#34;&gt;Making a Website Using Blogdown, Hugo, and GitHub pages&lt;/a&gt; by Amber Thomas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;start-with-config-toml&#34;&gt;Start with config.toml&lt;/h2&gt;
+
+&lt;p&gt;The key-value pairs in &lt;code&gt;config.toml&lt;/code&gt; are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&amp;rsquo;ll mention next are ones where I had to spend a little more time.&lt;/p&gt;
+
+&lt;h3 id=&#34;color-theme&#34;&gt;Color theme&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = &amp;quot;custom&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This sets the color scheme for your site. I changed the theme to &amp;ldquo;custom&amp;rdquo; and made created a file called &lt;code&gt;custom.toml&lt;/code&gt; in &lt;code&gt;themes/hugo-academic/data/themes/&lt;/code&gt;. I have the following in my &lt;code&gt;custom.toml&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# Theme metadata
+name = &amp;quot;custom&amp;quot;
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = &amp;quot;#328cc1&amp;quot;
+primary_light = &amp;quot;#328cc1&amp;quot;
+primary_dark = &amp;quot;#DA2536&amp;quot;
+
+# Menu
+menu_primary = &amp;quot;#494949&amp;quot;
+menu_text = &amp;quot;#fff&amp;quot;
+menu_text_active = &amp;quot;#328cc1&amp;quot;
+menu_title = &amp;quot;#fff&amp;quot;
+
+# Backgrounds
+background = &amp;quot;#fff&amp;quot;
+home_section_odd = &amp;quot;#fff&amp;quot;
+home_section_even = &amp;quot;#f7f7f7&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &amp;ldquo;Primary&amp;rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &amp;ldquo;Menu&amp;rdquo; section changes the colors in the top menu bar. The &amp;ldquo;Backgrounds&amp;rdquo; section changes the color of the section panels on the first page.&lt;/p&gt;
+
+&lt;h3 id=&#34;highlight-js&#34;&gt;highlight.js&lt;/h3&gt;
+
+&lt;p&gt;In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of &lt;code&gt;config.toml&lt;/code&gt;, you can visit &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;https://cdnjs.com/libraries/highlight.js/&lt;/a&gt; to see the list of languages supported (URls ending in &lt;code&gt;languages/LANGUAGE_NAME.min.js&lt;/code&gt;). You&amp;rsquo;ll also see a list of color schemes (URLs ending in &lt;code&gt;styles/STYLE_NAME.min.css&lt;/code&gt;). I wanted to know what these color schemes looked like, so I searched and found &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;https://highlightjs.org/static/demo/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;full-content-rss-feeds-for-categories&#34;&gt;Full content RSS feeds for categories&lt;/h2&gt;
+
+&lt;p&gt;When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. &lt;a href=&#34;https://lmyint.github.io/post/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/post/index.xml&lt;/a&gt;, &lt;a href=&#34;https://lmyint.github.io/categories/r/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/categories/r/index.xml&lt;/a&gt;) contained only a brief summary of my posts in the &lt;code&gt;description&lt;/code&gt; tags as opposed to the full post content. Only my home page RSS feed (&lt;a href=&#34;https://lmyint.github.io/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/index.xml&lt;/a&gt;) had full content of posts.&lt;/p&gt;
+
+&lt;p&gt;Following the advice &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues/346&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; by changing the outputs in &lt;code&gt;config.toml&lt;/code&gt; to the TOML below did not fix the issue.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[outputs]
+  home = [ &amp;quot;HTML&amp;quot;, &amp;quot;CSS&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  section = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  taxonomy = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  taxonomyTerm = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;The fix:&lt;/strong&gt; If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as &lt;a href=&#34;https://www.r-bloggers.com/&#34; target=&#34;_blank&#34;&gt;R-Bloggers&lt;/a&gt;), do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Put these posts in one &lt;strong&gt;category&lt;/strong&gt; (not &lt;strong&gt;tag&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://gohugo.io/templates/rss/#the-embedded-rss-xml&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/templates/rss/#the-embedded-rss-xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look in the third row of the table: Taxonomy list in categories&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;layouts/categories/category.rss.xml&lt;/code&gt; and use the default RSS template at the bottom of the page replacing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After this, the RSS feeds for your category pages should have full post content.&lt;/p&gt;
+
+&lt;h2 id=&#34;modifying-the-contact-section&#34;&gt;Modifying the Contact section&lt;/h2&gt;
+
+&lt;p&gt;By default, the Contact section of the page will display certain items in the &lt;code&gt;params&lt;/code&gt; table of your &lt;code&gt;config.toml&lt;/code&gt; file. With the TOML below, the Contact section would only contain my e-mail address.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Some other stuff...
+
+  email = &amp;quot;lmyint@macalester.edu&amp;quot;
+  address = &amp;quot;&amp;quot;
+  office_hours = &amp;quot;&amp;quot;
+  phone = &amp;quot;&amp;quot;
+  skype = &amp;quot;&amp;quot;
+  telegram = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Some other stuff...
+
+  email = &amp;quot;lmyint@macalester.edu&amp;quot;
+  address = &amp;quot;&amp;quot;
+  office_hours = &amp;quot;&amp;quot;
+  phone = &amp;quot;&amp;quot;
+  skype = &amp;quot;&amp;quot;
+  telegram = &amp;quot;&amp;quot;
+  twitter = &amp;quot;lesliemyint&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also had to update &lt;code&gt;themes/hugo-academic/layouts/partials/widgets/contact.html&lt;/code&gt;. I duplicated the section of the HTML that displays the e-mail address parameter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.email }}
+&amp;lt;li&amp;gt;
+  &amp;lt;i class=&amp;quot;fa-li fa fa-envelope fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+  &amp;lt;span id=&amp;quot;person-email&amp;quot; itemprop=&amp;quot;email&amp;quot;&amp;gt;
+  {{- if $autolink }}&amp;lt;a href=&amp;quot;mailto:{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;{{ else }}{{ . }}{{ end -}}
+  &amp;lt;/span&amp;gt;
+&amp;lt;/li&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I modified it to access the Twitter parameter (&lt;code&gt;$.Site.Params.twitter&lt;/code&gt;), use the Twitter icon (&lt;code&gt;class=&amp;quot;fa-twitter&amp;quot;&lt;/code&gt;), and link to the Twitter website.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.twitter }}
+&amp;lt;li&amp;gt;
+  &amp;lt;i class=&amp;quot;fa-li fa fa-twitter fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+  &amp;lt;span&amp;gt;
+  &amp;lt;a href=&amp;quot;https://twitter.com/{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;
+  &amp;lt;/span&amp;gt;
+&amp;lt;/li&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;version-control&#34;&gt;Version control&lt;/h2&gt;
+
+&lt;p&gt;My website is hosted with &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub pages&lt;/a&gt;, and the &lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34;&gt;associated repository&lt;/a&gt; only contains the file in the &lt;code&gt;public&lt;/code&gt; directory of my Hugo project.&lt;/p&gt;
+
+&lt;p&gt;I used the &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; tutorial to figure out that the &lt;code&gt;public&lt;/code&gt; directory can be set up as a &lt;a href=&#34;https://github.com/blog/2104-working-with-submodules&#34; target=&#34;_blank&#34;&gt;git submodule&lt;/a&gt; within an enclosing git repository containing source files.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Creating a Shiny app with Google login</title>
@@ -18,7 +181,141 @@
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
       <guid>/post/shiny-app-with-google-login/</guid>
-      <description>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook.</description>
+      <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
+&lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
+&lt;p&gt;You will need the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR&#34;&gt;&lt;code&gt;googleAuthR&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;&lt;code&gt;googleID&lt;/code&gt;&lt;/a&gt; packages to allow for Google authentication and login. If you plan to publish your app on shinyapps.io, you’ll also need the &lt;code&gt;shinyjs&lt;/code&gt; package to avoid a clunky “Disconnected from the server” message on logout. You can install these packages with&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(c(&amp;quot;googleAuthR&amp;quot;, &amp;quot;shinyjs&amp;quot;))
+devtools::install_github(&amp;quot;MarkEdmondson1234/googleID&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is important to install the &lt;code&gt;googleID&lt;/code&gt; package with the command above to avoid an “Unable to retrieve package records” error when publishing your app (see &lt;a href=&#34;https://groups.google.com/forum/#!topic/shiny-discuss/l6nug9hMh7g&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-2-setup-google-apis&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 2: Setup Google APIs&lt;/h1&gt;
+&lt;div id=&#34;setup-a-google-api-project&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup a Google API project&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Make sure that you are logged into Google and visit the &lt;a href=&#34;https://console.developers.google.com/iam-admin/projects&#34;&gt;Google APIs project page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;a href=&#34;https://console.developers.google.com/apis/api/plus/overview&#34;&gt;Google+ API link&lt;/a&gt; under “Social APIs” and click the “Enable” link at the top to activate the Google+ API.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;setup-authentication-credentials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup authentication credentials&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Click the “Credentials” link in the menu on the left.&lt;/li&gt;
+&lt;li&gt;Navigate to the “OAuth consent screen” tab near the top.&lt;/li&gt;
+&lt;li&gt;Fill in the “Product name shown to users” form with the name of your Shiny application. The information you provide in this tab populate the authentication screen that pops up when users click the “Login with Google” link in your app (&lt;a href=&#34;https://developers.google.com/accounts/images/OAuth2Consent.png&#34;&gt;example&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Navigate to the “Credentials” tab at the top.&lt;/li&gt;
+&lt;li&gt;On the “Create Credentials” dropdown menu, select “OAuth client ID” and select “Web application” for the application type.&lt;/li&gt;
+&lt;li&gt;Fill in any descriptive name for this authentication client.&lt;/li&gt;
+&lt;li&gt;In the redirect URLs field, fill in
+&lt;ul&gt;
+&lt;li&gt;the URL for your Shiny app (e.g. &lt;a href=&#34;https://yourdomain.shinyapps.io/appName&#34; class=&#34;uri&#34;&gt;https://yourdomain.shinyapps.io/appName&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://127.0.0.1:1221&#34; class=&#34;uri&#34;&gt;http://127.0.0.1:1221&lt;/a&gt; This is to facilitate local development and testing of your app.&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;After saving this information, a client ID and secret will pop up. Copy and paste these for use in your code later.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-3-code&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Step 3: Code&lt;/h1&gt;
+&lt;p&gt;Include the following code at the top of your &lt;code&gt;app.R&lt;/code&gt; file to setup scopes for the relevant API functions you’ll be using and to specify the client ID and secret you received in step 8 above:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;options(googleAuthR.scopes.selected = c(&amp;quot;https://www.googleapis.com/auth/userinfo.email&amp;quot;,
+                                        &amp;quot;https://www.googleapis.com/auth/userinfo.profile&amp;quot;))
+options(&amp;quot;googleAuthR.webapp.client_id&amp;quot; = &amp;quot;YOUR_CLIENT_ID&amp;quot;)
+options(&amp;quot;googleAuthR.webapp.client_secret&amp;quot; = &amp;quot;YOUR_CLIENT_SECRET&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Below is the shell of an app.R file that will create a login/logout button using Google authentication. I’ll explain the individual components afterward.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ui &amp;lt;- navbarPage(
+    title = &amp;quot;App Name&amp;quot;,
+    windowTitle = &amp;quot;Browser window title&amp;quot;,
+    tabPanel(&amp;quot;Tab 1&amp;quot;,
+        useShinyjs(),
+        sidebarLayout(
+            sidebarPanel(
+                p(&amp;quot;Welcome!&amp;quot;),
+                googleAuthUI(&amp;quot;gauth_login&amp;quot;)
+            ),
+            mainPanel(
+                textOutput(&amp;quot;display_username&amp;quot;)
+            )
+        )
+    ),
+    tabPanel(&amp;quot;Tab 2&amp;quot;,
+        p(&amp;quot;Layout for tab 2&amp;quot;)
+    )
+)
+
+server &amp;lt;- function(input, output, session) {
+    ## Global variables needed throughout the app
+    rv &amp;lt;- reactiveValues(
+        login = FALSE
+    )
+
+    ## Authentication
+    accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
+        login_class = &amp;quot;btn btn-primary&amp;quot;,
+        logout_class = &amp;quot;btn btn-primary&amp;quot;)
+    userDetails &amp;lt;- reactive({
+        validate(
+            need(accessToken(), &amp;quot;not logged in&amp;quot;)
+        )
+        rv$login &amp;lt;- TRUE
+        with_shiny(get_user_info, shiny_access_token = accessToken())
+    })
+
+    ## Display user&amp;#39;s Google display name after successful login
+    output$display_username &amp;lt;- renderText({
+        validate(
+            need(userDetails(), &amp;quot;getting user details&amp;quot;)
+        )
+        userDetails()$displayName
+    })
+
+    ## Workaround to avoid shinyaps.io URL problems
+    observe({
+        if (rv$login) {
+            shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
+                shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
+        }
+    })
+}
+
+shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The login/logout button is created as part of the UI by calling the &lt;code&gt;googleAuthUI&lt;/code&gt; function and supplying an ID:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;googleAuthUI(&amp;quot;gauth_login&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use the same ID to call the Google authentication module with &lt;code&gt;callModule&lt;/code&gt;. It is also possible to set the classes of the login and logout buttons. For styling purposes, I’ve set the classes of the login and logout buttons to be the same which renders the buttons as flat blue buttons with white text. By default, the logout button just has the &lt;code&gt;btn&lt;/code&gt; class and is a standard silver button.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
+    login_class = &amp;quot;btn btn-primary&amp;quot;,
+    logout_class = &amp;quot;btn btn-primary&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;userDetails&lt;/code&gt; object is a reactive expression that is a list of several pieces of information from the user’s Google profile (see the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;googleID example&lt;/a&gt;). Until the access token is generated, any output that depends on &lt;code&gt;userDetails&lt;/code&gt; will instead display “not logged in.”&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;userDetails &amp;lt;- reactive({
+    validate(
+        need(accessToken(), &amp;quot;not logged in&amp;quot;)
+    )
+    rv$login &amp;lt;- TRUE
+    with_shiny(get_user_info, shiny_access_token = accessToken())
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If parts of the UI are to be rendered based on this information after user login, include a &lt;code&gt;validate()&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;output$display_username &amp;lt;- renderText({
+    validate(
+        need(userDetails(), &amp;quot;getting user details&amp;quot;)
+    )
+    userDetails()$displayName
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Without the last piece of code using &lt;code&gt;shinyjs&lt;/code&gt;, clicking the logout button would cause the app to be &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR/issues/17&#34;&gt;disconnected from the server&lt;/a&gt;. This results in a clunky, undesirable logout experience. This last piece of code redirects to the specified URL when the logout button is clicked.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;observe({
+    if (rv$login) {
+        shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
+            shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
+    }
+})&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-considerations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Other considerations&lt;/h1&gt;
+&lt;p&gt;The steps above should help you quickly get started developing a Shiny application with Google login. The meat of the app will depend on your needs, but if you want to keep track of user information, consider using some &lt;a href=&#34;https://shiny.rstudio.com/articles/persistent-data-storage.html&#34;&gt;online file system or database&lt;/a&gt; to map users’ Google IDs to your app’s own set of profile information.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

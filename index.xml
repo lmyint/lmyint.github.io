@@ -1,14 +1,307 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leslie Myint on Leslie Myint</title>
+    <title>Leslie Myint</title>
     <link>/</link>
-    <description>Recent content in Leslie Myint on Leslie Myint</description>
+    <description>Recent content on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
+
+&lt;p&gt;I will be starting as an Assistant Professor at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt; in Fall 2018.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I will be teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MATH155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
+&lt;li&gt;MATH253: Machine Learning (Spring)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>/home/fun/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/fun/</guid>
+      <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/rdnd&#34; target=&#34;_blank&#34;&gt;Map Annotator&lt;/a&gt;: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips for using the Hugo academic theme</title>
+      <link>/post/hugo-academic-tips/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hugo-academic-tips/</guid>
+      <description>
+
+&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
+
+&lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/personal_site&#34; target=&#34;_blank&#34;&gt;Hugo content and source files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34;&gt;Public, rendered site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown book&lt;/a&gt; by Yihui Xie, Amber Thomas, and Alison Presmanes Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34;&gt;Up and running with blogdown&lt;/a&gt; by Alison Presmanes Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amber.rbind.io/blog/2016/12/19/creatingsite/&#34; target=&#34;_blank&#34;&gt;Making a Website Using Blogdown, Hugo, and GitHub pages&lt;/a&gt; by Amber Thomas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;start-with-config-toml&#34;&gt;Start with config.toml&lt;/h2&gt;
+
+&lt;p&gt;The key-value pairs in &lt;code&gt;config.toml&lt;/code&gt; are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&amp;rsquo;ll mention next are ones where I had to spend a little more time.&lt;/p&gt;
+
+&lt;h3 id=&#34;color-theme&#34;&gt;Color theme&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = &amp;quot;custom&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This sets the color scheme for your site. I changed the theme to &amp;ldquo;custom&amp;rdquo; and made created a file called &lt;code&gt;custom.toml&lt;/code&gt; in &lt;code&gt;themes/hugo-academic/data/themes/&lt;/code&gt;. I have the following in my &lt;code&gt;custom.toml&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# Theme metadata
+name = &amp;quot;custom&amp;quot;
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = &amp;quot;#328cc1&amp;quot;
+primary_light = &amp;quot;#328cc1&amp;quot;
+primary_dark = &amp;quot;#DA2536&amp;quot;
+
+# Menu
+menu_primary = &amp;quot;#494949&amp;quot;
+menu_text = &amp;quot;#fff&amp;quot;
+menu_text_active = &amp;quot;#328cc1&amp;quot;
+menu_title = &amp;quot;#fff&amp;quot;
+
+# Backgrounds
+background = &amp;quot;#fff&amp;quot;
+home_section_odd = &amp;quot;#fff&amp;quot;
+home_section_even = &amp;quot;#f7f7f7&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &amp;ldquo;Primary&amp;rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &amp;ldquo;Menu&amp;rdquo; section changes the colors in the top menu bar. The &amp;ldquo;Backgrounds&amp;rdquo; section changes the color of the section panels on the first page.&lt;/p&gt;
+
+&lt;h3 id=&#34;highlight-js&#34;&gt;highlight.js&lt;/h3&gt;
+
+&lt;p&gt;In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of &lt;code&gt;config.toml&lt;/code&gt;, you can visit &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;https://cdnjs.com/libraries/highlight.js/&lt;/a&gt; to see the list of languages supported (URls ending in &lt;code&gt;languages/LANGUAGE_NAME.min.js&lt;/code&gt;). You&amp;rsquo;ll also see a list of color schemes (URLs ending in &lt;code&gt;styles/STYLE_NAME.min.css&lt;/code&gt;). I wanted to know what these color schemes looked like, so I searched and found &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;https://highlightjs.org/static/demo/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;full-content-rss-feeds-for-categories&#34;&gt;Full content RSS feeds for categories&lt;/h2&gt;
+
+&lt;p&gt;When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. &lt;a href=&#34;https://lmyint.github.io/post/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/post/index.xml&lt;/a&gt;, &lt;a href=&#34;https://lmyint.github.io/categories/r/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/categories/r/index.xml&lt;/a&gt;) contained only a brief summary of my posts in the &lt;code&gt;description&lt;/code&gt; tags as opposed to the full post content. Only my home page RSS feed (&lt;a href=&#34;https://lmyint.github.io/index.xml&#34; target=&#34;_blank&#34;&gt;https://lmyint.github.io/index.xml&lt;/a&gt;) had full content of posts.&lt;/p&gt;
+
+&lt;p&gt;Following the advice &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues/346&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; by changing the outputs in &lt;code&gt;config.toml&lt;/code&gt; to the TOML below did not fix the issue.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[outputs]
+  home = [ &amp;quot;HTML&amp;quot;, &amp;quot;CSS&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  section = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  taxonomy = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+  taxonomyTerm = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;The fix:&lt;/strong&gt; If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as &lt;a href=&#34;https://www.r-bloggers.com/&#34; target=&#34;_blank&#34;&gt;R-Bloggers&lt;/a&gt;), do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Put these posts in one &lt;strong&gt;category&lt;/strong&gt; (not &lt;strong&gt;tag&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://gohugo.io/templates/rss/#the-embedded-rss-xml&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/templates/rss/#the-embedded-rss-xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look in the third row of the table: Taxonomy list in categories&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;layouts/categories/category.rss.xml&lt;/code&gt; and use the default RSS template at the bottom of the page replacing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-http&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After this, the RSS feeds for your category pages should have full post content.&lt;/p&gt;
+
+&lt;h2 id=&#34;modifying-the-contact-section&#34;&gt;Modifying the Contact section&lt;/h2&gt;
+
+&lt;p&gt;By default, the Contact section of the page will display certain items in the &lt;code&gt;params&lt;/code&gt; table of your &lt;code&gt;config.toml&lt;/code&gt; file. With the TOML below, the Contact section would only contain my e-mail address.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Some other stuff...
+
+  email = &amp;quot;lmyint@macalester.edu&amp;quot;
+  address = &amp;quot;&amp;quot;
+  office_hours = &amp;quot;&amp;quot;
+  phone = &amp;quot;&amp;quot;
+  skype = &amp;quot;&amp;quot;
+  telegram = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Some other stuff...
+
+  email = &amp;quot;lmyint@macalester.edu&amp;quot;
+  address = &amp;quot;&amp;quot;
+  office_hours = &amp;quot;&amp;quot;
+  phone = &amp;quot;&amp;quot;
+  skype = &amp;quot;&amp;quot;
+  telegram = &amp;quot;&amp;quot;
+  twitter = &amp;quot;lesliemyint&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also had to update &lt;code&gt;themes/hugo-academic/layouts/partials/widgets/contact.html&lt;/code&gt;. I duplicated the section of the HTML that displays the e-mail address parameter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.email }}
+&amp;lt;li&amp;gt;
+  &amp;lt;i class=&amp;quot;fa-li fa fa-envelope fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+  &amp;lt;span id=&amp;quot;person-email&amp;quot; itemprop=&amp;quot;email&amp;quot;&amp;gt;
+  {{- if $autolink }}&amp;lt;a href=&amp;quot;mailto:{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;{{ else }}{{ . }}{{ end -}}
+  &amp;lt;/span&amp;gt;
+&amp;lt;/li&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I modified it to access the Twitter parameter (&lt;code&gt;$.Site.Params.twitter&lt;/code&gt;), use the Twitter icon (&lt;code&gt;class=&amp;quot;fa-twitter&amp;quot;&lt;/code&gt;), and link to the Twitter website.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.twitter }}
+&amp;lt;li&amp;gt;
+  &amp;lt;i class=&amp;quot;fa-li fa fa-twitter fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+  &amp;lt;span&amp;gt;
+  &amp;lt;a href=&amp;quot;https://twitter.com/{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;
+  &amp;lt;/span&amp;gt;
+&amp;lt;/li&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;version-control&#34;&gt;Version control&lt;/h2&gt;
+
+&lt;p&gt;My website is hosted with &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub pages&lt;/a&gt;, and the &lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34;&gt;associated repository&lt;/a&gt; only contains the file in the &lt;code&gt;public&lt;/code&gt; directory of my Hugo project.&lt;/p&gt;
+
+&lt;p&gt;I used the &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; tutorial to figure out that the &lt;code&gt;public&lt;/code&gt; directory can be set up as a &lt;a href=&#34;https://github.com/blog/2104-working-with-submodules&#34; target=&#34;_blank&#34;&gt;git submodule&lt;/a&gt; within an enclosing git repository containing source files.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
