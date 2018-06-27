@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.41" />
+  <meta name="author" content="Leslie Myint">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.
+The source and rendered files for my website are available on GitHub:
+ Hugo content and source files Public, rendered site  Resources This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/hugo-academic-tips/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Leslie Myint">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Leslie Myint">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/hugo-academic-tips/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@lesliemyint">
+  <meta property="twitter:creator" content="@lesliemyint">
+  
+  <meta property="og:site_name" content="Leslie Myint">
+  <meta property="og:url" content="/post/hugo-academic-tips/">
+  <meta property="og:title" content="Tips for using the Hugo academic theme | Leslie Myint">
+  <meta property="og:description" content="I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.
+The source and rendered files for my website are available on GitHub:
+ Hugo content and source files Public, rendered site  Resources This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-06-27T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-06-27T00:00:00&#43;00:00">
+  
+
+  
+  
+
+  <title>Tips for using the Hugo academic theme | Leslie Myint</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Leslie Myint</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/#cv">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/#fun">
+            
+            <span>Fun</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Tips for using the Hugo academic theme</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-06-27 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jun 27, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Leslie Myint">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/hugo-academic-tips/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r/">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Tips%20for%20using%20the%20Hugo%20academic%20theme&amp;url=%2fpost%2fhugo-academic-tips%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fhugo-academic-tips%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fhugo-academic-tips%2f&amp;title=Tips%20for%20using%20the%20Hugo%20academic%20theme"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fhugo-academic-tips%2f&amp;title=Tips%20for%20using%20the%20Hugo%20academic%20theme"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Tips%20for%20using%20the%20Hugo%20academic%20theme&amp;body=%2fpost%2fhugo-academic-tips%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>I recently migrated my personal website and <a href="https://lesliemyint.wordpress.com/" target="_blank">Wordpress blog</a> to <a href="https://bookdown.org/yihui/blogdown/" target="_blank">blogdown</a>. As an academic, it was natural to use the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic</a> theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.</p>
+
+<p>The source and rendered files for my website are available on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/lmyint/personal_site" target="_blank">Hugo content and source files</a></li>
+<li><a href="https://github.com/lmyint/lmyint.github.io" target="_blank">Public, rendered site</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<p>This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.</p>
+
+<ul>
+<li><a href="https://bookdown.org/yihui/blogdown/" target="_blank">blogdown book</a> by Yihui Xie, Amber Thomas, and Alison Presmanes Hill</li>
+<li><a href="https://alison.rbind.io/post/up-and-running-with-blogdown/" target="_blank">Up and running with blogdown</a> by Alison Presmanes Hill</li>
+<li><a href="https://amber.rbind.io/blog/2016/12/19/creatingsite/" target="_blank">Making a Website Using Blogdown, Hugo, and GitHub pages</a> by Amber Thomas</li>
+</ul>
+
+<h2 id="start-with-config-toml">Start with config.toml</h2>
+
+<p>The key-value pairs in <code>config.toml</code> are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&rsquo;ll mention next are ones where I had to spend a little more time.</p>
+
+<h3 id="color-theme">Color theme</h3>
+
+<pre><code class="language-toml">[params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = &quot;custom&quot;
+</code></pre>
+
+<p>This sets the color scheme for your site. I changed the theme to &ldquo;custom&rdquo; and made created a file called <code>custom.toml</code> in <code>themes/hugo-academic/data/themes/</code>. I have the following in my <code>custom.toml</code> file:</p>
+
+<pre><code class="language-toml"># Theme metadata
+name = &quot;custom&quot;
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = &quot;#328cc1&quot;
+primary_light = &quot;#328cc1&quot;
+primary_dark = &quot;#DA2536&quot;
+
+# Menu
+menu_primary = &quot;#494949&quot;
+menu_text = &quot;#fff&quot;
+menu_text_active = &quot;#328cc1&quot;
+menu_title = &quot;#fff&quot;
+
+# Backgrounds
+background = &quot;#fff&quot;
+home_section_odd = &quot;#fff&quot;
+home_section_even = &quot;#f7f7f7&quot;
+</code></pre>
+
+<p>The &ldquo;Primary&rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &ldquo;Menu&rdquo; section changes the colors in the top menu bar. The &ldquo;Backgrounds&rdquo; section changes the color of the section panels on the first page.</p>
+
+<h3 id="highlight-js">highlight.js</h3>
+
+<p>In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of <code>config.toml</code>, you can visit <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">https://cdnjs.com/libraries/highlight.js/</a> to see the list of languages supported (URls ending in <code>languages/LANGUAGE_NAME.min.js</code>). You&rsquo;ll also see a list of color schemes (URLs ending in <code>styles/STYLE_NAME.min.css</code>). I wanted to know what these color schemes looked like, so I searched and found <a href="https://highlightjs.org/static/demo/" target="_blank">https://highlightjs.org/static/demo/</a>.</p>
+
+<h2 id="full-content-rss-feeds-for-categories">Full content RSS feeds for categories</h2>
+
+<p>When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. <a href="https://lmyint.github.io/post/index.xml" target="_blank">https://lmyint.github.io/post/index.xml</a>, <a href="https://lmyint.github.io/categories/r/index.xml" target="_blank">https://lmyint.github.io/categories/r/index.xml</a>) contained only a brief summary of my posts in the <code>description</code> tags as opposed to the full post content. Only my home page RSS feed (<a href="https://lmyint.github.io/index.xml" target="_blank">https://lmyint.github.io/index.xml</a>) had full content of posts.</p>
+
+<p>Following the advice <a href="https://github.com/gcushen/hugo-academic/issues/346" target="_blank">here</a> by changing the outputs in <code>config.toml</code> to the TOML below did not fix the issue.</p>
+
+<pre><code class="language-toml">[outputs]
+  home = [ &quot;HTML&quot;, &quot;CSS&quot;, &quot;RSS&quot; ]
+  section = [ &quot;HTML&quot;, &quot;RSS&quot; ]
+  taxonomy = [ &quot;HTML&quot;, &quot;RSS&quot; ]
+  taxonomyTerm = [ &quot;HTML&quot;, &quot;RSS&quot; ]
+</code></pre>
+
+<p><strong>The fix:</strong> If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as <a href="https://www.r-bloggers.com/" target="_blank">R-Bloggers</a>), do the following:</p>
+
+<ol>
+<li>Put these posts in one <strong>category</strong> (not <strong>tag</strong>)</li>
+<li>Go to <a href="https://gohugo.io/templates/rss/#the-embedded-rss-xml" target="_blank">https://gohugo.io/templates/rss/#the-embedded-rss-xml</a></li>
+<li>Look in the third row of the table: Taxonomy list in categories</li>
+<li>Create <code>layouts/categories/category.rss.xml</code> and use the default RSS template at the bottom of the page replacing</li>
+</ol>
+
+<pre><code class="language-http">&lt;description&gt;{{ .Summary | html }}&lt;/description&gt;
+</code></pre>
+
+<p>with</p>
+
+<pre><code class="language-http">&lt;description&gt;{{ .Content | html }}&lt;/description&gt;
+</code></pre>
+
+<p>After this, the RSS feeds for your category pages should have full post content.</p>
+
+<h2 id="modifying-the-contact-section">Modifying the Contact section</h2>
+
+<p>By default, the Contact section of the page will display certain items in the <code>params</code> table of your <code>config.toml</code> file. With the TOML below, the Contact section would only contain my e-mail address.</p>
+
+<pre><code class="language-toml">[params]
+  # Some other stuff...
+
+  email = &quot;lmyint@macalester.edu&quot;
+  address = &quot;&quot;
+  office_hours = &quot;&quot;
+  phone = &quot;&quot;
+  skype = &quot;&quot;
+  telegram = &quot;&quot;
+</code></pre>
+
+<p>I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.</p>
+
+<pre><code class="language-toml">[params]
+  # Some other stuff...
+
+  email = &quot;lmyint@macalester.edu&quot;
+  address = &quot;&quot;
+  office_hours = &quot;&quot;
+  phone = &quot;&quot;
+  skype = &quot;&quot;
+  telegram = &quot;&quot;
+  twitter = &quot;lesliemyint&quot;
+</code></pre>
+
+<p>I also had to update <code>themes/hugo-academic/layouts/partials/widgets/contact.html</code>. I duplicated the section of the HTML that displays the e-mail address parameter:</p>
+
+<pre><code class="language-html">{{ with $.Site.Params.email }}
+&lt;li&gt;
+  &lt;i class=&quot;fa-li fa fa-envelope fa-2x&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+  &lt;span id=&quot;person-email&quot; itemprop=&quot;email&quot;&gt;
+  {{- if $autolink }}&lt;a href=&quot;mailto:{{ . }}&quot;&gt;{{ . }}&lt;/a&gt;{{ else }}{{ . }}{{ end -}}
+  &lt;/span&gt;
+&lt;/li&gt;
+{{ end }}
+</code></pre>
+
+<p>And I modified it to access the Twitter parameter (<code>$.Site.Params.twitter</code>), use the Twitter icon (<code>class=&quot;fa-twitter&quot;</code>), and link to the Twitter website.</p>
+
+<pre><code class="language-html">{{ with $.Site.Params.twitter }}
+&lt;li&gt;
+  &lt;i class=&quot;fa-li fa fa-twitter fa-2x&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+  &lt;span&gt;
+  &lt;a href=&quot;https://twitter.com/{{ . }}&quot;&gt;{{ . }}&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+{{ end }}
+</code></pre>
+
+<h2 id="version-control">Version control</h2>
+
+<p>My website is hosted with <a href="https://pages.github.com/" target="_blank">GitHub pages</a>, and the <a href="https://github.com/lmyint/lmyint.github.io" target="_blank">associated repository</a> only contains the file in the <code>public</code> directory of my Hugo project.</p>
+
+<p>I used the <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">Host on GitHub</a> tutorial to figure out that the <code>public</code> directory can be set up as a <a href="https://github.com/blog/2104-working-with-submodules" target="_blank">git submodule</a> within an enclosing git repository containing source files.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/blogdown/">blogdown</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-lmyint-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//https-lmyint-github-io.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
