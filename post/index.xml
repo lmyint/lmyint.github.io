@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>The Book of Why</title>
+      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <description>I just finished reading The Book of Why by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then.</description>
+    </item>
+    
+    <item>
       <title>Tips for using the Hugo academic theme</title>
       <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
