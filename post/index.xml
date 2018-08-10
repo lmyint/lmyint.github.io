@@ -2,31 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Leslie Myint</title>
-    <link>https://lmyint.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://lmyint.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
+      <link>/post/dnd-scraping-rvest-rselenium/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
+      <description>I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.
+For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&amp;rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty.</description>
+    </item>
+    
+    <item>
       <title>The Book of Why</title>
-      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <guid>/post/book-of-why/</guid>
       <description>I just finished reading The Book of Why by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then.</description>
     </item>
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
+      <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
+      <guid>/post/hugo-academic-tips/</guid>
       <description>I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.
 The source and rendered files for my website are available on GitHub:
  Public, rendered site: the public directory within my blogdown/Hugo project Hugo content and source files: all files and directories within my blogdown/Hugo project (i.</description>
@@ -34,76 +44,76 @@ The source and rendered files for my website are available on GitHub:
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:
  Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.</description>
     </item>
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook.</description>
     </item>
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What is likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.
 I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting.</description>
     </item>
     
     <item>
       <title>Teaching real math with computers</title>
-      <link>https://lmyint.github.io/post/teaching-real-math-with-computers/</link>
+      <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/teaching-real-math-with-computers/</guid>
+      <guid>/post/teaching-real-math-with-computers/</guid>
       <description>As per a friend’s suggestion, I watched Conrad Wolfram’s TED talk on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.
 Mathematics can be taught via programming Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts.</description>
     </item>
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
-      <link>https://lmyint.github.io/post/adapting-education-style/</link>
+      <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/adapting-education-style/</guid>
+      <guid>/post/adapting-education-style/</guid>
       <description>Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics.</description>
     </item>
     
     <item>
       <title>Motivating the question</title>
-      <link>https://lmyint.github.io/post/motivating-the-question/</link>
+      <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/motivating-the-question/</guid>
+      <guid>/post/motivating-the-question/</guid>
       <description>Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.</description>
     </item>
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>https://lmyint.github.io/post/imp-perspectives/</link>
+      <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/imp-perspectives/</guid>
+      <guid>/post/imp-perspectives/</guid>
       <description>My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units.</description>
     </item>
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog!</description>
     </item>
     
