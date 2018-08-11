@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Leslie Myint</title>
-    <link>/categories/r/</link>
+    <link>https://lmyint.github.io/categories/r/</link>
     <description>Recent content in R on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://lmyint.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
-      <link>/post/dnd-scraping-rvest-rselenium/</link>
+      <link>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
+      <guid>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</guid>
       <description>
 
 &lt;p&gt;I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.&lt;/p&gt;
@@ -68,7 +68,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/index.html&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; for page scraping&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/index.html&#34; target=&#34;_blank&#34;&gt;stringr&lt;/a&gt; for working with strings&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/tibble/index.html&#34; target=&#34;_blank&#34;&gt;tibble&lt;/a&gt; for the flexibility over data frames to allow list columns&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/tibble/index.html&#34; target=&#34;_blank&#34;&gt;tibble&lt;/a&gt; for the flexibility over data frames to allow list-columns&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/RSelenium&#34; target=&#34;_blank&#34;&gt;RSelenium&lt;/a&gt; for browser navigation via R. This package was on CRAN but removed in May 2018. I used the development version on GitHub, but the package maintainer is &lt;a href=&#34;https://github.com/ropensci/RSelenium/issues/172&#34; target=&#34;_blank&#34;&gt;currently working to fix this&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -114,7 +114,7 @@ num_pages &amp;lt;- page %&amp;gt;%
 	max(na.rm = TRUE)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The most difficult part of this part of code is figuring out the selector to use in &lt;code&gt;html_nodes&lt;/code&gt;. Luckily, the &lt;code&gt;rvest&lt;/code&gt; package page on CRAN has a link to a vignette on a tool called &lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html&#34; target=&#34;_blank&#34;&gt;SelectorGadget&lt;/a&gt;. I love this tool for its playful homage to &lt;a href=&#34;https://www.youtube.com/watch?v=e-JHfXVlkik&#34; target=&#34;_blank&#34;&gt;childhood memories&lt;/a&gt;, and it also greatly helps in determining the CSS selectors needed to select desired parts of a webpage. Once you have dragged the tool link to the bookmark bar, you can click the bookmark while viewing any page to get a hover tool that highlights page elements as you mouse over them. Clicking on an element on the page displays the CSS selector in the tool panel.&lt;/p&gt;
+&lt;p&gt;The most difficult part of this part of code is figuring out the selector to use in &lt;code&gt;html_nodes&lt;/code&gt;. Luckily, the &lt;code&gt;rvest&lt;/code&gt; package page on CRAN has a link to a vignette on a tool called &lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html&#34; target=&#34;_blank&#34;&gt;SelectorGadget&lt;/a&gt;. I love this tool for its playful homage to &lt;a href=&#34;https://www.youtube.com/watch?v=e-JHfXVlkik&#34; target=&#34;_blank&#34;&gt;childhood memories&lt;/a&gt;, and it also greatly helps in determining the CSS selectors needed to select desired parts of a webpage. Once you have dragged the tool link to the bookmark bar, you can click the bookmark while viewing any page to get a hover tool that highlights page elements as you mouse over them. Clicking on an element on the page displays the text for the CSS selector in the tool panel.&lt;/p&gt;
 
 &lt;p&gt;Using the SelectorGadget tool, we can determine that the page number buttons on the &lt;a href=&#34;https://www.dndbeyond.com/monsters&#34; target=&#34;_blank&#34;&gt;main monster page&lt;/a&gt; all have the class &lt;code&gt;b-pagination-item&lt;/code&gt;. The CSS selector for a class always starts with a period followed by the class name. The last page was the maximum of these numbers. (We need to remove &lt;code&gt;NA&lt;/code&gt;&amp;rsquo;s created by integer coercion of the &amp;ldquo;Next&amp;rdquo; button.)&lt;/p&gt;
 
@@ -139,11 +139,11 @@ num_pages &amp;lt;- page %&amp;gt;%
 &lt;ul&gt;
 &lt;li&gt;We first read the HTML source of a page with &lt;code&gt;read_html&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;We can then use a combination of SelectorGadget with the &amp;ldquo;View page source&amp;rdquo; functionality of your browser to select the links on the page. Here we find that they belong to class &lt;code&gt;link&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;We use the &lt;code&gt;html_attr&lt;/code&gt; function here to extract the link path rather than the link text. The &lt;code&gt;name = &amp;quot;href&amp;quot;&lt;/code&gt; specifies that we want the path attribute. (Anatomy of an HTML link: &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.something.com&amp;gt;Link text seen on page&amp;lt;/a&amp;gt;&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;We use the &lt;code&gt;html_attr&lt;/code&gt; function here to extract the link path rather than the link text. The &lt;code&gt;name = &amp;quot;href&amp;quot;&lt;/code&gt; specifies that we want the path attribute. (Anatomy of an HTML link: &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.something.com&amp;quot;&amp;gt;Link text seen on page&amp;lt;/a&amp;gt;&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;The remainder of the function subsets the extracted links to only those that pertain to the monster pages (removing links like the home page). Printing the output indicates that these links are only relative links, so we append the base URL to create absolute links (&lt;code&gt;abs_links&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Finally, we can loop through all pages of results to get the hundreds of pages for the individual monsters.&lt;/p&gt;
+&lt;p&gt;Finally, we can loop through all pages of results to get the hundreds of pages for the individual monsters:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## Loop through all pages
 all_monster_urls &amp;lt;- lapply(seq_len(num_pages), function(i) {
@@ -154,7 +154,7 @@ all_monster_urls &amp;lt;- lapply(seq_len(num_pages), function(i) {
 
 &lt;h2 id=&#34;step-2-use-rselenium-to-access-pages-behind-login-a-id-rselenium-a&#34;&gt;Step 2: Use &lt;code&gt;RSelenium&lt;/code&gt; to access pages behind login &lt;a id=&#34;rselenium&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;In Step 1, we looped through pages of tables to get the URLs for pages that contain detailed information on individual monsters. Great! We can visit each of these pages and just do some more &lt;code&gt;rvest&lt;/code&gt; work to scrape the details! Well, not immediately. Most of these monster pages can only be seen if you have paid for the corresponding digital books and are logged in. DnD Beyond uses &lt;a href=&#34;https://www.twitch.tv/&#34; target=&#34;_blank&#34;&gt;Twitch&lt;/a&gt; for authentication which involves a redirect. This redirect made it way harder for me to figure out what to do. It was like I had been thrown into the magical, mysterious, and deceptive realm of the &lt;a href=&#34;http://forgottenrealms.wikia.com/wiki/Feywild&#34; target=&#34;_blank&#34;&gt;Feywild&lt;/a&gt; where I frantically invoked Google magicks to find many dashed glimmers of hope but luckily a solution in the end.&lt;/p&gt;
+&lt;p&gt;In Step 1, we looped through pages of tables to get the URLs for pages that contain detailed information on individual monsters. Great! We can visit each of these pages and just do some more &lt;code&gt;rvest&lt;/code&gt; work to scrape the details! Well&amp;hellip; not immediately. Most of these monster pages can only be seen if you have paid for the corresponding digital books and are logged in. DnD Beyond uses &lt;a href=&#34;https://www.twitch.tv/&#34; target=&#34;_blank&#34;&gt;Twitch&lt;/a&gt; for authentication which involves a redirect. This redirect made it way harder for me to figure out what to do. It was like I had been thrown into the magical, mysterious, and deceptive realm of the &lt;a href=&#34;http://forgottenrealms.wikia.com/wiki/Feywild&#34; target=&#34;_blank&#34;&gt;Feywild&lt;/a&gt; where I frantically invoked Google magicks to find many dashed glimmers of hope but luckily a solution in the end.&lt;/p&gt;
 
 &lt;h3 id=&#34;what-did-not-work-a-id-fail-a&#34;&gt;What did not work &lt;a id=&#34;fail&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 
@@ -181,7 +181,7 @@ url &amp;lt;- follow_link(session, &amp;quot;Login&amp;quot;)
 
 &lt;h3 id=&#34;what-did-work-a-id-success-a&#34;&gt;What did work &lt;a id=&#34;success&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Only when I stumbled upon this &lt;a href=&#34;https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping&#34; target=&#34;_blank&#34;&gt;Stack Overflow post&lt;/a&gt;did I learn about the &lt;code&gt;RSelenium&lt;/code&gt; package. &lt;a href=&#34;https://www.seleniumhq.org/&#34; target=&#34;_blank&#34;&gt;Selenium&lt;/a&gt; is a tool for automating web browsers, and the &lt;code&gt;RSelenium&lt;/code&gt; package is the R interface for it.&lt;/p&gt;
+&lt;p&gt;Only when I stumbled upon this &lt;a href=&#34;https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping&#34; target=&#34;_blank&#34;&gt;Stack Overflow post&lt;/a&gt; did I learn about the &lt;code&gt;RSelenium&lt;/code&gt; package. &lt;a href=&#34;https://www.seleniumhq.org/&#34; target=&#34;_blank&#34;&gt;Selenium&lt;/a&gt; is a tool for automating web browsers, and the &lt;code&gt;RSelenium&lt;/code&gt; package is the R interface for it.&lt;/p&gt;
 
 &lt;p&gt;I am really grateful to the posters on that Stack Overflow question and &lt;a href=&#34;https://abdallaabdi.com/2016/02/13/navigating-scraping-job-sites-rvest-rselenium/&#34; target=&#34;_blank&#34;&gt;this blog post&lt;/a&gt; for getting me started with &lt;code&gt;RSelenium&lt;/code&gt;. The only problem is that the &lt;code&gt;startServer&lt;/code&gt; function used in both posts is now defunct. When calling &lt;code&gt;startServer&lt;/code&gt;, the message text informs you of the &lt;code&gt;rsDriver&lt;/code&gt; function.&lt;/p&gt;
 
@@ -193,7 +193,7 @@ url &amp;lt;- follow_link(session, &amp;quot;Login&amp;quot;)
 rem_dr &amp;lt;- rd[[&amp;quot;client&amp;quot;]]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;When you first run &lt;code&gt;rsDriver&lt;/code&gt;, status messages will indicate that required files are being downloaded. After that you will see the status text &amp;ldquo;Connecting to remote server&amp;rdquo; and a Chrome browser window will pop open. The browser window will have a message beneath the search bar saying &amp;ldquo;Chrome is being controlled by automated test software.&amp;rdquo; This code comes straight from the &lt;code&gt;rsDriver&lt;/code&gt; example.&lt;/p&gt;
+&lt;p&gt;When you first run &lt;code&gt;rsDriver&lt;/code&gt;, status messages will indicate that required files are being downloaded. After that you will see the status text &amp;ldquo;Connecting to remote server&amp;rdquo; and a Chrome browser window will pop open. The browser window will have a message beneath the search bar saying &amp;ldquo;Chrome is being controlled by automated test software.&amp;rdquo; This code comes straight from the example in the &lt;code&gt;rsDriver&lt;/code&gt; help page.&lt;/p&gt;
 
 &lt;h4 id=&#34;step-2b-browser-navigation-and-interaction-a-id-nav-interact-a&#34;&gt;Step 2b: Browser navigation and interaction &lt;a id=&#34;nav-interact&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
 
@@ -255,9 +255,9 @@ for (i in seq_along(all_monster_urls)) {
 
 &lt;h3 id=&#34;principle-1-use-selectorgadget-and-view-the-page-s-source-a-id-principle1-a&#34;&gt;Principle 1: Use SelectorGadget AND view the page&amp;rsquo;s source &lt;a id=&#34;principle1&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;As useful as SelectorGadget is for finding the CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
+&lt;p&gt;As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wanted to know if there were further subdvisions of the areas that the &lt;code&gt;.mon-stat-block__attribute&lt;/code&gt; selector had highlighted. To do this, I searched the source code for &amp;ldquo;Armor Class&amp;rdquo; and found the following:&lt;/p&gt;
 
@@ -300,7 +300,7 @@ for (i in seq_along(all_monster_urls)) {
 
 &lt;p&gt;With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt; class to verify that there should be 3 regions highlighted.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.&lt;/p&gt;
 
@@ -314,8 +314,7 @@ for (i in seq_along(all_monster_urls)) {
 [3] &amp;quot;\n            Speed\n            \n                \n                    40 ft., fly 80 ft., swim 40 ft.\n                     \n                \n            \n        &amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;page %&amp;gt;% html_nodes(&amp;ldquo;.mon-stat-block__attribute-label&amp;rdquo;) %&amp;gt;% html_text()
-A mess! A length-3 character vector containing the information I wanted but not in a very tidy format. Because I want to visualize and explore this data later, I want to do a little tidying up front in the scraping process.&lt;/p&gt;
+&lt;p&gt;A mess! A length-3 character vector containing the information I wanted but not in a very tidy format. Because I want to visualize and explore this data later, I want to do a little tidying up front in the scraping process.&lt;/p&gt;
 
 &lt;p&gt;What if I just access the three subdivisions separately and &lt;code&gt;rbind&lt;/code&gt; them together? This is not a good idea because of missing elements as shown below:&lt;/p&gt;
 
@@ -424,10 +423,10 @@ attrs &amp;lt;- do.call(rbind, lapply(attr_nodes, function(node) {
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>/post/hugo-academic-tips/</link>
+      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/hugo-academic-tips/</guid>
+      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
       <description>
 
 &lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
@@ -631,10 +630,10 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>/post/shiny-app-with-google-login/</link>
+      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>/post/shiny-app-with-google-login/</guid>
+      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
       <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
 &lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
