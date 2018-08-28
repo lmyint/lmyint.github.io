@@ -31,9 +31,9 @@
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
+&lt;p&gt;I am an Assistant Professor at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt;. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies), medicine, epidemiology, and public health. I am also interested in how humans interact with data in ways that impact analysis, understanding, and scientific communication.&lt;/p&gt;
 
-&lt;p&gt;I will be starting as an Assistant Professor at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt; in Fall 2018.&lt;/p&gt;
+&lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
 
 &lt;p&gt;My last name is pronounced &lt;strong&gt;mee-int&lt;/strong&gt;. A common mispronunciation that is quite understandable given the spelling is my-int. While this can be amusing from a computer science perspective, it is, nevertheless, incorrect!&lt;/p&gt;
 </description>
@@ -1252,8 +1252,8 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 		
 		&lt;div id=&#34;contactDetails&#34; class=&#34;quickFade delayTwo&#34;&gt;
 			&lt;ul&gt;
-				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint1@jhu.edu&#34; target=&#34;_blank&#34;&gt;lmyint1@jhu.edu&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;w: &lt;a href=&#34;lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint@macalester.edu&#34; target=&#34;_blank&#34;&gt;lmyint@macalester.edu&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;w: &lt;a href=&#34;https://lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/div&gt;
 		&lt;br /&gt;
@@ -1294,7 +1294,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;div class=&#34;sectionContent&#34;&gt;
 				&lt;article&gt;
 					&lt;span class=&#34;contentHeader&#34;&gt;Assistant Professor&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;Start: August 2018&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;August 2018 - present&lt;/span&gt;
 					&lt;p class=&#34;subDetails&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/p&gt;
 					&lt;p class=&#34;subDetails&#34;&gt;Macalester College, Saint Paul, MN&lt;/p&gt;
 				&lt;/article&gt;
@@ -1332,10 +1332,14 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. “Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.” Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
+				&lt;h2&gt;Accepted&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Jeffrey T. Leek, and Leah R. Jager. 2017. &#34;Explanation of observational data engenders a causal belief about smoking and cancer.&#34; PeerJ.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
 				&lt;h2&gt;Preprints&lt;/h2&gt;
 				&lt;ol reversed&gt;
 					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Dimitrios G. Avramopoulos, Loyal A. Goff, and Kasper Hansen. 2017. &#34;Linear Models Enable Powerful Differential Activity Analysis in Massively Parallel Reporter Assays.&#34; bioRxiv. doi:10.1101/196394.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Jeffrey T. Leek, and Leah R. Jager. 2017. &#34;Explanation Implies Causation?&#34; bioRxiv. https://doi.org/10.1101/218784.&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
 			&lt;/div&gt;
@@ -1481,7 +1485,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;br /&gt;
 		&lt;/section&gt;
 		
-		&lt;section&gt;
+		&lt;!-- &lt;section&gt;
 			&lt;div class=&#34;sectionTitle&#34;&gt;
 				&lt;h1&gt;Technical Skills&lt;/h1&gt;
 			&lt;/div&gt;
@@ -1511,7 +1515,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 				&lt;/ul&gt;
 			&lt;/div&gt;
 			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
+		&lt;/section&gt; --&gt;
 		
 	&lt;/div&gt;
 &lt;/div&gt;
