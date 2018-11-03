@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Leslie Myint</title>
-    <link>/tags/</link>
+    <link>https://lmyint.github.io/tags/</link>
     <description>Recent content in Tags on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lmyint.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
+      <link>https://lmyint.github.io/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>https://lmyint.github.io/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
       <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
+      <link>https://lmyint.github.io/tags/blogdown/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>https://lmyint.github.io/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Causal diagrams</title>
-      <link>/tags/causal-diagrams/</link>
+      <link>https://lmyint.github.io/tags/causal-diagrams/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/causal-diagrams/</guid>
+      <guid>https://lmyint.github.io/tags/causal-diagrams/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dnd</title>
-      <link>/tags/dnd/</link>
+      <link>https://lmyint.github.io/tags/dnd/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dnd/</guid>
+      <guid>https://lmyint.github.io/tags/dnd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Likelihood</title>
-      <link>/tags/likelihood/</link>
+      <link>https://lmyint.github.io/tags/likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>/tags/likelihood/</guid>
+      <guid>https://lmyint.github.io/tags/likelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OAuth</title>
-      <link>/tags/oauth/</link>
+      <link>https://lmyint.github.io/tags/oauth/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>/tags/oauth/</guid>
+      <guid>https://lmyint.github.io/tags/oauth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rselenium</title>
-      <link>/tags/rselenium/</link>
+      <link>https://lmyint.github.io/tags/rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rselenium/</guid>
+      <guid>https://lmyint.github.io/tags/rselenium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rvest</title>
-      <link>/tags/rvest/</link>
+      <link>https://lmyint.github.io/tags/rvest/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rvest/</guid>
+      <guid>https://lmyint.github.io/tags/rvest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny</title>
-      <link>/tags/shiny/</link>
+      <link>https://lmyint.github.io/tags/shiny/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>/tags/shiny/</guid>
+      <guid>https://lmyint.github.io/tags/shiny/</guid>
       <description></description>
     </item>
     
