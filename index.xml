@@ -81,11 +81,11 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/teaching/</guid>
-      <description>&lt;p&gt;I will be teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
+      <description>&lt;p&gt;I am teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;MATH155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
-&lt;li&gt;MATH253: Machine Learning (Spring)&lt;/li&gt;
+&lt;li&gt;MATH 155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
+&lt;li&gt;MATH 253: Statistical Computing and Machine Learning (Spring)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1328,9 +1328,14 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 				&lt;h2&gt;Published&lt;/h2&gt;
 				&lt;ol reversed&gt;
 					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;&lt;em&gt;Press:&lt;/em&gt;&lt;br&gt;
+								Preprint was featured in the &lt;a href=&#34;https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2018.01101.x&#34;&gt;February 2018 issue&lt;/a&gt; of Significance Magazine.
+							&lt;/li&gt;
+						&lt;/ul&gt;
 					&lt;li&gt;Monroe, Anne K., &lt;em&gt;Leslie Myint&lt;/em&gt;, Richard Rutstein, Judith Aberg, Stephen Boswell, Allison Agwu, Kelly Gebo, Richard Moore, and HIV Research Network. 2018. &#34;Factors Associated with Gaps in Medicaid Enrollment among People with HIV and the Effect of Gaps on Viral Suppression.&#34; Journal of Acquired Immune Deficiency Syndromes, April. https://doi.org/10.1097/QAI.0000000000001702.&lt;/li&gt;
 					&lt;li&gt;Kang, Joon Y., Amin H. Rabiei, &lt;em&gt;Leslie Myint&lt;/em&gt;, and Maromi Nei. 2017. &#34;Equivocal Significance of Post-Ictal Generalized EEG Suppression as a Marker of SUDEP Risk.&#34; Seizure: The Journal of the British Epilepsy Association 48 (May): 28–32. https://doi.org/10.1016/j.seizure.2017.03.017.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. “Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.” Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. &#34;Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.&#34; Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
 				&lt;h2&gt;Preprints&lt;/h2&gt;
@@ -1411,6 +1416,16 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;/div&gt;
 			
 			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Macalester College&lt;/h2&gt;
+					&lt;i&gt;Instructor&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;ul&gt;
+						&lt;li&gt;MATH 155: Introduction to Statistical Modeling (F18)&lt;/li&gt;
+						&lt;li&gt;MATH 253: Statistical Computing and Machine Learning (S19)&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
 				&lt;article&gt;
 					&lt;h2&gt;Johns Hopkins Bloomberg School of Public Health&lt;/h2&gt;
 					&lt;i&gt;Instructor&lt;/i&gt;
