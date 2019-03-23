@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Causal inference on Leslie Myint</title>
-    <link>https://lmyint.github.io/categories/causal-inference/</link>
+    <link>/categories/causal-inference/</link>
     <description>Recent content in Causal inference on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://lmyint.github.io/categories/causal-inference/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/causal-inference/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Book of Why</title>
-      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <guid>/post/book-of-why/</guid>
       <description>
 
 &lt;p&gt;I just finished reading &lt;em&gt;The Book of Why&lt;/em&gt; by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.&lt;/p&gt;

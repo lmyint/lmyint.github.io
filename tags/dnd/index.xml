@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dnd on Leslie Myint</title>
-    <link>https://lmyint.github.io/tags/dnd/</link>
+    <link>/tags/dnd/</link>
     <description>Recent content in Dnd on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lmyint.github.io/tags/dnd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dnd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
-      <link>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</link>
+      <link>/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</guid>
+      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
       <description>I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.
 For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&amp;rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty.</description>
     </item>
