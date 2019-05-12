@@ -81,11 +81,27 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/teaching/</guid>
-      <description>&lt;p&gt;I am teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
+      <description>&lt;p&gt;2019-2020 academic year:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;MATH 155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
-&lt;li&gt;MATH 253: Statistical Computing and Machine Learning (Spring)&lt;/li&gt;
+&lt;li&gt;STAT 125: Epidemiology (Fall)&lt;/li&gt;
+&lt;li&gt;STAT 155: Introduction to Statistical Modeling (Spring)&lt;/li&gt;
+&lt;li&gt;STAT 394: Causal Inference (Spring)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2018-2019 academic year:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MATH 155: Introduction to Statistical Modeling (Fall)&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bcheggeseth.github.io/Math155Notes/&#34; target=&#34;_blank&#34;&gt;Class notes&lt;/a&gt; in collaboration with &lt;a href=&#34;https://sites.google.com/macalester.edu/bcheggeseth&#34; target=&#34;_blank&#34;&gt;Brianna Heggeseth&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MATH 253: Machine Learning (Spring)&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/253_spring_2019/&#34; target=&#34;_blank&#34;&gt;Class website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
