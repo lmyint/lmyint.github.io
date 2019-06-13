@@ -112,7 +112,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: June 13, 2019)&lt;/p&gt;
 </description>
     </item>
     
@@ -1444,8 +1444,8 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;i&gt;Instructor&lt;/i&gt;
 					&lt;br /&gt;
 					&lt;ul&gt;
-						&lt;li&gt;MATH 155: Introduction to Statistical Modeling (F18)&lt;/li&gt;
-						&lt;li&gt;MATH 253: Machine Learning (S19)&lt;/li&gt;
+						&lt;li&gt;STAT 155: Introduction to Statistical Modeling (F18)&lt;/li&gt;
+						&lt;li&gt;STAT 253: Machine Learning (S19)&lt;/li&gt;
 					&lt;/ul&gt;
 				&lt;/article&gt;
 				&lt;br /&gt;
@@ -1529,6 +1529,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			
 			&lt;div class=&#34;sectionContent&#34;&gt;
 				&lt;ul&gt;
+					&lt;li&gt;2019: Referee - Nature Human Behaviour&lt;/li&gt;
 					&lt;li&gt;2019: Referee - Technology Innovations in Statistics Education&lt;/li&gt;
 					&lt;li&gt;2019: Referee - Journal of Statistics Education&lt;/li&gt;
 					&lt;li&gt;2018: Referee - &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
