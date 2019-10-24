@@ -27,8 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/about/</guid>
-      <description>About me I am an Assistant Professor of Statistics at Macalester College in the Department of Mathematics, Statistics, and Computer Science. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies), medicine, epidemiology, and public health. I am also interested in how humans interact with data in ways that impact analysis, understanding, and scientific communication.
-I received my PhD in biostatistics from the Johns Hopkins Bloomberg School of Public Health where I worked with Kasper Daniel Hansen on statistical methodology for high-throughput biology and with Jeff Leek and Leah Jager on understanding the role of human behavior in data analysis.</description>
+      <description>About me I am an Assistant Professor of Statistics at Macalester College in the Department of Mathematics, Statistics, and Computer Science. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies) and human health more broadly. Methodologically, I am interested in using causal inference tools to bridge findings from high-throughput technologies with information about health at the clinical and societal levels. Besides health and biology, I also have interests is human-data interaction: the investigation of how humans interact with data in ways that impact analysis, understanding, and scientific communication.</description>
     </item>
     
     <item>
@@ -59,6 +58,16 @@ I received my PhD in biostatistics from the Johns Hopkins Bloomberg School of Pu
     </item>
     
     <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://lmyint.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://lmyint.github.io/home/talks/</guid>
+      <description> Graphs Galore! Representing Knowledge in the Sciences and Humanities
+Carleton College. October 22, 2019. (Slides)  </description>
+    </item>
+    
+    <item>
       <title>Recent Publications</title>
       <link>https://lmyint.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
@@ -86,7 +95,7 @@ I received my PhD in biostatistics from the Johns Hopkins Bloomberg School of Pu
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/cv/</guid>
-      <description>My CV is available in HTML or PDF form. (Last updated: September 12, 2019)</description>
+      <description>My CV is available in HTML or PDF form. (Last updated: October 24, 2019)</description>
     </item>
     
     <item>
@@ -97,15 +106,6 @@ I received my PhD in biostatistics from the Johns Hopkins Bloomberg School of Pu
       <guid>https://lmyint.github.io/home/fun/</guid>
       <description>I am an avid Dungeons and Dragons player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!
  Map Annotator: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas. R + Magic the Gathering: (Slides) A foray into the rvest package in R with an application for organizing information about Magic the Gathering decklists.</description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://lmyint.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>https://lmyint.github.io/home/talks/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -31,7 +31,7 @@
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;I am an Assistant Professor of Statistics at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt;. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies), medicine, epidemiology, and public health. I am also interested in how humans interact with data in ways that impact analysis, understanding, and scientific communication.&lt;/p&gt;
+&lt;p&gt;I am an Assistant Professor of Statistics at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt;. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies) and human health more broadly. Methodologically, I am interested in using causal inference tools to bridge findings from high-throughput technologies with information about health at the clinical and societal levels. Besides health and biology, I also have interests is human-data interaction: the investigation of how humans interact with data in ways that impact analysis, understanding, and scientific communication. I am also quite excited about graph databases and their ability to model rich, interconnected data (often textual). I am exploring ways to use them to model data in humanities disciplines.&lt;/p&gt;
 
 &lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
 
@@ -64,6 +64,19 @@
       
       <guid>https://lmyint.github.io/home/projects/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://lmyint.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://lmyint.github.io/home/talks/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -112,7 +125,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: September 12, 2019)&lt;/p&gt;
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: October 24, 2019)&lt;/p&gt;
 </description>
     </item>
     
@@ -129,15 +142,6 @@
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://lmyint.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>https://lmyint.github.io/home/talks/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -1343,7 +1347,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;div class=&#34;sectionContent&#34;&gt;
 				&lt;h2&gt;Published&lt;/h2&gt;
 				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2019. A screen of 1,049 schizophrenia and 30 Alzheimer&#39;s‐associated variants for regulatory potential. American journal of medical genetics 77:e43. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2019. A screen of 1,049 schizophrenia and 30 Alzheimer’s‐associated variants for regulatory potential. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 77:e43. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Avramopoulos DG, Goff LA, Hansen KD. 2019. Linear models enable powerful differential activity analysis in massively parallel reporter assays. BMC Genomics 20:209. DOI: 10.1186/s12864-019-5556-x.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
 						&lt;ul&gt;
@@ -1376,6 +1380,13 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;/div&gt;
 			
 			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Carleton College (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						October 2019
+					&lt;/p&gt;
+				&lt;/article&gt;
 				&lt;article&gt;
 					&lt;p&gt;
 						&lt;b&gt;Statistical methods for querying the regulatory role of DNA&lt;/b&gt;&lt;br /&gt;
@@ -1445,6 +1456,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;i&gt;Instructor&lt;/i&gt;
 					&lt;br /&gt;
 					&lt;ul&gt;
+						&lt;li&gt;STAT 125: Epidemiology (F19)&lt;/li&gt;
 						&lt;li&gt;STAT 155: Introduction to Statistical Modeling (F18)&lt;/li&gt;
 						&lt;li&gt;STAT 253: Machine Learning (S19)&lt;/li&gt;
 					&lt;/ul&gt;
@@ -1525,18 +1537,29 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 
 		&lt;section&gt;
 			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Service&lt;/h1&gt;
+				&lt;h1&gt;Professional Service&lt;/h1&gt;
 			&lt;/div&gt;
 			
 			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;ul&gt;
-					&lt;li&gt;2019: Referee - Nature Human Behaviour&lt;/li&gt;
-					&lt;li&gt;2019: Referee - Technology Innovations in Statistics Education&lt;/li&gt;
-					&lt;li&gt;2019: Referee - Journal of Statistics Education&lt;/li&gt;
-					&lt;li&gt;2018: Referee - &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;2018: Referee - American Journal of Epidemiology&lt;/li&gt;
-					&lt;li&gt;2017: Referee - Observational Studies&lt;/li&gt;
-				&lt;/ul&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Conferences&lt;/h2&gt;
+					&lt;ul&gt;
+						&lt;li&gt;2020: Organizer and Chair for the Education Track&#39;s invited session at the Symposium on Data Science and Statistics&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Referee&lt;/h2&gt;
+					&lt;ul&gt;
+						&lt;li&gt;2019: Nature Human Behaviour&lt;/li&gt;
+						&lt;li&gt;2019: Technology Innovations in Statistics Education&lt;/li&gt;
+						&lt;li&gt;2019: Journal of Statistics Education&lt;/li&gt;
+						&lt;li&gt;2018: &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;2018: American Journal of Epidemiology&lt;/li&gt;
+						&lt;li&gt;2017: Observational Studies&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
 			&lt;/div&gt;
 			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
 			&lt;br /&gt;
