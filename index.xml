@@ -74,7 +74,8 @@
       <guid>https://lmyint.github.io/home/talks/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;/li&gt;
+&lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;br /&gt;
+&lt;em&gt;Macalester College. November 1, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1LQY6P4qZJnVg-s8w0wxPzSjc3-A8nWpuyh-Z5MJ9xDc/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1384,7 +1385,9 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;p&gt;
 						&lt;b&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/b&gt;&lt;br /&gt;
 						Invited Talk: Carleton College (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
-						October 2019
+						October 2019&lt;br /&gt;
+						Talk: Macalester College (&lt;a href=&#34;https://docs.google.com/presentation/d/1LQY6P4qZJnVg-s8w0wxPzSjc3-A8nWpuyh-Z5MJ9xDc/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						November 2019
 					&lt;/p&gt;
 				&lt;/article&gt;
 				&lt;article&gt;
