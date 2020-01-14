@@ -126,7 +126,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://lmyint.github.io/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: October 24, 2019)&lt;/p&gt;
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: January 14, 2020)&lt;/p&gt;
 </description>
     </item>
     
@@ -1348,6 +1348,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;div class=&#34;sectionContent&#34;&gt;
 				&lt;h2&gt;Published&lt;/h2&gt;
 				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Hadavand A, Jager L, Leek J. 2019. Comparison of Beginning R Students’ Perceptions of Peer-Made Plots Created in Two Plotting Systems: A Randomized Experiment. Journal of statistics education: an international journal on the teaching and learning of statistics:1–23. DOI: 10.1080/10691898.2019.1695554.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2019. A screen of 1,049 schizophrenia and 30 Alzheimer’s‐associated variants for regulatory potential. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 77:e43. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Avramopoulos DG, Goff LA, Hansen KD. 2019. Linear models enable powerful differential activity analysis in massively parallel reporter assays. BMC Genomics 20:209. DOI: 10.1186/s12864-019-5556-x.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
@@ -1361,12 +1362,12 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. &#34;Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.&#34; Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
-				&lt;h2&gt;Submitted&lt;/h2&gt;
+				&lt;!-- &lt;h2&gt;Submitted&lt;/h2&gt;
 				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Leslie Myint&lt;/em&gt;, Aboozar Hadavand, Leah Jager, Jeffrey Leek. &#34;Comparison of beginning R students&#39; perceptions of peer-made plots created in two plotting systems: a randomized experiment.&#34; Under review at the Journal of Statistics Education.&lt;/li&gt;
+					&lt;li&gt;&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
-				&lt;!-- &lt;h2&gt;In Preparation&lt;/h2&gt;
+				&lt;h2&gt;In Preparation&lt;/h2&gt;
 				&lt;ol reversed&gt;
 					&lt;li&gt;&lt;/li&gt;
 				&lt;/ol&gt;
