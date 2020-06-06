@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leslie Myint</title>
-    <link>https://lmyint.github.io/</link>
+    <link>/</link>
     <description>Recent content on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
-        <atom:link href="https://lmyint.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>https://lmyint.github.io/home/hero/</link>
+      <link>/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/hero/</guid>
+      <guid>/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://lmyint.github.io/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
@@ -41,37 +41,37 @@
     
     <item>
       <title>Recent Posts</title>
-      <link>https://lmyint.github.io/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://lmyint.github.io/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://lmyint.github.io/home/projects/</link>
+      <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/projects/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://lmyint.github.io/home/talks/</link>
+      <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/talks/</guid>
+      <guid>/home/talks/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/strong&gt;&lt;br /&gt;
 &lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;br /&gt;
@@ -82,20 +82,20 @@
     
     <item>
       <title>Recent Publications</title>
-      <link>https://lmyint.github.io/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://lmyint.github.io/home/teaching/</link>
+      <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/teaching/</guid>
-      <description>&lt;p&gt;I teach the following courses at Macalester. Some of my courses have course websites which you can navigate to below. (S = Spring, F = Fall)&lt;/p&gt;
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I teach the following courses at Macalester. Some of my courses have course websites which you can navigate to below. For many of my classes I make videos, which can be found on my &lt;a href=&#34;https://www.youtube.com/channel/UCgW3LCQ623sUjprV8EbtVoA&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;STAT 125: Epidemiology&lt;/li&gt;
@@ -110,7 +110,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/253_spring_2019/&#34; target=&#34;_blank&#34;&gt;[S19 Site]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;STAT 394: Causal Inference
+&lt;li&gt;STAT 451: Causal Inference (formerly STAT 394)
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/causal_spring_2020/&#34; target=&#34;_blank&#34;&gt;[S20 Site]&lt;/a&gt;&lt;/li&gt;
@@ -121,20 +121,20 @@
     
     <item>
       <title>CV</title>
-      <link>https://lmyint.github.io/home/cv/</link>
+      <link>/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: February 1, 2020)&lt;/p&gt;
+      <guid>/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: June 6, 2020)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fun</title>
-      <link>https://lmyint.github.io/home/fun/</link>
+      <link>/home/fun/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/fun/</guid>
+      <guid>/home/fun/</guid>
       <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -146,28 +146,28 @@
     
     <item>
       <title>Contact</title>
-      <link>https://lmyint.github.io/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://lmyint.github.io/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://lmyint.github.io/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
-      <link>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</link>
+      <link>/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</guid>
+      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
       <description>
 
 &lt;p&gt;I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.&lt;/p&gt;
@@ -407,7 +407,7 @@ for (i in seq_along(all_monster_urls)) {
 
 &lt;p&gt;As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wanted to know if there were further subdvisions of the areas that the &lt;code&gt;.mon-stat-block__attribute&lt;/code&gt; selector had highlighted. To do this, I searched the source code for &amp;ldquo;Armor Class&amp;rdquo; and found the following:&lt;/p&gt;
 
@@ -450,7 +450,7 @@ for (i in seq_along(all_monster_urls)) {
 
 &lt;p&gt;With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt; class to verify that there should be 3 regions highlighted.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.&lt;/p&gt;
 
@@ -573,10 +573,10 @@ attrs &amp;lt;- do.call(rbind, lapply(attr_nodes, function(node) {
     
     <item>
       <title>The Book of Why</title>
-      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <guid>/post/book-of-why/</guid>
       <description>
 
 &lt;p&gt;I just finished reading &lt;em&gt;The Book of Why&lt;/em&gt; by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.&lt;/p&gt;
@@ -691,10 +691,10 @@ which statement is correct. (p. 202)&lt;/p&gt;
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
+      <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
+      <guid>/post/hugo-academic-tips/</guid>
       <description>
 
 &lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
@@ -898,10 +898,10 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>
 
 &lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
@@ -930,10 +930,10 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
 &lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
@@ -1073,10 +1073,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
 &lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
 &lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
@@ -1104,10 +1104,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Teaching real math with computers</title>
-      <link>https://lmyint.github.io/post/teaching-real-math-with-computers/</link>
+      <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/teaching-real-math-with-computers/</guid>
+      <guid>/post/teaching-real-math-with-computers/</guid>
       <description>
 
 &lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
@@ -1146,10 +1146,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
-      <link>https://lmyint.github.io/post/adapting-education-style/</link>
+      <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/adapting-education-style/</guid>
+      <guid>/post/adapting-education-style/</guid>
       <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
 
 &lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
@@ -1162,10 +1162,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Motivating the question</title>
-      <link>https://lmyint.github.io/post/motivating-the-question/</link>
+      <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/motivating-the-question/</guid>
+      <guid>/post/motivating-the-question/</guid>
       <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
 
 &lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
@@ -1194,10 +1194,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>https://lmyint.github.io/post/imp-perspectives/</link>
+      <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/imp-perspectives/</guid>
+      <guid>/post/imp-perspectives/</guid>
       <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
 
 &lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
@@ -1210,10 +1210,10 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>&lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
 &lt;p&gt;So let’s get to the interesting stuff (I hope)! I love statistics, but I know that most people do not feel the same way that I do. I know I can’t inspire a love of the field for everyone who reads this, but I do want to motivate statistics and offer some opinions as to why statistics tends to elicit grimaces from non-practitioners.&lt;/p&gt;
 &lt;p&gt;As I was planning to start this blog, I asked my friends about their opinions about statistics, and it was pointed out that a particularly unsatisfying part of learning statistics is that students tend to get the feeling that they aren’t certain about anything. I won’t try to deny this because it’s completely true. But when are we ever 100% certain about anything &lt;strong&gt;interesting&lt;/strong&gt;? See if you can come up with an example of something that you know with absolute certainty and that actually raises your eyebrows. I’m coming up with “I will type the word ‘statistics’ at least one more time in this post” and “I will eat a brownie in the next week.” These are completely inevitable and therefore (to me) completely uninteresting statements. Even inevitabilities can have degrees of uncertainty when we pose them in a different way:&lt;/p&gt;
@@ -1235,7 +1235,7 @@ prob_chosen &amp;lt;- 1-prob_notchosen
 par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
 plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
 plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
 &lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
 </description>
@@ -1243,10 +1243,10 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
     
     <item>
       <title></title>
-      <link>https://lmyint.github.io/cv/</link>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/cv/</guid>
+      <guid>/cv/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1347,18 +1347,18 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;div class=&#34;sectionContent&#34;&gt;
 				&lt;h2&gt;Published&lt;/h2&gt;
 				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Hadavand A, Jager L, Leek J. 2019. Comparison of Beginning R Students’ Perceptions of Peer-Made Plots Created in Two Plotting Systems: A Randomized Experiment. Journal of statistics education: an international journal on the teaching and learning of statistics:1–23. DOI: 10.1080/10691898.2019.1695554.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2019. A screen of 1,049 schizophrenia and 30 Alzheimer’s‐associated variants for regulatory potential. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 77:e43. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Hadavand A, Jager L, Leek J. 2019. Comparison of Beginning R Students’ Perceptions of Peer-Made Plots Created in Two Plotting Systems: A Randomized Experiment. Journal of Statistics Education 28:98–108. DOI: 10.1080/10691898.2019.1695554.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2020b. A screen of 1,049 schizophrenia and 30 Alzheimer’s‐associated variants for regulatory potential. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 183:61–73. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
 					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Avramopoulos DG, Goff LA, Hansen KD. 2019. Linear models enable powerful differential activity analysis in massively parallel reporter assays. BMC Genomics 20:209. DOI: 10.1186/s12864-019-5556-x.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Leek JT, Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
 						&lt;ul&gt;
 							&lt;li&gt;&lt;em&gt;Press:&lt;/em&gt;&lt;br&gt;
 								Preprint was featured in the &lt;a href=&#34;https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2018.01101.x&#34;&gt;February 2018 issue&lt;/a&gt; of Significance Magazine.
 							&lt;/li&gt;
 						&lt;/ul&gt;
-					&lt;li&gt;Monroe, Anne K., &lt;em&gt;Leslie Myint&lt;/em&gt;, Richard Rutstein, Judith Aberg, Stephen Boswell, Allison Agwu, Kelly Gebo, Richard Moore, and HIV Research Network. 2018. &#34;Factors Associated with Gaps in Medicaid Enrollment among People with HIV and the Effect of Gaps on Viral Suppression.&#34; Journal of Acquired Immune Deficiency Syndromes, April. https://doi.org/10.1097/QAI.0000000000001702.&lt;/li&gt;
-					&lt;li&gt;Kang, Joon Y., Amin H. Rabiei, &lt;em&gt;Leslie Myint&lt;/em&gt;, and Maromi Nei. 2017. &#34;Equivocal Significance of Post-Ictal Generalized EEG Suppression as a Marker of SUDEP Risk.&#34; Seizure: The Journal of the British Epilepsy Association 48 (May): 28–32. https://doi.org/10.1016/j.seizure.2017.03.017.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. &#34;Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.&#34; Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
+					&lt;li&gt;Monroe AK, &lt;em&gt;Myint L&lt;/em&gt;, M Rutstein R, Aberg J, L Boswell S, L Agwu A, A Gebo K, D Moore R, HIV Research Network. 2018. Factors Associated With Gaps in Medicaid Enrollment Among People With HIV and the Effect of Gaps on Viral Suppression. Journal of Acquired Immune Deficiency Syndromes 78:413–420. DOI: 10.1097/QAI.0000000000001702.&lt;/li&gt;
+					&lt;li&gt;Kang JY, Rabiei AH, &lt;em&gt;Myint L&lt;/em&gt;, Nei M. 2017. Equivocal significance of post-ictal generalized EEG suppression as a marker of SUDEP risk. Seizure: The Journal of the British Epilepsy Association 48:28–32. DOI: 10.1016/j.seizure.2017.03.017.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Kleensang A, Zhao L, Hartung T, Hansen KD. 2017. Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics. Analytical Chemistry 89:3517–3523. DOI: 10.1021/acs.analchem.6b04719.&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt;
 				&lt;!-- &lt;h2&gt;Submitted&lt;/h2&gt;
@@ -1371,6 +1371,40 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 					&lt;li&gt;&lt;/li&gt;
 				&lt;/ol&gt;
 				&lt;br /&gt; --&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Software&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
+				&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Grant Participation&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;Metabolomics of Uremic Symptoms in Dialysis Patients&lt;/b&gt;&lt;br /&gt;
+					&lt;i&gt; NIH R01 subaward contract&lt;/i&gt;&lt;br /&gt;
+					Dates: 6/1/2019 - 5/31/2021&lt;br /&gt;
+					Role: statistical analyst
+				&lt;/p&gt;
 			&lt;/div&gt;
 			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
 		&lt;/section&gt;
@@ -1429,24 +1463,6 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
 		&lt;/section&gt;
 
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Software&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;p&gt;
-					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
-					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
-				&lt;/p&gt;
-				&lt;p&gt;
-					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
-					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
-				&lt;/p&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-
 
 		&lt;section&gt;
 			&lt;div class=&#34;sectionTitle&#34;&gt;
@@ -1467,7 +1483,7 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 				&lt;/article&gt;
 				&lt;br /&gt;
 				&lt;article&gt;
-					&lt;h2&gt;Chromebook Data Science Specialization&lt;/h2&gt;
+					&lt;h2&gt;Cloud-Based Data Science Specialization&lt;/h2&gt;
 					&lt;i&gt;Content developer&lt;/i&gt;
 					&lt;br /&gt;
 					&lt;p&gt;A massive open online course on the Leanpub platform for providing a highly accessible data science education. Content developer for the following courses:&lt;/p&gt;
@@ -1561,8 +1577,9 @@ plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Proba
 				&lt;/article&gt;
 				&lt;br /&gt;
 				&lt;article&gt;
-					&lt;h2&gt;Referee&lt;/h2&gt;
+					&lt;h2&gt;Reviewer&lt;/h2&gt;
 					&lt;ul&gt;
+						&lt;li&gt;2020: &lt;a href=&#34;https://opencasestudies.github.io/&#34;&gt;Open Case Studies&lt;/a&gt;&lt;/li&gt;
 						&lt;li&gt;2020: Journal of Statistics Education&lt;/li&gt;
 						&lt;li&gt;2019: Nature Human Behaviour&lt;/li&gt;
 						&lt;li&gt;2019: Technology Innovations in Statistics Education&lt;/li&gt;

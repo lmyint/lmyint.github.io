@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Leslie Myint</title>
-    <link>https://lmyint.github.io/categories/education/</link>
+    <link>/categories/education/</link>
     <description>Recent content in Education on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Tue, 09 Feb 2016 03:13:43 +0000</lastBuildDate>
     
-        <atom:link href="https://lmyint.github.io/categories/education/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
 &lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
 &lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>Teaching real math with computers</title>
-      <link>https://lmyint.github.io/post/teaching-real-math-with-computers/</link>
+      <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/teaching-real-math-with-computers/</guid>
+      <guid>/post/teaching-real-math-with-computers/</guid>
       <description>
 
 &lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
@@ -87,10 +87,10 @@
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
-      <link>https://lmyint.github.io/post/adapting-education-style/</link>
+      <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/adapting-education-style/</guid>
+      <guid>/post/adapting-education-style/</guid>
       <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
 
 &lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
@@ -103,10 +103,10 @@
     
     <item>
       <title>Motivating the question</title>
-      <link>https://lmyint.github.io/post/motivating-the-question/</link>
+      <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/motivating-the-question/</guid>
+      <guid>/post/motivating-the-question/</guid>
       <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
 
 &lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
@@ -135,10 +135,10 @@
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>https://lmyint.github.io/post/imp-perspectives/</link>
+      <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
       
-      <guid>https://lmyint.github.io/post/imp-perspectives/</guid>
+      <guid>/post/imp-perspectives/</guid>
       <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
 
 &lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
