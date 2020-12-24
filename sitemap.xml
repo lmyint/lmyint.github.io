@@ -1,315 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>/post/dnd-scraping-rvest-rselenium/</loc>
-      <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/categories/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/book-of-why/</loc>
-      <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/dnd/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/hugo-academic-tips/</loc>
-      <lastmod>2018-06-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/fight-every-battle/</loc>
-      <lastmod>2017-08-16T00:46:20+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/shiny-app-with-google-login/</loc>
-      <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/category/r/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/rselenium/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/rvest/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tags/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/what-is-likelihood/</loc>
-      <lastmod>2016-02-09T03:13:43+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/causal-diagrams/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/teaching-real-math-with-computers/</loc>
-      <lastmod>2015-03-20T17:03:46+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/category/causal-inference/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/adapting-education-style/</loc>
-      <lastmod>2014-12-24T17:41:30+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/category/reading/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/motivating-the-question/</loc>
-      <lastmod>2014-10-05T23:42:25+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/book-of-why/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/imp-perspectives/</loc>
-      <lastmod>2014-09-23T02:57:45+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/blogdown/</loc>
+    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/why-statistics-can-be-scary/</loc>
-      <lastmod>2014-03-27T02:52:57+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/hugo-academic-tips/</loc>
+    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/cv/</loc>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/fight-every-battle/</loc>
+    <lastmod>2017-08-16T00:46:20+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/blogdown/</loc>
-      <lastmod>2018-06-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/category/opinion/</loc>
+    <lastmod>2017-08-16T00:46:20+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/shiny-app-with-google-login/</loc>
+    <lastmod>2017-01-01T18:24:29+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/causal-diagrams/</loc>
-      <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/oauth/</loc>
+    <lastmod>2017-01-01T18:24:29+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/causal-inference/</loc>
-      <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/shiny/</loc>
+    <lastmod>2017-01-01T18:24:29+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/dnd/</loc>
-      <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/category/education/</loc>
+    <lastmod>2016-02-09T03:13:43+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/education/</loc>
-      <lastmod>2016-02-09T03:13:43+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/tag/likelihood/</loc>
+    <lastmod>2016-02-09T03:13:43+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/what-is-likelihood/</loc>
+    <lastmod>2016-02-09T03:13:43+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/likelihood/</loc>
-      <lastmod>2016-02-09T03:13:43+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/teaching-real-math-with-computers/</loc>
+    <lastmod>2015-03-20T17:03:46+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/oauth/</loc>
-      <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/adapting-education-style/</loc>
+    <lastmod>2014-12-24T17:41:30+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/opinion/</loc>
-      <lastmod>2017-08-16T00:46:20+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/motivating-the-question/</loc>
+    <lastmod>2014-10-05T23:42:25+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/imp-perspectives/</loc>
+    <lastmod>2014-09-23T02:57:45+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/post/why-statistics-can-be-scary/</loc>
+    <lastmod>2014-03-27T02:52:57+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/reading/</loc>
-      <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc></loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/rselenium/</loc>
-      <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc></loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/rvest/</loc>
-      <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/shiny/</loc>
-      <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://lmyint.github.io/publication_types/</loc>
+  </url>
   
 </urlset>
