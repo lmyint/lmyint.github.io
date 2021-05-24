@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion | Leslie Myint</title>
-    <link>https://lmyint.github.io/category/opinion/</link>
-      <atom:link href="https://lmyint.github.io/category/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/opinion/</link>
+      <atom:link href="/category/opinion/index.xml" rel="self" type="application/rss+xml" />
     <description>Opinion</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 16 Aug 2017 00:46:20 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 16 Aug 2017 00:46:20 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>Opinion</title>
-      <link>https://lmyint.github.io/category/opinion/</link>
+      <link>/category/opinion/</link>
     </image>
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>&lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.&lt;/p&gt;
@@ -34,11 +34,11 @@
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
@@ -62,7 +62,7 @@ prob_chosen &amp;lt;- 1-prob_notchosen
 par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
 plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
 plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
 &lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
 </description>

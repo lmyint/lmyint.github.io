@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>causal diagrams | Leslie Myint</title>
-    <link>https://lmyint.github.io/tag/causal-diagrams/</link>
-      <atom:link href="https://lmyint.github.io/tag/causal-diagrams/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/causal-diagrams/</link>
+      <atom:link href="/tag/causal-diagrams/index.xml" rel="self" type="application/rss+xml" />
     <description>causal diagrams</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>causal diagrams</title>
-      <link>https://lmyint.github.io/tag/causal-diagrams/</link>
+      <link>/tag/causal-diagrams/</link>
     </image>
     
     <item>
       <title>The Book of Why</title>
-      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <guid>/post/book-of-why/</guid>
       <description>&lt;p&gt;I just finished reading &lt;em&gt;The Book of Why&lt;/em&gt; by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;

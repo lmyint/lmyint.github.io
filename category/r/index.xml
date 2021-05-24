@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Leslie Myint</title>
-    <link>https://lmyint.github.io/category/r/</link>
-      <atom:link href="https://lmyint.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/r/</link>
+      <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
-      <link>https://lmyint.github.io/category/r/</link>
+      <link>/category/r/</link>
     </image>
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
-      <link>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</link>
+      <link>/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</guid>
+      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
       <description>&lt;p&gt;I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.&lt;/p&gt;
 &lt;p&gt;For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&amp;rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty. Where does data come in? Through the world-building content that is released by the official creators and by players. This content helps players build characters that have a range of characteristics and abilities governed by their past and occupation. This content similarly helps shape the monsters and enemies that the characters may face.&lt;/p&gt;
 &lt;p&gt;There is a wonderful digital resource for DnD content called &lt;a href=&#34;https://www.dndbeyond.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DnD Beyond&lt;/a&gt; that contains information on characters, monsters, and treasures. (No API yet, but it is apparently &lt;a href=&#34;https://twitter.com/dndbeyond/status/909834529736740864?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in the works&lt;/a&gt;.) For a while, I&amp;rsquo;ve been interested in playing around with data on monster statistics, and I finally got around to it this week! I had been reluctant to start because I did not have a clear idea of how to scrape pages that required login via redirect to an external authentication service (here, Twitch). I&amp;rsquo;ll go over the specific hurdles and solutions in this post. I&amp;rsquo;ll also give a general tutorial for scraping with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
@@ -192,7 +192,7 @@ for (i in seq_along(all_monster_urls)) {
 &lt;p&gt;The last step in our scraping endeavor is to write the &lt;code&gt;scrape_monster_page&lt;/code&gt; function to scrape data from an individual monster page. You can view the full function &lt;a href=&#34;https://github.com/lmyint/dnd_analysis/blob/master/scrape_monster_stats.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on GitHub&lt;/a&gt;. I won&amp;rsquo;t go through every aspect of this function here, but I&amp;rsquo;ll focus on some principles that appear in this function that I&amp;rsquo;ve found to be useful in general when working with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;principle-1-use-selectorgadget-and-view-the-pages-source-a-idprinciple1a&#34;&gt;Principle 1: Use SelectorGadget AND view the page&amp;rsquo;s source &lt;a id=&#34;principle1&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I wanted to know if there were further subdvisions of the areas that the &lt;code&gt;.mon-stat-block__attribute&lt;/code&gt; selector had highlighted. To do this, I searched the source code for &amp;ldquo;Armor Class&amp;rdquo; and found the following:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;
     &amp;lt;span class=&amp;quot;mon-stat-block__attribute-label&amp;quot;&amp;gt;Armor Class&amp;lt;/span&amp;gt;
@@ -230,7 +230,7 @@ for (i in seq_along(all_monster_urls)) {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Looking at the raw source code allowed me to see that each line was subdivided by spans with classes &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt;, &lt;code&gt;mon-stat-block__attribute-data-value&lt;/code&gt;, and sometimes &lt;code&gt;mon-stat-block__attribute-data-extra&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt; class to verify that there should be 3 regions highlighted.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.&lt;/p&gt;
 &lt;h3 id=&#34;principle-2-print-often-a-idprinciple2a&#34;&gt;Principle 2: Print often &lt;a id=&#34;principle2&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Continuing from the above example of desiring the Armor Class, Hit Points, and Speed attributes, I was curious what I would obtain if I simply selected the whole line for each attribute (as opposed to the three subdivisions). The following is what I saw when I printed this to the screen:&lt;/p&gt;
@@ -325,9 +325,9 @@ attrs &amp;lt;- do.call(rbind, lapply(attr_nodes, function(node) {
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
+      <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
+      <guid>/post/hugo-academic-tips/</guid>
       <description>&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
 &lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
 &lt;ul&gt;
@@ -481,11 +481,11 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>likelihood | Leslie Myint</title>
-    <link>https://lmyint.github.io/tag/likelihood/</link>
-      <atom:link href="https://lmyint.github.io/tag/likelihood/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/likelihood/</link>
+      <atom:link href="/tag/likelihood/index.xml" rel="self" type="application/rss+xml" />
     <description>likelihood</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 09 Feb 2016 03:13:43 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 09 Feb 2016 03:13:43 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>likelihood</title>
-      <link>https://lmyint.github.io/tag/likelihood/</link>
+      <link>/tag/likelihood/</link>
     </image>
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;

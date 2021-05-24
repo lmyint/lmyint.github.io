@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny | Leslie Myint</title>
-    <link>https://lmyint.github.io/tag/shiny/</link>
-      <atom:link href="https://lmyint.github.io/tag/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/shiny/</link>
+      <atom:link href="/tag/shiny/index.xml" rel="self" type="application/rss+xml" />
     <description>Shiny</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Jan 2017 18:24:29 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 01 Jan 2017 18:24:29 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>Shiny</title>
-      <link>https://lmyint.github.io/tag/shiny/</link>
+      <link>/tag/shiny/</link>
     </image>
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;

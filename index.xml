@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leslie Myint</title>
-    <link>https://lmyint.github.io/</link>
-      <atom:link href="https://lmyint.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Leslie Myint</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lmyint.github.io/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
       <title>Leslie Myint</title>
-      <link>https://lmyint.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
-      <link>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</link>
+      <link>/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/dnd-scraping-rvest-rselenium/</guid>
+      <guid>/post/dnd-scraping-rvest-rselenium/</guid>
       <description>&lt;p&gt;I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.&lt;/p&gt;
 &lt;p&gt;For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&amp;rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty. Where does data come in? Through the world-building content that is released by the official creators and by players. This content helps players build characters that have a range of characteristics and abilities governed by their past and occupation. This content similarly helps shape the monsters and enemies that the characters may face.&lt;/p&gt;
 &lt;p&gt;There is a wonderful digital resource for DnD content called &lt;a href=&#34;https://www.dndbeyond.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DnD Beyond&lt;/a&gt; that contains information on characters, monsters, and treasures. (No API yet, but it is apparently &lt;a href=&#34;https://twitter.com/dndbeyond/status/909834529736740864?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in the works&lt;/a&gt;.) For a while, I&amp;rsquo;ve been interested in playing around with data on monster statistics, and I finally got around to it this week! I had been reluctant to start because I did not have a clear idea of how to scrape pages that required login via redirect to an external authentication service (here, Twitch). I&amp;rsquo;ll go over the specific hurdles and solutions in this post. I&amp;rsquo;ll also give a general tutorial for scraping with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
@@ -192,7 +192,7 @@ for (i in seq_along(all_monster_urls)) {
 &lt;p&gt;The last step in our scraping endeavor is to write the &lt;code&gt;scrape_monster_page&lt;/code&gt; function to scrape data from an individual monster page. You can view the full function &lt;a href=&#34;https://github.com/lmyint/dnd_analysis/blob/master/scrape_monster_stats.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on GitHub&lt;/a&gt;. I won&amp;rsquo;t go through every aspect of this function here, but I&amp;rsquo;ll focus on some principles that appear in this function that I&amp;rsquo;ve found to be useful in general when working with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;principle-1-use-selectorgadget-and-view-the-pages-source-a-idprinciple1a&#34;&gt;Principle 1: Use SelectorGadget AND view the page&amp;rsquo;s source &lt;a id=&#34;principle1&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I wanted to know if there were further subdvisions of the areas that the &lt;code&gt;.mon-stat-block__attribute&lt;/code&gt; selector had highlighted. To do this, I searched the source code for &amp;ldquo;Armor Class&amp;rdquo; and found the following:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;
     &amp;lt;span class=&amp;quot;mon-stat-block__attribute-label&amp;quot;&amp;gt;Armor Class&amp;lt;/span&amp;gt;
@@ -230,7 +230,7 @@ for (i in seq_along(all_monster_urls)) {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Looking at the raw source code allowed me to see that each line was subdivided by spans with classes &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt;, &lt;code&gt;mon-stat-block__attribute-data-value&lt;/code&gt;, and sometimes &lt;code&gt;mon-stat-block__attribute-data-extra&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt; class to verify that there should be 3 regions highlighted.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.&lt;/p&gt;
 &lt;h3 id=&#34;principle-2-print-often-a-idprinciple2a&#34;&gt;Principle 2: Print often &lt;a id=&#34;principle2&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Continuing from the above example of desiring the Armor Class, Hit Points, and Speed attributes, I was curious what I would obtain if I simply selected the whole line for each attribute (as opposed to the three subdivisions). The following is what I saw when I printed this to the screen:&lt;/p&gt;
@@ -325,9 +325,9 @@ attrs &amp;lt;- do.call(rbind, lapply(attr_nodes, function(node) {
     
     <item>
       <title>The Book of Why</title>
-      <link>https://lmyint.github.io/post/book-of-why/</link>
+      <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/book-of-why/</guid>
+      <guid>/post/book-of-why/</guid>
       <description>&lt;p&gt;I just finished reading &lt;em&gt;The Book of Why&lt;/em&gt; by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
@@ -407,9 +407,9 @@ which statement is correct. (p. 202)&lt;/p&gt;
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
-      <link>https://lmyint.github.io/post/hugo-academic-tips/</link>
+      <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/hugo-academic-tips/</guid>
+      <guid>/post/hugo-academic-tips/</guid>
       <description>&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
 &lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
 &lt;ul&gt;
@@ -563,9 +563,9 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
-      <link>https://lmyint.github.io/post/fight-every-battle/</link>
+      <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/fight-every-battle/</guid>
+      <guid>/post/fight-every-battle/</guid>
       <description>&lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.&lt;/p&gt;
@@ -583,11 +583,11 @@ home_section_even = &amp;quot;#f7f7f7&amp;quot;
     
     <item>
       <title>Creating a Shiny app with Google login</title>
-      <link>https://lmyint.github.io/post/shiny-app-with-google-login/</link>
+      <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/shiny-app-with-google-login/</guid>
+      <guid>/post/shiny-app-with-google-login/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
@@ -728,11 +728,11 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>What is likelihood?</title>
-      <link>https://lmyint.github.io/post/what-is-likelihood/</link>
+      <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/what-is-likelihood/</guid>
+      <guid>/post/what-is-likelihood/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
@@ -762,9 +762,9 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Teaching real math with computers</title>
-      <link>https://lmyint.github.io/post/teaching-real-math-with-computers/</link>
+      <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/teaching-real-math-with-computers/</guid>
+      <guid>/post/teaching-real-math-with-computers/</guid>
       <description>&lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
 &lt;h1 id=&#34;mathematics-can-be-taught-via-programming&#34;&gt;Mathematics can be taught via programming&lt;/h1&gt;
 &lt;p&gt;Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts. I completely agree that if you truly understand a concept, you can program it, but it’s worthwhile trying to consider how this might actually play out in middle and high school curricula.&lt;/p&gt;
@@ -786,9 +786,9 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
-      <link>https://lmyint.github.io/post/adapting-education-style/</link>
+      <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/adapting-education-style/</guid>
+      <guid>/post/adapting-education-style/</guid>
       <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
 &lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
 &lt;p&gt;As I’ve explained in previous posts, case-based learning is a great way to motivate the concepts being taught in class so that students can see their practical uses and therefore remember the ideas for the long-term. In creating examples and giving context to classroom content, we need to think hard about what those examples will be. Perhaps the best way to really engage students and get them to care about what they’re learning is to use the most current issues possible. For example, I think that someone who decided to create a case-based statistics course for the current generation might have a lot of success using both news and research articles about social inequality. I think the key is to relate what is being presented in the news to what research has actually been performed and get students to closely examine the relationship between these sources of information.&lt;/p&gt;
@@ -798,9 +798,9 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Motivating the question</title>
-      <link>https://lmyint.github.io/post/motivating-the-question/</link>
+      <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/motivating-the-question/</guid>
+      <guid>/post/motivating-the-question/</guid>
       <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
 &lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
 &lt;p&gt;As I explained in my &lt;a href=&#34;../imp-perspectives&#34;&gt;last post&lt;/a&gt;, the Interactive Mathematics Program (IMP) puts in an admirable effort to motivate the need for mathematical concepts. It presents a tough multi-faceted problem at the beginning of each unit and develops the need for various math topics as it pertains to this overarching problem. I felt that one of the most memorable and instructive units was one in which we attempted to solve the unit problem on the very first day without any formal tools whatsoever. The best part (though frustrating at the time for me) was that this was &lt;em&gt;really hard&lt;/em&gt;. There is definitely something that can be said for having students try to do things inefficiently to learn the &lt;em&gt;merits&lt;/em&gt; of the concepts that teachers are so excited to get to. Or in Dan’s words, there is definitely something that can be said for &amp;ldquo;being less helpful&amp;rdquo;—not jumping straight to teaching students about power tools but momentarily convincing them that the logs on their desks can only be cut with butter knives.&lt;/p&gt;
@@ -819,9 +819,9 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>https://lmyint.github.io/post/imp-perspectives/</link>
+      <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/imp-perspectives/</guid>
+      <guid>/post/imp-perspectives/</guid>
       <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
 &lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
 &lt;p&gt;Another aspect of IMP that is particularly well suited to higher education is its emphasis on summarizing and organizing knowledge gained over the course of a unit. At the end of every unit, students are required to create a portfolio of reflections, class notes, and assignments that were instrumental in their comprehension of the main topics. So for example, in my “Cookies” portfolio, I included the first day of class activity that had us take a stab at the unit problem. I also included my class notes on feasible regions and solving systems of linear inequalities. I also wrote a cover letter summarizing the goals of the unit, what I learned from the assignments that I included in the portfolio, and my impressions of how these concepts were useful in everyday life. Portfolio time was always a laborious and dreadful experience for me during middle and high school, but I recognize now how useful a practice it is for being serious about retaining knowledge. As a graduate student, I have been exposed to several fundamental concepts time and time again in different courses, and I have found myself consciously wishing that I had put together portfolios for many of the classes that I took during college. Not only is the act of putting together a portfolio an invaluable synthesis activity, but the portfolio also serves as a one-of-a-kind reference manual. Because it is a collection of notes, homeworks, etc. created, curated, and edited by you, it can be infinitely more readable then a textbook. If you want it to, it can contain all of the steps in the proofs of key theorems, all of the exhaustive explanation that you worked through on your own, all of the fine details that finally made a concept click. A portfolio is a mini-textbook written in the language of your mind and can thus potentially serve as a reference for a very long time. It is a wonderful idea for IMP to introduce this concept to younger students, and I feel that it would be very useful for many high school and college classes to adopt.&lt;/p&gt;
@@ -831,11 +831,11 @@ shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Why statistics can be scary</title>
-      <link>https://lmyint.github.io/post/why-statistics-can-be-scary/</link>
+      <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
-      <guid>https://lmyint.github.io/post/why-statistics-can-be-scary/</guid>
+      <guid>/post/why-statistics-can-be-scary/</guid>
       <description>
-&lt;script src=&#34;https://lmyint.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
@@ -859,7 +859,7 @@ prob_chosen &amp;lt;- 1-prob_notchosen
 par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
 plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
 plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://lmyint.github.io/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
 &lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
 </description>
