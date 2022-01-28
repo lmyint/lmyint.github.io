@@ -1,171 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogdown | Leslie Myint</title>
+    <title>blogdown on Leslie Myint</title>
     <link>/tag/blogdown/</link>
-      <atom:link href="/tag/blogdown/index.xml" rel="self" type="application/rss+xml" />
-    <description>blogdown</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
-      <title>blogdown</title>
-      <link>/tag/blogdown/</link>
-    </image>
-    
+    <description>Recent content in blogdown on Leslie Myint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tag/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips for using the Hugo academic theme</title>
       <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
       <guid>/post/hugo-academic-tips/</guid>
-      <description>&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
-&lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Public, rendered site&lt;/a&gt;: the &lt;code&gt;public&lt;/code&gt; directory within my blogdown/Hugo project&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/personal_site&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo content and source files&lt;/a&gt;: all files and directories within my blogdown/Hugo project (i.e. TOML files, &lt;code&gt;archetypes/&lt;/code&gt;, &lt;code&gt;content/&lt;/code&gt;, &lt;code&gt;data/&lt;/code&gt;, &lt;code&gt;layouts/&lt;/code&gt;, &lt;code&gt;static/&lt;/code&gt;, &lt;code&gt;themes/&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#start-with-config-toml&#34;&gt;Start with &lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#full-content-rss&#34;&gt;Full content RSS feeds for categories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#modifying-contact-section&#34;&gt;Modifying the Contact section&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-cv&#34;&gt;Adding a CV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#version-control&#34;&gt;Version control&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;resources-a-idresourcesa&#34;&gt;Resources &lt;a id=&#34;resources&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown book&lt;/a&gt; by Yihui Xie, Amber Thomas, and Alison Presmanes Hill&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Up and running with blogdown&lt;/a&gt; by Alison Presmanes Hill&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://amber.rbind.io/blog/2016/12/19/creatingsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Making a Website Using Blogdown, Hugo, and GitHub pages&lt;/a&gt; by Amber Thomas&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;start-with-configtoml-a-idstart-with-config-tomla&#34;&gt;Start with &lt;code&gt;config.toml&lt;/code&gt; &lt;a id=&#34;start-with-config-toml&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The key-value pairs in &lt;code&gt;config.toml&lt;/code&gt; are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&amp;rsquo;ll mention next are ones where I had to spend a little more time.&lt;/p&gt;
-&lt;h3 id=&#34;color-theme&#34;&gt;Color theme&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = &amp;quot;custom&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This sets the color scheme for your site. I changed the theme to &amp;ldquo;custom&amp;rdquo; and made created a file called &lt;code&gt;custom.toml&lt;/code&gt; in &lt;code&gt;themes/hugo-academic/data/themes/&lt;/code&gt;. I have the following in my &lt;code&gt;custom.toml&lt;/code&gt; file:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# Theme metadata
-name = &amp;quot;custom&amp;quot;
-
-# Is theme light or dark?
-light = true
-
-# Primary
-primary = &amp;quot;#328cc1&amp;quot;
-primary_light = &amp;quot;#328cc1&amp;quot;
-primary_dark = &amp;quot;#DA2536&amp;quot;
-
-# Menu
-menu_primary = &amp;quot;#494949&amp;quot;
-menu_text = &amp;quot;#fff&amp;quot;
-menu_text_active = &amp;quot;#328cc1&amp;quot;
-menu_title = &amp;quot;#fff&amp;quot;
-
-# Backgrounds
-background = &amp;quot;#fff&amp;quot;
-home_section_odd = &amp;quot;#fff&amp;quot;
-home_section_even = &amp;quot;#f7f7f7&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &amp;ldquo;Primary&amp;rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &amp;ldquo;Menu&amp;rdquo; section changes the colors in the top menu bar. The &amp;ldquo;Backgrounds&amp;rdquo; section changes the color of the section panels on the first page.&lt;/p&gt;
-&lt;h3 id=&#34;highlightjs&#34;&gt;highlight.js&lt;/h3&gt;
-&lt;p&gt;In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of &lt;code&gt;config.toml&lt;/code&gt;, you can visit &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34;&gt;https://cdnjs.com/libraries/highlight.js/&lt;/a&gt; to see the list of languages supported (URls ending in &lt;code&gt;languages/LANGUAGE_NAME.min.js&lt;/code&gt;). You&amp;rsquo;ll also see a list of color schemes (URLs ending in &lt;code&gt;styles/STYLE_NAME.min.css&lt;/code&gt;). I wanted to know what these color schemes looked like, so I searched and found &lt;a href=&#34;https://highlightjs.org/static/demo/&#34;&gt;https://highlightjs.org/static/demo/&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;full-content-rss-feeds-for-categories-a-idfull-content-rssa&#34;&gt;Full content RSS feeds for categories &lt;a id=&#34;full-content-rss&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. &lt;a href=&#34;https://lmyint.github.io/post/index.xml,&#34;&gt;https://lmyint.github.io/post/index.xml,&lt;/a&gt; &lt;a href=&#34;https://lmyint.github.io/categories/r/index.xml&#34;&gt;https://lmyint.github.io/categories/r/index.xml&lt;/a&gt;) contained only a brief summary of my posts in the &lt;code&gt;description&lt;/code&gt; tags as opposed to the full post content. Only my home page RSS feed (&lt;a href=&#34;https://lmyint.github.io/index.xml&#34;&gt;https://lmyint.github.io/index.xml&lt;/a&gt;) had full content of posts.&lt;/p&gt;
-&lt;p&gt;Following the advice &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues/346&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; by changing the outputs in &lt;code&gt;config.toml&lt;/code&gt; to the TOML below did not fix the issue.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[outputs]
-  home = [ &amp;quot;HTML&amp;quot;, &amp;quot;CSS&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  section = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  taxonomy = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  taxonomyTerm = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;The fix:&lt;/strong&gt; If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as &lt;a href=&#34;https://www.r-bloggers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Bloggers&lt;/a&gt;), do the following:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Put these posts in one &lt;strong&gt;category&lt;/strong&gt; (not &lt;strong&gt;tag&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://gohugo.io/templates/rss/#the-embedded-rss-xml&#34;&gt;https://gohugo.io/templates/rss/#the-embedded-rss-xml&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Look in the third row of the table: Taxonomy list in categories&lt;/li&gt;
-&lt;li&gt;Create &lt;code&gt;layouts/categories/category.rss.xml&lt;/code&gt; and use the default RSS template at the bottom of the page replacing&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;with&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After this, the RSS feeds for your category pages should have full post content.&lt;/p&gt;
-&lt;h2 id=&#34;modifying-the-contact-section-a-idmodifying-contact-sectiona&#34;&gt;Modifying the Contact section &lt;a id=&#34;modifying-contact-section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;By default, the Contact section of the page will display certain items in the &lt;code&gt;params&lt;/code&gt; table of your &lt;code&gt;config.toml&lt;/code&gt; file. With the TOML below, the Contact section would only contain my e-mail address.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Some other stuff...
-
-  email = &amp;quot;lmyint@macalester.edu&amp;quot;
-  address = &amp;quot;&amp;quot;
-  office_hours = &amp;quot;&amp;quot;
-  phone = &amp;quot;&amp;quot;
-  skype = &amp;quot;&amp;quot;
-  telegram = &amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Some other stuff...
-
-  email = &amp;quot;lmyint@macalester.edu&amp;quot;
-  address = &amp;quot;&amp;quot;
-  office_hours = &amp;quot;&amp;quot;
-  phone = &amp;quot;&amp;quot;
-  skype = &amp;quot;&amp;quot;
-  telegram = &amp;quot;&amp;quot;
-  twitter = &amp;quot;lesliemyint&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I also had to update &lt;code&gt;themes/hugo-academic/layouts/partials/widgets/contact.html&lt;/code&gt;. I duplicated the section of the HTML that displays the e-mail address parameter:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.email }}
-&amp;lt;li&amp;gt;
-  &amp;lt;i class=&amp;quot;fa-li fa fa-envelope fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-  &amp;lt;span id=&amp;quot;person-email&amp;quot; itemprop=&amp;quot;email&amp;quot;&amp;gt;
-  {{- if $autolink }}&amp;lt;a href=&amp;quot;mailto:{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;{{ else }}{{ . }}{{ end -}}
-  &amp;lt;/span&amp;gt;
-&amp;lt;/li&amp;gt;
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And I modified it to access the Twitter parameter (&lt;code&gt;$.Site.Params.twitter&lt;/code&gt;), use the Twitter icon (&lt;code&gt;class=&amp;quot;fa-twitter&amp;quot;&lt;/code&gt;), and link to the Twitter website.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.twitter }}
-&amp;lt;li&amp;gt;
-  &amp;lt;i class=&amp;quot;fa-li fa fa-twitter fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-  &amp;lt;span&amp;gt;
-  &amp;lt;a href=&amp;quot;https://twitter.com/{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;
-  &amp;lt;/span&amp;gt;
-&amp;lt;/li&amp;gt;
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;adding-a-cv-a-idadding-cva&#34;&gt;Adding a CV &lt;a id=&#34;adding-cv&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I use an &lt;a href=&#34;http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML template&lt;/a&gt; for my CV and wanted to link to both the HTML and PDF versions.&lt;/p&gt;
-&lt;p&gt;First, I added a CV section to my top menu bar by adding the following TOML to &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[menu.main]]
-  name = &amp;quot;CV&amp;quot;
-  url = &amp;quot;#cv&amp;quot;
-  weight = 5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next, I created a directory called &lt;code&gt;cv/&lt;/code&gt; within the &lt;code&gt;content/&lt;/code&gt; directory and added the HTML and PDF versions of my CV, &lt;code&gt;index.html&lt;/code&gt; and &lt;code&gt;cv.pdf&lt;/code&gt; respectively to &lt;code&gt;content/cv/&lt;/code&gt;. Because my HTML CV relies on a stylesheet (&lt;code&gt;cv.css&lt;/code&gt;), I added it to &lt;code&gt;static/css/&lt;/code&gt;, and I link to it in &lt;code&gt;index.html&lt;/code&gt; with the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link type=&amp;quot;text/css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;../css/cv.css&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The relative linking (&lt;code&gt;../css/cv.css&lt;/code&gt;) looks as such because the directory structure that is generated in &lt;code&gt;public/&lt;/code&gt; looks like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|-public/
-|---index.html
-|---css/
-|------cv.css
-|---cv/
-|------cv.pdf
-|------index.html
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Last, I created &lt;code&gt;cv.md&lt;/code&gt; in &lt;code&gt;content/home/&lt;/code&gt; by duplicating the &lt;code&gt;teaching.md&lt;/code&gt; file that comes with the theme by default. You can view my &lt;code&gt;cv.md&lt;/code&gt; file &lt;a href=&#34;https://raw.githubusercontent.com/lmyint/personal_site/master/content/home/cv.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on GitHub&lt;/a&gt;. The main hurdle in linking external resources is figuruing out the correct relative paths to these files. Again, looking at the generated directory structure above, we have to specify paths relative to &lt;code&gt;index.html&lt;/code&gt;. So I include the following in &lt;code&gt;cv.md&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;My CV is available in [HTML](cv/) or [PDF](cv/cv.pdf) form.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;version-control-a-idversion-controla&#34;&gt;Version control &lt;a id=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;My website is hosted with &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub pages&lt;/a&gt;, and the &lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;associated repository&lt;/a&gt; only contains the file in the &lt;code&gt;public&lt;/code&gt; directory of my Hugo project.&lt;/p&gt;
-&lt;p&gt;I used the &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Host on GitHub&lt;/a&gt; tutorial to figure out that the &lt;code&gt;public&lt;/code&gt; directory can be set up as a &lt;a href=&#34;https://github.com/blog/2104-working-with-submodules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git submodule&lt;/a&gt; within an enclosing git repository containing source files. The enclosing git repository for my website is available at: &lt;a href=&#34;https://github.com/lmyint/personal_site&#34;&gt;https://github.com/lmyint/personal_site&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.</description>
     </item>
     
   </channel>

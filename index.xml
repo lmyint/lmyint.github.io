@@ -1,1060 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leslie Myint</title>
     <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Leslie Myint</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
-      <title>Leslie Myint</title>
-      <link>/</link>
-    </image>
-    
+    <description>Recent content on Leslie Myint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grading doesn&#39;t have to suck</title>
       <link>/post/grading-can-be-inspiring/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
       <guid>/post/grading-can-be-inspiring/</guid>
-      <description>&lt;p&gt;Grading doesn&amp;rsquo;t have to suck—for teachers or for students. Two books on grading have inspired me to adopt a reinvigorated mindset towards grading and feedback: &lt;em&gt;Specifications Grading&lt;/em&gt; by Linda Nilson and &lt;em&gt;Grading for Equity&lt;/em&gt; by Joe Feldman. In this post, I want to summarize key ideas from both books and share my thought process for course preparation that incorporates the essential parts of both frameworks.&lt;/p&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#why-change&#34;&gt;Why change grading systems?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#specs-grading&#34;&gt;Specifications Grading&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#equity-grading&#34;&gt;Grading for Equity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#blending-frameworks&#34;&gt;Blending the two frameworks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#summary&#34;&gt;Summary&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;why-change-grading-systems-the-beast-that-is-traditional-grading-a-idwhy-changea&#34;&gt;Why change grading systems? The beast that is traditional grading &lt;a id=&#34;why-change&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Until recently, I used a traditional points-based grading system in my courses: points for homework, exams, and projects, all under some weighting scheme to determine the overall course grade. Grading always brought about negative emotions for me at every stage of the process—the anticipation of it, the act of actually doing it, and reflecting on grades that I had assigned. This negativity generally stemmed from five sources:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Grading always took up so much time.&lt;/li&gt;
-&lt;li&gt;Disputes with students about points were always disheartening.&lt;/li&gt;
-&lt;li&gt;I was disappointed that grades sometimes reflected students&#39; understanding poorly—both overestimating and underestimating their understanding.&lt;/li&gt;
-&lt;li&gt;I was disappointed at seeing the same mistakes over and over again.&lt;/li&gt;
-&lt;li&gt;I was worried about the stress that my students were feeling.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Out of habit I dismissed these woes as necessary evils of my job, but after reading &lt;em&gt;Specifications Grading&lt;/em&gt; and &lt;em&gt;Grading for Equity&lt;/em&gt;, I&amp;rsquo;ve felt inspired to reach for something better. In the next two sections, I&amp;rsquo;ll summarize the specifications and equity grading frameworks. I&amp;rsquo;ll end with some course preparation thoughts that combine both frameworks.&lt;/p&gt;
-&lt;h2 id=&#34;specifications-grading-a-idspecs-gradinga&#34;&gt;Specifications Grading &lt;a id=&#34;specs-grading&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;two-key-components-specs-and-rubrics&#34;&gt;Two key components: specs and rubrics&lt;/h3&gt;
-&lt;p&gt;A &lt;strong&gt;specification&lt;/strong&gt; (or &lt;strong&gt;spec&lt;/strong&gt; for short) is a requirement that an instructor sets for a piece of student work. In a specifications grading system, all assessments of course learning objectives have a set of specs that are each graded on a pass/fail scale. For a given assessment, &lt;strong&gt;all&lt;/strong&gt; specs must be passed in order for the assignment as a whole to receive a passing grade. With this pass/fail evaluation, it is essential that instructors provide a very clear rubric of what it means to earn a pass for a given spec. For example, I might ask students to create a captioned data visualization that shows the relationship between two variables in a dataset. The specs and rubrics for a passing grade could be as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Spec 1: Visualization must be correct and well-labeled.
-&lt;ul&gt;
-&lt;li&gt;Rubric: Visualization must&amp;hellip;
-&lt;ul&gt;
-&lt;li&gt;Be the appropriate type for the given variables&lt;/li&gt;
-&lt;li&gt;Have axis labels with units and full words (as opposed to coded variable names)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Spec 2: Caption must correctly describe the visualization with appropriate numerical summary measures.
-&lt;ul&gt;
-&lt;li&gt;Rubric: Caption must&amp;hellip;
-&lt;ul&gt;
-&lt;li&gt;Discuss the strength and direction of the relationship&lt;/li&gt;
-&lt;li&gt;Use appropriate numerical summaries&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;mapping-assessment-grades-to-course-grades&#34;&gt;Mapping assessment grades to course grades&lt;/h3&gt;
-&lt;p&gt;To determine final course grades, instructors can link letter grades to desired combinations of passed assessments. For example, to earn an A students must pass 9 out of the 10 course assignments or must pass a specific set of the 10 assignments. This approach to determining a final course grade is called the &lt;strong&gt;bundling approach&lt;/strong&gt;—bundles of passed assignments translate to a letter grade**.** (Another approach that assigns points to passed assessments is discussed in Chapter 6 of *Specifications Grading*. However, in alignment with the equity grading framework discussed later, I&amp;rsquo;m not an advocate of this **point system approach**.) The bundling approach has transparency advantages for both instructors and students. Instructors can look at a letter grade and know exactly what students understand. Students know exactly what they must to to earn a given letter grade.&lt;/p&gt;
-&lt;h3 id=&#34;pros-and-cons-of-specs-grading&#34;&gt;Pros and cons of specs grading&lt;/h3&gt;
-&lt;p&gt;The pass/fail grading of specifications and assessments (with sufficiently clear rubrics) is intended to produce the following benefits:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Saving time for teachers: The lack of partial credit avoids time-consuming deliberations over points.&lt;/li&gt;
-&lt;li&gt;Increasing rigor: Setting high standards for a pass encourages higher quality work than a points-based system with partial credit.&lt;/li&gt;
-&lt;li&gt;Increased consistency of grades between students: Rubrics for pass/fail grades should be resistant to biases that plague finer scales.&lt;/li&gt;
-&lt;li&gt;High clarity and transparency:
-&lt;ul&gt;
-&lt;li&gt;For instructors: With bundling, a letter indicates exactly what students understand.&lt;/li&gt;
-&lt;li&gt;For students: Rubrics and grade bundles tell students exactly what they need to do to succeed, which can motivate them to aim higher than they would have normally.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some potential downsides of specs grading include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Writing sufficiently clear rubrics can be very time-consuming the first time. However, this initial time investment should translate to time savings during the course and its future offerings.&lt;/li&gt;
-&lt;li&gt;Students may be resistant to a new grading system without partial credit. Instructors will need to devote time to communicating why they are using a specs grading system.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In my opinion, the downsides of specs grading are well worth its benefits. As we&amp;rsquo;ll see next, many of its benefits align with an equity-oriented grading framework.&lt;/p&gt;
-&lt;h2 id=&#34;grading-for-equity-a-idequity-gradinga&#34;&gt;Grading for Equity &lt;a id=&#34;equity-grading&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;pillars-of-the-framework&#34;&gt;Pillars of the framework&lt;/h3&gt;
-&lt;p&gt;An equity grading system is rooted in three pillars:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Grades must be mathematically accurate:&lt;/strong&gt; The final number or letter grade given to students must accurately reflect their understanding of course concepts by the end of the course.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grades must be bias-resistant:&lt;/strong&gt; As much as possible, grades must be free from the influence of the instructor&amp;rsquo;s implicit biases and the student&amp;rsquo;s life circumstances.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grades must be motivational:&lt;/strong&gt; Grades should inspire students to learn and excel.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In &lt;em&gt;Grading for Equity&lt;/em&gt;, Joe Feldman proposes several concrete course policies that support these pillars. Throughout, he builds from the central tenet that &lt;strong&gt;grades should accurately reflect students&#39; understanding of course content and nothing else&lt;/strong&gt;. In the rest of this section, I&amp;rsquo;ll summarize his proposed policies and how they connect to these three pillars.&lt;/p&gt;
-&lt;h3 id=&#34;avoid-assigning-zeroes-by-using-a-minimum-grading-policy&#34;&gt;Avoid assigning zeroes by using a minimum grading policy&lt;/h3&gt;
-&lt;p&gt;In points-based grading systems, many instructors assign zero points to assessments that are late, incomplete, or fraudulent as a means of deterring and punishing undesirable behavior. A more equitable points-based system avoids assigning zeroes. One policy that Feldman proposes for this is &lt;strong&gt;minimum grading&lt;/strong&gt;, which is a policy that assigns a standard nonzero grade (say, 40 out of 100 points) where the instructor would normally give a zero.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Particularly on 100 point scales, zeroes have a disproportionate effect on point averages that are commonly used to determine final grades. In this way, assigning zeroes substantially underestimates student understanding. Further, a zero is inherently dubious as it signals that a student has absolutely no knowledge of a topic, which is highly unlikely. Minimum grading can help rectify the sensitivity of grades to outlier zeroes.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): Seeing a zero can be utterly demotivating to a student. Often times, recovering from one or more zeroes requires an extraordinary amount of effort (if it is possible at all), and this can extinguish any flicker of a growth mindset. Minimum grading can help sustain student optimism.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Since thinking about specifications grading frameworks, I&amp;rsquo;m not a fan of points-based grading systems, so I don&amp;rsquo;t intend to use these the no-zero or minimum grading policies. However, I think they are worth considering for instructors who prefer points-based systems.&lt;/p&gt;
-&lt;h3 id=&#34;use-a-0-4-scale&#34;&gt;Use a 0-4 scale&lt;/h3&gt;
-&lt;p&gt;Points-based grading systems often use 100-point or similarly fine-grained scales to evaluate student work. A coarser (e.g., 0-4) scale can help make grades more equitable.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Fine scales are subject to considerable variability. Even with a rubric, an instructor could easily reread the same work and assign slightly different scores each time. A coarse 0-4 scale promotes accuracy and consistency of grades.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): Because scores given on fine scales have more room to vary, they are more subject to instructors&#39; implicit biases. Coarser scales allow instructors to follow rubrics with greater consistency.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The 0-4 scale policy very closely aligns with the specifications grading approach. The specs grading approach takes coarse scales to the extreme by essentially proposing a 0-1 scale.&lt;/p&gt;
-&lt;h3 id=&#34;weigh-recent-performance-more-than-early-performance&#34;&gt;Weigh recent performance more than early performance&lt;/h3&gt;
-&lt;p&gt;Typically, instructors include all student attempts to show understanding of a concept in the course grade. Instead, they should weigh latest student performance more heavily. At the extreme, &lt;strong&gt;only&lt;/strong&gt; the most recent assessments of a skill count toward the grade.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Grades should reflect student understanding of material by the end of the course—not how quickly students reached that level of understanding. Thus, it doesn&amp;rsquo;t make sense to include grades for the early stage of the learning process. By weighing recent performance more heavily, grades more accurately reflect student understanding by the end of the course.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): Students who have more difficult life circumstances might take longer to grasp concepts and would have lower grades under a traditional system that evaluates during the learning process. Weighing recent performance more heavily allows these struggling students the extra time they need to show the same level of understanding as their more privileged peers.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): Giving less weight to (and perhaps not even counting) early performance can inspire a growth mindset in students—particularly those who initially struggle. Without early struggles pulling the grade down, students can optimistically work toward genuine improvement.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This policy relates closely to a &lt;strong&gt;retakes and redos&lt;/strong&gt; policy described later.&lt;/p&gt;
-&lt;h3 id=&#34;avoid-assigning-grades-for-the-product-of-group-work&#34;&gt;Avoid assigning grades for the product of group work&lt;/h3&gt;
-&lt;p&gt;Instead of grading the product of group work, instructors should evaluate students individually after the group work is complete.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Group work tends to reflect the work of the strongest group members. Applying the group grade to individual students will overestimate the understanding of struggling students. With this policy, students can still benefit from collaboration, but the grades assigned will actually reflect individual understanding.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): When students must demonstrate their learning individually, they are more motivated to do the necessary work than when falling back on group members is possible.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If group work is solely meant to provide enriching learning experiences for students, then the framework of &lt;a href=&#34;https://complexinstruction.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;complex instruction&lt;/a&gt; is worth thinking about. I&amp;rsquo;ll say a bit more about complex instruction at the end of the post.&lt;/p&gt;
-&lt;h3 id=&#34;avoid-incorporating-extra-credit-into-the-grade&#34;&gt;Avoid incorporating extra credit into the grade&lt;/h3&gt;
-&lt;p&gt;Instructors award extra credit for a wide variety of activities. These activities can be course-related, but often times they are not. Extra credit violates all 3 pillars of equitable grading.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): In the worst case that extra credit has nothing to do with course content (e.g., bringing in materials for the class), grades become a nonsensical mix of content knowledge and participation in these extracurricular activities.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): Instructors tend to offer extra credit for activities that require an appreciable amount of time outside of class, expose students to new ideas, or offer a good challenge. Struggling students and students whose life circumstances preclude extra time to devote to schoolwork will tend to not take extra credit opportunities. It ends up being exactly the students who do not need extra credit who end up getting it.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): Students who tend to be unable to participate in extra credit opportunities can feel demotivated knowing about these missed opportunities. Further, whether related to course content or not, extra credit demotivates true learning by incentivizing the accumulation of points. If students view any earned points equally (whether they come from extra credit or the assessments of course content), then including extra credit derails learning of the primary material that instructors truly care about.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;use-alternative-non-grade-consequences-for-late-work-and-cheating&#34;&gt;Use alternative (non-grade) consequences for late work and cheating&lt;/h3&gt;
-&lt;p&gt;It is common to deduct points for late work and for academic integrity violations (on top of school-mandated punishments for integrity violations). These point loss policies embody a punishment system focused on &lt;strong&gt;deterrence&lt;/strong&gt; of and &lt;strong&gt;retribution&lt;/strong&gt; for bad behaviors. Feldman advocates instead for a &lt;strong&gt;rehabilitation&lt;/strong&gt;-centered system: students have a chance to turn in late work without a grade penalty and to repeat the work on which they cheated, as opposed to losing points.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Deducting points for late work mixes the &lt;em&gt;timing&lt;/em&gt; of student performance into a grade that should only reflect the &lt;em&gt;quality&lt;/em&gt; of student performance. Deducting points for cheating results in a number that does not reflect a student&amp;rsquo;s knowledge. By definition, work that is copied does not represent a student&amp;rsquo;s understanding and deserves a missing or NA grade. This further underscores the merits of rehabilitative punishment—having students repeat the work on which they cheated is the only way to observe their true understanding and fill in the missing grade with an accurate one.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): Grade consequences for late work tend to affect more vulnerable students. These students might have significant time commitments outside of school that make it difficult to hand in work on time. These difficult personal circumstances can also explain why students cheat: with a grading system that harshly punishes lateness, they feel that there is no other way to complete or succeed on the assignment.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): Grade consequences for late work and cheating can result in a vicious cycle: the demotivation resulting from the grade punishments results in further late work and cheating in desperate attempts to catch up.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;exclude-participation-and-effort-from-the-grade&#34;&gt;Exclude &amp;ldquo;participation&amp;rdquo; and &amp;ldquo;effort&amp;rdquo; from the grade&lt;/h3&gt;
-&lt;p&gt;&amp;ldquo;Participation&amp;rdquo; and &amp;ldquo;effort&amp;rdquo; categories within the course grade broadly encompass desirable behaviors that the instructor wants to encourage (e.g., speaking in class discussions, contributing to group work, asking questions, attempting assignments). Including such categories results in inequitable grades.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Grades should reflect students&#39; understanding of course content. &amp;ldquo;Participation&amp;rdquo; and &amp;ldquo;effort&amp;rdquo; indicate nothing about this understanding.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): The components of &amp;ldquo;participation&amp;rdquo; and &amp;ldquo;effort&amp;rdquo; that instructors decide to include in the grade arise completely from their values. These values generally reflect a very narrow view of what it takes to be academically successful. Students who do not fit this narrow mold end up suffering despite their understanding of the course material. Further, there may be cultural reasons (school culture, classroom culture, etc.) underlying lack of participation from some students. Grade penalties for non-participation can perpetuate cycles of negative outcomes for certain groups.&lt;/li&gt;
-&lt;li&gt;Pillar 3 (Motivation): The same problems arising from Pillar 2 can result in demotivation and a loss of faith in the learning system.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;use-only-summative-assessments-in-the-grade-not-formative-assessments&#34;&gt;Use only summative assessments in the grade, not formative assessments&lt;/h3&gt;
-&lt;p&gt;This is effectively a &amp;ldquo;No homework in the grade&amp;rdquo; policy. This may seem controversial to instructors and perhaps terrifying to students (&amp;ldquo;100% of the grade is exams!?&amp;quot;), but coupled with a policy of offering retakes (described below), this can be a part of an equitable grading framework.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1 (Mathematical accuracy): Formative assessments, like homework, are meant for students to &lt;strong&gt;practice&lt;/strong&gt; their understanding. They should be a source of feedback but not a source of evaluation. To include formative assessment scores in the final grade would result in an inaccurate representation of students&#39; ultimate understanding because these assessments are part of students&#39; learning &lt;strong&gt;journey&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Pillar 2 (Resistance to bias): Grading homework for correctness can have disproportionately negative effects on the most vulnerable students who may lack the time to complete homework due to weaker understanding and/or external commitments. For fear of losing points, they may not attempt the homework or resort to copying. Both acts prevent them from practicing the material, which was the main goal of homework in the first place.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;renaming-grades&#34;&gt;Renaming grades&lt;/h3&gt;
-&lt;p&gt;Instead of using a 0-4 or A-F scale, instructors can use short descriptors. Example: Exceeding Standards, Meeting Standards, Approaching Standards, Not Yet Met Standards, Insufficient Evidence.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 3 (Motivation): Renaming grades in this way can clarify expectations for each grade level, dispel the tendency for students to over-judge themselves based on grades, and prompt students to think about grades guiding their learning as part of a growth mindset.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;retakes-and-redos&#34;&gt;Retakes and redos&lt;/h3&gt;
-&lt;p&gt;To truly allow students to learn from their mistakes, instructors should give students the opportunity to retake portions of summative assessments that indicate room for improvement.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 3 (Motivation): Having the opportunity to try again can alleviate some students&#39; testing anxiety and show them that their instructors truly care about their growth. This can motivate students to aim higher than they would have normally.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;blending-the-two-frameworks-in-course-preparation-a-idblending-frameworksa&#34;&gt;Blending the two frameworks in course preparation &lt;a id=&#34;blending-frameworks&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;In this section, I&amp;rsquo;ll discuss policies that I&amp;rsquo;ve adopted and questions that I ask myself when preparing a course that uses a specs-equity grading system.&lt;/p&gt;
-&lt;h3 id=&#34;iterate-between-writing-learning-objectives-and-assessments&#34;&gt;Iterate between writing learning objectives and assessments&lt;/h3&gt;
-&lt;p&gt;I have never been organized enough to write all of my assessments before the start of the course, but in implementing a specs-equity grading system, I think it would be useful to draft assessments in parallel with writing learning objectives for a few reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This can help me identify &amp;ldquo;implicit&amp;rdquo; skills that I have not expressed as an explicit learning objective. A common example in my courses is the ability to recognize which of many concepts or tools is most useful for a given problem. By writing learning objectives and assessments in tandem, I could more easily recognize that &amp;ldquo;Identify relevant tools&amp;rdquo; should be its own learning objective.&lt;/li&gt;
-&lt;li&gt;Drafting assessments early also prompts me to draft rubrics early. Although this front-loads a lot of work, this should result in a more manageable workload during the semester.&lt;/li&gt;
-&lt;li&gt;Having early assessment drafts helps me shape my course schedule, which in turn guides my thinking on the type and timing of metacognitive activities for my students. This helps me decide if I want dedicated learning objectives for metacognition.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;bundling-to-determine-the-course-grade&#34;&gt;Bundling to determine the course grade&lt;/h3&gt;
-&lt;p&gt;In a bundling approach, students must pass a particular set of assessments to earn a particular final course grade. If crafting assessments such that each assessment targets one learning objective, this amounts to each course grade being linked to mastery of a specific set of concepts. In my opinion, bundling (rather than assigning points to passed assessments) is the optimal way to use specs grading to determine course grades for a couple of reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;For one, the transparency of knowing exactly what concepts need to be understood to earn each letter grade is beneficial for both me and my students. I like being able to communicate to colleagues and potential future employers exactly what a student understood from my course. Students like having clear expectations.&lt;/li&gt;
-&lt;li&gt;Further, bundling can serve as a great signal to the most important ideas in the course. If the objectives that need to be mastered for a D are a subset of those required for a C (and so forth), students can clearly see that the objectives required for a D are crucial concepts.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;renaming-passfail-scores&#34;&gt;Renaming pass/fail scores&lt;/h3&gt;
-&lt;p&gt;To encourage a growth mindset, I prefer to rename pass/fail scores to Meets Standards (MS) and Not Yet Meeting Standards (NY).&lt;/p&gt;
-&lt;h3 id=&#34;what-assessments-to-use&#34;&gt;What assessments to use?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Quizzes and exams
-&lt;ul&gt;
-&lt;li&gt;In some courses, there are concepts that are so fundamental that they need to top of mind (e.g., knowing the appropriate types of data visualizations to make for the variables of interest). Are there enough of these concepts that warrant regular, timed, in-class exams?&lt;/li&gt;
-&lt;li&gt;I prefer more frequent quizzes to a couple of large exams because frequent quizzes provide numerous retake opportunities, which can reduce testing anxiety. Later quizzes can include questions on earlier learning objectives that only need to be completed by students who have not yet mastered the concept. To manage time constraints, quiz questions on current content can be designed to only take, say, half of the class period. The hope is that the other half of the class period is sufficient for students pursuing retakes to finish the associated parts of the quiz.&lt;/li&gt;
-&lt;li&gt;In &lt;em&gt;Grading for Equity&lt;/em&gt;, Joe Feldman notes that retakes are only equitable if they are mandatory—the most vulnerable students might be reluctant to choose to pursue a retake opportunity for a variety of reasons. My takeaway from this is that instructors should strongly consider any potentially beneficial activity to be mandatory in order to promote equity.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Homework
-&lt;ul&gt;
-&lt;li&gt;What is the role of homework? If using quizzes and/or exams, is the purpose of homework primarily to practice for these summative assessments? If so, I&amp;rsquo;m in favor of Joe Feldman&amp;rsquo;s &amp;ldquo;no formative assessments in the grade&amp;rdquo; policy. Providing full solutions and offering formative feedback for the most crucial exercises should be enough to help students learn and practice, but excluding them from the grade can relieve students&#39; time pressures and anxieties.&lt;/li&gt;
-&lt;li&gt;Aside from traditional problem sets, I have also tried writing-intensive assignments which required students to explain statistical concepts in their own words. I was comfortable including this type of homework in the grade because they comprised a semester-long assignment that had flexible deadlines and constant opportunities for revision.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Projects
-&lt;ul&gt;
-&lt;li&gt;If students begin projects towards the end of the course, grading them on a pass/fail scale can cause stress for students because of the shorter amount of time available for feedback. Clear specifications for good work are always necessary, but in this case a finer scale than a pass/fail scale might be necessary. This can still form a part of a bundling approach to determining the course grade: each letter grade is associated with a minimum project grade—in addition to a required set of learning objectives to have mastered by the end of the course.&lt;/li&gt;
-&lt;li&gt;If the project spans the entire course and students are able to start early, a fully specs grading approach is completely feasible. Project milestones can be graded on a pass/fail scale with the opportunity to revise non-passing milestones throughout the course.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-is-the-role-of-group-work-in-the-course&#34;&gt;What is the role of group work in the course?&lt;/h3&gt;
-&lt;p&gt;Active learning in groups is a major part of class time in my courses. In place of a lecture, students watch videos and/or complete readings before class. During class, they work on exercises in groups to practice the ideas from the pre-class material. Overall, my students have appreciated this opportunity to practice and ask questions while I am present to help and classmates are there to collaborate. However, this style of learning can be challenging for some students who prefer different ways of learning or who don&amp;rsquo;t develop a good rapport with group members. For these reasons, I have started to consider the framework of &lt;a href=&#34;https://complexinstruction.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;complex instruction&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Complex instruction is a style of pedagogy that centers group work through the use of &amp;ldquo;groupworthy&amp;rdquo; tasks—tasks that truly require varied mindsets, opinions, and skills. While some students have found it helpful to be in groups to talk through the concepts prompted by my in-class exercises, there is nothing truly groupworthy about the exercises—nothing that truly necessitates diverse mindsets and skills. Although I have been guilty of using group projects rather than individual projects to cut down on my workload, I would like to be more intentional about group work in my courses going forward. Complex instruction captures exactly what I want in group work: the opportunity for students to engage in meaningful tasks together to promote better learning for everyone. Alana Unfried&amp;rsquo;s talks at &lt;a href=&#34;https://causeweb.org/cause/ecots/ecots20/breakouts/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECOTS 2020&lt;/a&gt; and at &lt;a href=&#34;https://causeweb.org/cause/uscots/uscots21/keynote/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USCOTS 2021&lt;/a&gt; are excellent resources for learning more about complex instruction.&lt;/p&gt;
-&lt;h2 id=&#34;summary-a-idsummarya&#34;&gt;Summary &lt;a id=&#34;summary&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Specifications grading brings to the table the specific practice of creating pass/fail criteria for student work. When used throughout a course, this framework can lead to heightened clarity for instructors and students. This benefits instructors with time savings during grading and improvements in communication about student understanding. This benefits students by making clear what they need to do to succeed, which can motivate them to aim higher. The pass fail nature of specifications grading naturally pairs with the policy offering retakes on assessments, which is a core part of an equitable grading approach. Feldman&amp;rsquo;s equity grading approach builds on this to encourage thinking more broadly about student motivation, the role of instructors&#39; implicit biases and of student&amp;rsquo;s life circumstances in grading practices, and the accuracy of grades in reflecting students&#39; ultimate understanding. Considering the implementation of these practices in our courses can lead to better outcomes for both students and instructors.&lt;/p&gt;
-</description>
+      <description>Grading doesn&amp;rsquo;t have to suck—for teachers or for students. Two books on grading have inspired me to adopt a reinvigorated mindset towards grading and feedback: Specifications Grading by Linda Nilson and Grading for Equity by Joe Feldman.</description>
     </item>
     
     <item>
       <title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title>
       <link>/post/dnd-scraping-rvest-rselenium/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
       <guid>/post/dnd-scraping-rvest-rselenium/</guid>
-      <description>&lt;p&gt;I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.&lt;/p&gt;
-&lt;p&gt;For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&amp;rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty. Where does data come in? Through the world-building content that is released by the official creators and by players. This content helps players build characters that have a range of characteristics and abilities governed by their past and occupation. This content similarly helps shape the monsters and enemies that the characters may face.&lt;/p&gt;
-&lt;p&gt;There is a wonderful digital resource for DnD content called &lt;a href=&#34;https://www.dndbeyond.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DnD Beyond&lt;/a&gt; that contains information on characters, monsters, and treasures. (No API yet, but it is apparently &lt;a href=&#34;https://twitter.com/dndbeyond/status/909834529736740864?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in the works&lt;/a&gt;.) For a while, I&amp;rsquo;ve been interested in playing around with data on monster statistics, and I finally got around to it this week! I had been reluctant to start because I did not have a clear idea of how to scrape pages that required login via redirect to an external authentication service (here, Twitch). I&amp;rsquo;ll go over the specific hurdles and solutions in this post. I&amp;rsquo;ll also give a general tutorial for scraping with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;All of the code for this post is available at &lt;a href=&#34;https://github.com/lmyint/dnd_analysis&#34;&gt;https://github.com/lmyint/dnd_analysis&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#task-structure&#34;&gt;Structure of the scraping task&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#step1&#34;&gt;Step 1: Scrape tables to get individual monster page URLs&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#rvest-framework&#34;&gt;General structure of &lt;code&gt;rvest&lt;/code&gt; code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#selector-gadget&#34;&gt;SelectorGadget&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#extract-urls&#34;&gt;Extract URLs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#rselenium&#34;&gt;Step 2: Use &lt;code&gt;RSelenium&lt;/code&gt; to access pages behind login&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#fail&#34;&gt;What did not work&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#success&#34;&gt;What did work&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#rsdriver&#34;&gt;Step 2a: Start automated browsing with &lt;code&gt;rsDriver&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nav-interact&#34;&gt;Step 2b: Browser navigation and interaction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#get-page-source&#34;&gt;Step 2c: Extract page source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#step3&#34;&gt;Step 3: Write a function to scrape an individual page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#summary&#34;&gt;Summary&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;structure-of-the-scraping-task-a-idtask-structurea&#34;&gt;Structure of the scraping task &lt;a id=&#34;task-structure&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If you go to &lt;a href=&#34;https://www.dndbeyond.com/monsters,&#34;&gt;https://www.dndbeyond.com/monsters,&lt;/a&gt; you will see the first of several tens of pages of monster listings. You will also see that each monster name is a link to an individual monster page that contains more extensive details about that monster&amp;rsquo;s statistics, abilities, and lore. An example that is free to view is the &lt;a href=&#34;https://www.dndbeyond.com/monsters/adult-green-dragon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adult Green Dragon&lt;/a&gt;. Other monsters that are not part of the Basic Rules set can only be viewed if you are signed in and have purchased the digital book in which that monster is contained.&lt;/p&gt;
-&lt;p&gt;The first part of the scraping task is to the scrape the several pages of tables starting at &lt;a href=&#34;https://www.dndbeyond.com/monsters&#34;&gt;https://www.dndbeyond.com/monsters&lt;/a&gt; in order to get the links to individual monster pages.&lt;/p&gt;
-&lt;p&gt;The second part of the scraping task is to scrape the individual monster pages, such as the &lt;a href=&#34;https://www.dndbeyond.com/monsters/adult-green-dragon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adult Green Dragon&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Throughout, I use the following packages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rvest&lt;/a&gt; for page scraping&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stringr&lt;/a&gt; for working with strings&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/tibble/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tibble&lt;/a&gt; for the flexibility over data frames to allow list-columns&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/RSelenium&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSelenium&lt;/a&gt; for browser navigation via R. This package was on CRAN but removed in May 2018. I used the development version on GitHub, but the package maintainer is &lt;a href=&#34;https://github.com/ropensci/RSelenium/issues/172&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;currently working to fix this&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;step-1-scrape-tables-to-get-individual-monster-page-urls-a-idstep1a&#34;&gt;Step 1: Scrape tables to get individual monster page URLs &lt;a id=&#34;step1&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;By visiting a few different pages of monster results, we can see that the URLs for the page results have a consistent format: &lt;code&gt;https://www.dndbeyond.com/monsters?page=NUM&lt;/code&gt; where &lt;code&gt;NUM&lt;/code&gt; ranges from 1 to the last page. We can obtain the last page number programatically with the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;page &amp;lt;- read_html(&amp;quot;https://www.dndbeyond.com/monsters&amp;quot;)
-num_pages &amp;lt;- page %&amp;gt;%
-	html_nodes(&amp;quot;.b-pagination-item&amp;quot;) %&amp;gt;%
-	html_text() %&amp;gt;%
-	as.integer() %&amp;gt;%
-	max(na.rm = TRUE)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let&amp;rsquo;s explore the anatomy of this code to better understand how to work with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;general-structure-of-rvest-code-a-idrvest-frameworka&#34;&gt;General structure of &lt;code&gt;rvest&lt;/code&gt; code &lt;a id=&#34;rvest-framework&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The small example above shows the power of &lt;code&gt;rvest&lt;/code&gt;. In many cases, the code to scrape content on a webpage really does boil down to something as short as:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;url %&amp;gt;% read_html() %&amp;gt;% html_nodes(&amp;quot;CSS or XPATH selector&amp;quot;) %&amp;gt;% html_text() OR html_attr()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;We start with a URL string that is passed to the &lt;code&gt;read_html&lt;/code&gt; function. This creats an XML document object which is a tree representation of the content on a webpage. Why a tree? This requires some familiarity with HTML, but essentially text content is nested within enclosing formatting tags to make up a webpage. The following diagram from a &lt;a href=&#34;https://www.w3schools.com/js/js_htmldom_navigation.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;W3Schools tutorial&lt;/a&gt; illustrates this.
-&lt;img src=&#34;https://www.w3schools.com/js/pic_htmltree.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;code&gt;html_nodes&lt;/code&gt; function takes a string specifying the HTML tags that you desire to be selected. The selector string can be a CSS or XPATH selector. I only know about CSS selectors, and that has sufficed for all of my web scraping to date. This function returns a list of nodes that have been selected from the HTML tree. For example, selecting the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag is like grabbing the trunk of the HTML tree, and selecting paragraph &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags is like grabbing only the thinner branches. This list of nodes is still a list of XML objects.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Usually what we want in scraping is the text that we see on the webpage that is contained within the specific sections extracted with &lt;code&gt;html_nodes&lt;/code&gt;. We can get this text with &lt;code&gt;html_text&lt;/code&gt;. Often we will also want attributes of the text on a webpage. For example, we may see text that is actually a link, and we want the URL for that link. In this case &lt;code&gt;html_text&lt;/code&gt; would not give us what we want because it would give us the link text. However, &lt;code&gt;html_attr&lt;/code&gt; will allow us to extract the URL. A specific example of this in just a second!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;selectorgadget-a-idselector-gadgeta&#34;&gt;SelectorGadget &lt;a id=&#34;selector-gadget&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Back to the code example above:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;page &amp;lt;- read_html(&amp;quot;https://www.dndbeyond.com/monsters&amp;quot;)
-num_pages &amp;lt;- page %&amp;gt;%
-	html_nodes(&amp;quot;.b-pagination-item&amp;quot;) %&amp;gt;%
-	html_text() %&amp;gt;%
-	as.integer() %&amp;gt;%
-	max(na.rm = TRUE)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The most difficult part of this part of code is figuring out the selector to use in &lt;code&gt;html_nodes&lt;/code&gt;. Luckily, the &lt;code&gt;rvest&lt;/code&gt; package page on CRAN has a link to a vignette on a tool called &lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SelectorGadget&lt;/a&gt;. I love this tool for its playful homage to &lt;a href=&#34;https://www.youtube.com/watch?v=e-JHfXVlkik&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;childhood memories&lt;/a&gt;, and it also greatly helps in determining the CSS selectors needed to select desired parts of a webpage. Once you have dragged the tool link to the bookmark bar, you can click the bookmark while viewing any page to get a hover tool that highlights page elements as you mouse over them. Clicking on an element on the page displays the text for the CSS selector in the tool panel.&lt;/p&gt;
-&lt;p&gt;Using the SelectorGadget tool, we can determine that the page number buttons on the &lt;a href=&#34;https://www.dndbeyond.com/monsters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main monster page&lt;/a&gt; all have the class &lt;code&gt;b-pagination-item&lt;/code&gt;. The CSS selector for a class always starts with a period followed by the class name. The last page was the maximum of these numbers. (We need to remove &lt;code&gt;NA&lt;/code&gt;&amp;rsquo;s created by integer coercion of the &amp;ldquo;Next&amp;rdquo; button.)&lt;/p&gt;
-&lt;h3 id=&#34;extract-urls-a-idextract-urlsa&#34;&gt;Extract URLs &lt;a id=&#34;extract-urls&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Now that we know how many pages (&lt;code&gt;num_pages&lt;/code&gt;) to loop through, let&amp;rsquo;s write a function that will extract the URLs for the individual monster pages that are present on a single page of results.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;get_monster_links &amp;lt;- function(url) {
-	page &amp;lt;- read_html(url)
-	rel_links &amp;lt;- page %&amp;gt;%
-		html_nodes(&amp;quot;.link&amp;quot;) %&amp;gt;%
-		html_attr(name = &amp;quot;href&amp;quot;)
-	keep &amp;lt;- str_detect(rel_links, &amp;quot;/monsters/&amp;quot;)
-	rel_links &amp;lt;- rel_links[keep]
-	abs_links &amp;lt;- paste0(&amp;quot;https://www.dndbeyond.com&amp;quot;, rel_links)
-	abs_links
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;get_monster_links&lt;/code&gt; function takes as input a URL for a page of results (like &lt;a href=&#34;https://www.dndbeyond.com/monsters?page=2)&#34;&gt;https://www.dndbeyond.com/monsters?page=2)&lt;/a&gt;. Let&amp;rsquo;s work through the function body:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We first read the HTML source of a page with &lt;code&gt;read_html&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;We can then use a combination of SelectorGadget with the &amp;ldquo;View page source&amp;rdquo; functionality of your browser to select the links on the page. Here we find that they belong to class &lt;code&gt;link&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;We use the &lt;code&gt;html_attr&lt;/code&gt; function here to extract the link path rather than the link text. The &lt;code&gt;name = &amp;quot;href&amp;quot;&lt;/code&gt; specifies that we want the path attribute. (Anatomy of an HTML link: &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.something.com&amp;quot;&amp;gt;Link text seen on page&amp;lt;/a&amp;gt;&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;The remainder of the function subsets the extracted links to only those that pertain to the monster pages (removing links like the home page). Printing the output indicates that these links are only relative links, so we append the base URL to create absolute links (&lt;code&gt;abs_links&lt;/code&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Finally, we can loop through all pages of results to get the hundreds of pages for the individual monsters:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## Loop through all pages
-all_monster_urls &amp;lt;- lapply(seq_len(num_pages), function(i) {
-	url &amp;lt;- paste0(&amp;quot;https://www.dndbeyond.com/monsters?page=&amp;quot;, i)
-	get_monster_links(url)
-}) %&amp;gt;% unlist
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;step-2-use-rselenium-to-access-pages-behind-login-a-idrseleniuma&#34;&gt;Step 2: Use &lt;code&gt;RSelenium&lt;/code&gt; to access pages behind login &lt;a id=&#34;rselenium&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;In Step 1, we looped through pages of tables to get the URLs for pages that contain detailed information on individual monsters. Great! We can visit each of these pages and just do some more &lt;code&gt;rvest&lt;/code&gt; work to scrape the details! Well&amp;hellip; not immediately. Most of these monster pages can only be seen if you have paid for the corresponding digital books and are logged in. DnD Beyond uses &lt;a href=&#34;https://www.twitch.tv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitch&lt;/a&gt; for authentication which involves a redirect. This redirect made it way harder for me to figure out what to do. It was like I had been thrown into the magical, mysterious, and deceptive realm of the &lt;a href=&#34;http://forgottenrealms.wikia.com/wiki/Feywild&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feywild&lt;/a&gt; where I frantically invoked Google magicks to find many dashed glimmers of hope but luckily a solution in the end.&lt;/p&gt;
-&lt;h3 id=&#34;what-did-not-work-a-idfaila&#34;&gt;What did not work &lt;a id=&#34;fail&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;It&amp;rsquo;s helpful for me to record what things I tried and failed so I can remember my thought process. Hopefully, it saves you wasted effort if you&amp;rsquo;re ever in a similar situation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Using &lt;code&gt;rvest&lt;/code&gt;&amp;rsquo;s page navigation abilities did not work. I tried the following code:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;url &amp;lt;- &amp;quot;https://www.dndbeyond.com/login&amp;quot;
-session &amp;lt;- html_session(url)
-url &amp;lt;- follow_link(session, &amp;quot;Login&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But I ran into an error:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Error in curl::curl_fetch_memory(url, handle = handle) : 
-  Could not resolve host: NA
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Using &lt;code&gt;rvest&lt;/code&gt;&amp;rsquo;s basic authentication abilities did not work. I found &lt;a href=&#34;https://github.com/rstudio/webinars/blob/master/32-Web-Scraping/navigation-and-authentication.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this tutorial&lt;/a&gt; on how to send a username and password to a form with &lt;code&gt;rvest&lt;/code&gt;. I tried hardcoding the extremely long URL that takes you to a Twitch authentication page, sending my username and password as described in the tutorial, and following [this Stack Overflow suggestion] to create a fake login button since the authentication page had an unnamed, unlabeled &amp;ldquo;Submit&amp;rdquo; input that did not seem to conform to &lt;code&gt;rvest&lt;/code&gt;&amp;rsquo;s capabilities. I got a 403 error.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-did-work-a-idsuccessa&#34;&gt;What did work &lt;a id=&#34;success&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Only when I stumbled upon this &lt;a href=&#34;https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stack Overflow post&lt;/a&gt; did I learn about the &lt;code&gt;RSelenium&lt;/code&gt; package. &lt;a href=&#34;https://www.seleniumhq.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Selenium&lt;/a&gt; is a tool for automating web browsers, and the &lt;code&gt;RSelenium&lt;/code&gt; package is the R interface for it.&lt;/p&gt;
-&lt;p&gt;I am really grateful to the posters on that Stack Overflow question and &lt;a href=&#34;https://abdallaabdi.com/2016/02/13/navigating-scraping-job-sites-rvest-rselenium/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this blog post&lt;/a&gt; for getting me started with &lt;code&gt;RSelenium&lt;/code&gt;. The only problem is that the &lt;code&gt;startServer&lt;/code&gt; function used in both posts is now defunct. When calling &lt;code&gt;startServer&lt;/code&gt;, the message text informs you of the &lt;code&gt;rsDriver&lt;/code&gt; function.&lt;/p&gt;
-&lt;h4 id=&#34;step-2a-start-automated-browsing-with-rsdriver-a-idrsdrivera&#34;&gt;Step 2a: Start automated browsing with &lt;code&gt;rsDriver&lt;/code&gt; &lt;a id=&#34;rsdriver&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;The amazing feature of the &lt;code&gt;rsDriver&lt;/code&gt; function is that you do not need to worry about downloading and installing other sofware like Docker or phantomjs. This function works right out of the box! To start the automated browsing, use the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rd &amp;lt;- rsDriver(browser = &amp;quot;chrome&amp;quot;)
-rem_dr &amp;lt;- rd[[&amp;quot;client&amp;quot;]]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;When you first run &lt;code&gt;rsDriver&lt;/code&gt;, status messages will indicate that required files are being downloaded. After that you will see the status text &amp;ldquo;Connecting to remote server&amp;rdquo; and a Chrome browser window will pop open. The browser window will have a message beneath the search bar saying &amp;ldquo;Chrome is being controlled by automated test software.&amp;rdquo; This code comes straight from the example in the &lt;code&gt;rsDriver&lt;/code&gt; help page.&lt;/p&gt;
-&lt;h4 id=&#34;step-2b-browser-navigation-and-interaction-a-idnav-interacta&#34;&gt;Step 2b: Browser navigation and interaction &lt;a id=&#34;nav-interact&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;The &lt;code&gt;rem_dr&lt;/code&gt; object is what we will use to navigate and interact with the browser. This navigation and interaction is achieved by accessing and calling functions that are part of the &lt;code&gt;rem_dr&lt;/code&gt; object. We can navigate to a page using the &lt;code&gt;$navigate()&lt;/code&gt; function. We can select parts of the webpage with the &lt;code&gt;$findElement()&lt;/code&gt; function. Once these selections are made, we can interact with the selections by&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sending text to those selections with &lt;code&gt;$sendKeysToElement()&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Sending key presses to those selections with &lt;code&gt;$sendKeysToElement()&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Sending clicks to those selections with &lt;code&gt;$clickElement()&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All of these are detailed in the &lt;a href=&#34;http://rpubs.com/johndharrison/RSelenium-Basics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSelenium Basics vignette&lt;/a&gt;, and further examples are in the &lt;a href=&#34;https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stack Overflow&lt;/a&gt; and &lt;a href=&#34;https://abdallaabdi.com/2016/02/13/navigating-scraping-job-sites-rvest-rselenium/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; I mentioned above.&lt;/p&gt;
-&lt;p&gt;The code below shows this functionality in action:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;url &amp;lt;- &amp;quot;https://www.dndbeyond.com/login&amp;quot;
-rem_dr$navigate(url) # Navigate to login page
-rem_dr$findElement(using = &amp;quot;css selector&amp;quot;, value = &amp;quot;.twitch-button&amp;quot;)$clickElement() # Click the &amp;quot;Login with Twitch&amp;quot; button
-## Manually enter username and password here
-rem_dr$findElement(using = &amp;quot;css selector&amp;quot;, value = &amp;quot;.js-authorize-text&amp;quot;)$clickElement() # Click the &amp;quot;Authorize&amp;quot; button to continue logging in
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note: Once the Chrome window opens, you can finish the login process programatically as above or manually interface with the browser window as you would normally. This can be safer if you don&amp;rsquo;t want to have a file with your username and password saved anywhere.&lt;/p&gt;
-&lt;h4 id=&#34;step-2c-extract-page-source-a-idget-page-sourcea&#34;&gt;Step 2c: Extract page source &lt;a id=&#34;get-page-source&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Now that we have programatic control over the browser, how do we interface with &lt;code&gt;rvest&lt;/code&gt;? Once we navigate to a page with &lt;code&gt;$navigate()&lt;/code&gt;, we will need to extract the page&amp;rsquo;s HTML source code to supply to &lt;code&gt;rvest::read_html&lt;/code&gt;. We can extract the source with &lt;code&gt;$getPageSource()&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rem_dr$navigate(url)
-page &amp;lt;- read_html(rem_dr$getPageSource()[[1]])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The subset &lt;code&gt;[[1]]&lt;/code&gt; is needed after calling &lt;code&gt;rem_dr$getPageSource()&lt;/code&gt; because &lt;code&gt;$getPageSource()&lt;/code&gt; returns a list of length 1. The HTML source that is read in can be directly input to &lt;code&gt;rvest::read_html&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Excellent! Now all we need is a function that scrapes the details of a monster page and loop! In the following, we put everything together in a loop that iterates over the vector of URLs (&lt;code&gt;all_monster_urls&lt;/code&gt;) generated in Step 1.&lt;/p&gt;
-&lt;p&gt;Within the loop we call the custom &lt;code&gt;scrape_monster_page&lt;/code&gt; function to be discussed below in Step 3. We also include a check for purchased content. If you try to access a monster page that is not part of books that you have paid for, you will be redirected to a new page. We perform this check with the &lt;code&gt;$getCurrentUrl()&lt;/code&gt; function, filling in a missing value for the monster information if we do not have access. The &lt;code&gt;Sys.sleep&lt;/code&gt; at the end can be useful to avoid overloading your computer or if rate limits are a problem.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;monster_info &amp;lt;- vector(&amp;quot;list&amp;quot;, length(all_monster_urls))
-for (i in seq_along(all_monster_urls)) {
-	url &amp;lt;- all_monster_urls[i]
-	rem_dr$navigate(url)
-	page &amp;lt;- read_html(rem_dr$getPageSource()[[1]])
-	## If content has not been unlocked, the page will redirect
-	curr_url &amp;lt;- rem_dr$getCurrentUrl()[[1]]
-	if (curr_url == url) {
-		monster_info[[i]] &amp;lt;- scrape_monster_page(page)
-	} else {
-		monster_info[[i]] &amp;lt;- NA
-	}
-	Sys.sleep(2)
-	cat(i, &amp;quot; &amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;step-3-write-a-function-to-scrape-an-individual-page-a-idstep3a&#34;&gt;Step 3: Write a function to scrape an individual page &lt;a id=&#34;step3&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The last step in our scraping endeavor is to write the &lt;code&gt;scrape_monster_page&lt;/code&gt; function to scrape data from an individual monster page. You can view the full function &lt;a href=&#34;https://github.com/lmyint/dnd_analysis/blob/master/scrape_monster_stats.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on GitHub&lt;/a&gt;. I won&amp;rsquo;t go through every aspect of this function here, but I&amp;rsquo;ll focus on some principles that appear in this function that I&amp;rsquo;ve found to be useful in general when working with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;principle-1-use-selectorgadget-and-view-the-pages-source-a-idprinciple1a&#34;&gt;Principle 1: Use SelectorGadget AND view the page&amp;rsquo;s source &lt;a id=&#34;principle1&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&amp;rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_block.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I wanted to know if there were further subdvisions of the areas that the &lt;code&gt;.mon-stat-block__attribute&lt;/code&gt; selector had highlighted. To do this, I searched the source code for &amp;ldquo;Armor Class&amp;rdquo; and found the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-label&amp;quot;&amp;gt;Armor Class&amp;lt;/span&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-value&amp;quot;&amp;gt;
-        &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data-value&amp;quot;&amp;gt;
-            19
-        &amp;lt;/span&amp;gt;
-        
-            &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data-extra&amp;quot;&amp;gt;
-                (Natural Armor)  
-            &amp;lt;/span&amp;gt; 
-                 
-    &amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-label&amp;quot;&amp;gt;Hit Points&amp;lt;/span&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data&amp;quot;&amp;gt;
-        &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data-value&amp;quot;&amp;gt;
-            207
-        &amp;lt;/span&amp;gt;
-        &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data-extra&amp;quot;&amp;gt;
-            (18d12 + 90)
-        &amp;lt;/span&amp;gt;      
-    &amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-label&amp;quot;&amp;gt;Speed&amp;lt;/span&amp;gt;
-    &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data&amp;quot;&amp;gt;
-        &amp;lt;span class=&amp;quot;mon-stat-block__attribute-data-value&amp;quot;&amp;gt;
-            40 ft., fly 80 ft., swim 40 ft.
-             
-        &amp;lt;/span&amp;gt;
-    &amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Looking at the raw source code allowed me to see that each line was subdivided by spans with classes &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt;, &lt;code&gt;mon-stat-block__attribute-data-value&lt;/code&gt;, and sometimes &lt;code&gt;mon-stat-block__attribute-data-extra&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the &lt;code&gt;mon-stat-block__attribute-label&lt;/code&gt; class to verify that there should be 3 regions highlighted.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-dnd-scraping_files/attr_label.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.&lt;/p&gt;
-&lt;h3 id=&#34;principle-2-print-often-a-idprinciple2a&#34;&gt;Principle 2: Print often &lt;a id=&#34;principle2&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Continuing from the above example of desiring the Armor Class, Hit Points, and Speed attributes, I was curious what I would obtain if I simply selected the whole line for each attribute (as opposed to the three subdivisions). The following is what I saw when I printed this to the screen:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;gt; page %&amp;gt;% html_nodes(&amp;quot;.mon-stat-block__attribute&amp;quot;) %&amp;gt;% html_text()
-[1] &amp;quot;\n            Armor Class\n            \n                \n                    19\n                \n                \n                    \n                        (Natural Armor)  \n                     \n                         \n            \n        &amp;quot;
-[2] &amp;quot;\n            Hit Points\n            \n                \n                    207\n                \n                \n                    (18d12 + 90)\n                      \n            \n        &amp;quot;                                                         
-[3] &amp;quot;\n            Speed\n            \n                \n                    40 ft., fly 80 ft., swim 40 ft.\n                     \n                \n            \n        &amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A mess! A length-3 character vector containing the information I wanted but not in a very tidy format. Because I want to visualize and explore this data later, I want to do a little tidying up front in the scraping process.&lt;/p&gt;
-&lt;p&gt;What if I just access the three subdivisions separately and &lt;code&gt;rbind&lt;/code&gt; them together? This is not a good idea because of missing elements as shown below:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;gt; page %&amp;gt;% html_nodes(&amp;quot;.mon-stat-block__attribute-label&amp;quot;) %&amp;gt;% html_text()
-[1] &amp;quot;Armor Class&amp;quot; &amp;quot;Hit Points&amp;quot;  &amp;quot;Speed&amp;quot;      
-&amp;gt; page %&amp;gt;% html_nodes(&amp;quot;.mon-stat-block__attribute-data-value&amp;quot;) %&amp;gt;% html_text() %&amp;gt;% trimws()
-[1] &amp;quot;19&amp;quot;                              &amp;quot;207&amp;quot;                            
-[3] &amp;quot;40 ft., fly 80 ft., swim 40 ft.&amp;quot;
-&amp;gt; page %&amp;gt;% html_nodes(&amp;quot;.mon-stat-block__attribute-data-extra&amp;quot;) %&amp;gt;% html_text() %&amp;gt;% trimws()
-[1] &amp;quot;(Natural Armor)&amp;quot; &amp;quot;(18d12 + 90)&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For &lt;code&gt;attribute-label&lt;/code&gt;, I get a length-3 vector. For &lt;code&gt;attribute-data-value&lt;/code&gt;, I get a length-3 vector. For &lt;code&gt;attribute-data-value&lt;/code&gt;, I only get a length-2 vector! Through visual inspection, I know that the third line &amp;ldquo;Speed&amp;rdquo; is missing the span with the &lt;code&gt;data-extra&lt;/code&gt; class, but I don&amp;rsquo;t want to rely on visual inspection for these hundreds of monsters! &lt;strong&gt;Printing these results warned me directly that this could happen!&lt;/strong&gt; Awareness of these missing items motivates the third principle.&lt;/p&gt;
-&lt;h3 id=&#34;principle-3-you-will-need-loops-a-idprinciple3a&#34;&gt;Principle 3: You will need loops &lt;a id=&#34;principle3&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;For the Armor Class, Hit Points, and Speed attributes, I wanted to end up with a data frame that looks like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;gt; attrs
-# A tibble: 3 x 3
-  label       value                           extra          
-  &amp;lt;chr&amp;gt;       &amp;lt;chr&amp;gt;                           &amp;lt;chr&amp;gt;          
-1 Armor Class 19                              (Natural Armor)
-2 Hit Points  207                             (18d12 + 90)   
-3 Speed       40 ft., fly 80 ft., swim 40 ft. NA
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This data frame has properly encoded missingness. To do this, I needed to use a loop as shown below.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## Attributes: AC, HP, speed
-attr_nodes &amp;lt;- page %&amp;gt;%
-	html_nodes(&amp;quot;.mon-stat-block__attribute&amp;quot;)
-attrs &amp;lt;- do.call(rbind, lapply(attr_nodes, function(node) {
-	label &amp;lt;- node %&amp;gt;%
-		select_text(&amp;quot;.mon-stat-block__attribute-label&amp;quot;)
-	data_value &amp;lt;- node %&amp;gt;%
-		select_text(&amp;quot;.mon-stat-block__attribute-data-value&amp;quot;)
-	data_extra &amp;lt;- node %&amp;gt;%
-		select_text(&amp;quot;.mon-stat-block__attribute-data-extra&amp;quot;) %&amp;gt;%
-		replace_if_empty(NA)
-	tibble(label = label, value = data_value, extra = data_extra)
-}))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The code below makes use of two helper functions that I wrote to cut down on code repetition:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;select_text&lt;/code&gt; to cut down on the repetitive &lt;code&gt;page %&amp;gt;% html_nodes %&amp;gt;% html_text&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;select_text &amp;lt;- function(xml, selector, trim = TRUE) {
-	text &amp;lt;- xml %&amp;gt;% 
-		html_nodes(selector) %&amp;gt;%
-		html_text
-	if (trim) {
-		text &amp;lt;- text %&amp;gt;%
-			trimws
-	}
-	text
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;replace_if_empty&lt;/code&gt; to repace empty text with &lt;code&gt;NA&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;replace_if_empty &amp;lt;- function(text, to) {
-	if (length(text)==0) {
-		text &amp;lt;- to
-	}
-	text
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I first select the three lines corresponding to these three attributes with&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;attr_nodes &amp;lt;- page %&amp;gt;%
-	html_nodes(&amp;quot;.mon-stat-block__attribute&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This creates a list of three nodes (pieces of the webpage/branches of the HTML tree) corresponding to the three lines of data:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;gt; attr_nodes
-{xml_nodeset (3)}
-[1] &amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;\n            &amp;lt;span class=&amp;quot;mon-sta ...
-[2] &amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;\n            &amp;lt;span class=&amp;quot;mon-sta ...
-[3] &amp;lt;div class=&amp;quot;mon-stat-block__attribute&amp;quot;&amp;gt;\n            &amp;lt;span class=&amp;quot;mon-sta ...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;We can chain together a series of calls to &lt;code&gt;html_nodes&lt;/code&gt;.&lt;/strong&gt; I do this in the subsequent &lt;code&gt;lapply&lt;/code&gt; statement. I know that each of these nodes contains up to three further subdivisions (label, value, and extra information). In this way I can make sure that these three pieces of information are aligned between the three lines of data.&lt;/p&gt;
-&lt;p&gt;Nearly all of the code in the &lt;code&gt;scrape_monster_page&lt;/code&gt; function repeats these three principles, and I&amp;rsquo;ve found that I routinely use similar ideas in other scraping I&amp;rsquo;ve done with &lt;code&gt;rvest&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;summary-a-idsummarya&#34;&gt;Summary &lt;a id=&#34;summary&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is a long post, but a few short take-home messages suffice to wrap ideas together:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;rvest&lt;/code&gt; is remarkably effective at scraping what you need with fairly concise code. Following the three principles above has helped me a lot when I&amp;rsquo;ve used this package.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rvest&lt;/code&gt; can&amp;rsquo;t do it all. For scraping tasks where you wish that you could automate clicking and typing in the browser (e.g. authentication settings), &lt;code&gt;RSelenium&lt;/code&gt; is the package for you. In particular, the &lt;code&gt;rsDriver&lt;/code&gt; function works right out of the box (as far as I can tell) and is great for people like me who are loath to install external dependencies.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Happy scraping!&lt;/p&gt;
-</description>
+      <description>I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.
+For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data.</description>
     </item>
     
     <item>
       <title>The Book of Why</title>
       <link>/post/book-of-why/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
       <guid>/post/book-of-why/</guid>
-      <description>&lt;p&gt;I just finished reading &lt;em&gt;The Book of Why&lt;/em&gt; by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.&lt;/p&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#language-diagrams&#34;&gt;Language and diagrams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#history&#34;&gt;History&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#cognition&#34;&gt;Cognition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#teaching&#34;&gt;Teaching&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#conclusions&#34;&gt;Conclusions&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;language-and-diagrams-a-idlanguage-diagramsa&#34;&gt;Language and diagrams &lt;a id=&#34;language-diagrams&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Right from the introduction, Pearl emphasizes the importance of language in science:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;My emphasis on language also comes from a deep conviction that language
-shapes our thoughts. You cannot answer a question that you cannot ask,
-and you cannot ask a question that you have no words for. (p. 10)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I love this quote because it echoes how essential careful language is for humanity&amp;rsquo;s progress. We cannot understand an idea without expressing it in some language in our own minds. We cannot transfer this understanding faithfully to others without carefully crafting language. This crafting of language affects how others understand, consume, act upon, and transfer the idea. And the cycle repeats. Essentially, language governs our intellectual progeny, which has profound scientific, moral, and cultural implications. There is even a growing body of scientific evidence regarding specific ways in which language shapes our thoughts. A &lt;a href=&#34;https://www.ted.com/talks/lera_boroditsky_how_language_shapes_the_way_we_think&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TED talk by Lera Boroditsky&lt;/a&gt; discusses some of these.&lt;/p&gt;
-&lt;p&gt;Why does Pearl emphasize the importance of language for causal inference? It has to do with precision, and it reminds me of a scene from Lois Lowry&amp;rsquo;s &lt;em&gt;The Giver&lt;/em&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;What is it, Jonas?&amp;rdquo; his father asked.&lt;/p&gt;
-&lt;p&gt;He made himself say the words, though he felt flushed with
-embarrassment. He had rehearsed them in his mind all the way
-home from the Annex.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Do you love me?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;There was an awkward silence for a moment. Then Father gave a
-little chuckle. &amp;ldquo;Jonas. You, of all people. Precision of
-language, please!&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Earlier in the book it is revealed that the reason for the strict adherence to precision of language in Jonas&amp;rsquo;s community is to avoid unintentional lies that can come about through exaggeration or misinterpretation. We learn quickly in the story that this precision of language creates a dystopia, devoid of true feeling and the emotions that make up a beautiful human life.&lt;/p&gt;
-&lt;p&gt;A bleak picture in the case of &lt;em&gt;The Giver&lt;/em&gt;, but the existence of a language that allows for precise expression is indispensable when it comes to science! Consider the following epidemiological investigation: we want to know how the consumption of red meat influences risk for colon cancer. There are two questions that we might think of quickly.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Does eating red meat cause an increase in colon cancer risk?&lt;/li&gt;
-&lt;li&gt;How much red meat consumption is needed to increase the risk of colon cancer?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;My impression is that the first question is how the majority of the public perceives a causal effect. &lt;em&gt;Does&lt;/em&gt; exposure cause outcome? Pearl explains that this conventional way of thinking about causal analysis is really not the goal of the field at all:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Many people still make Niles&amp;rsquo;s mistake of thinking that the goal
-of causal analysis is to prove that X is a cause of Y or else to
-find the cause of Y from scratch. That is the problem of causal
-discovery. (p. 79)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(Niles was a critic of path analysis/causal diagrams.) The goal of causal analysis is to quantitatively estimate causal effects while fully capturing the state of the analyst&amp;rsquo;s current knowledge. The full capturing of current knowledge is achieved by drawing a causal diagram.&lt;/p&gt;
-&lt;p&gt;The second question, though quantitative, is still imprecise. It gets more at the estimation goal of causal analysis, but its imprecision leads to individual interpretations of the best way to proceed (essentially researcher degrees of freedom). Certainly there will be differences between individuals in terms of what they feel is the current state of knowledge on a subject. That is, experts may disagree on their causal diagrams. This disagreement is ok as long as their working set of assumptions (the causal diagrams) are made explicit. Usually when researchers ask a causal question like number 2, researcher degrees of freedom abound in both the variables considered and the manner in which the variables are handled in the analytic method.&lt;/p&gt;
-&lt;p&gt;Both of these issues can be avoided by using causal diagrams and the accompanying language of &lt;em&gt;do&lt;/em&gt;-calculus. Causal diagrams are a means of precisely representing current knowledge. &lt;em&gt;Do&lt;/em&gt;-calculus consists of a set of rules that allow us to express a causal quantity that we want to estimate in terms of quantities that can be computed from data. That is, it is a set of rules that allows us to express the effect of an &lt;strong&gt;intervention&lt;/strong&gt; in terms of observational data quantities. An interventional effect is specified with the &lt;em&gt;do&lt;/em&gt;-operator as with $P(Y \mid do(X))$ to indicate a deliberate intervention. This is usually quite different from the observational quantity $P(Y \mid X)$ as a classic confounding example illustrates. Let $Y$ denote reading ability and $X$ denote shoe size. We all know that age confounds the relationship as it is a cause of both shoe size and reading ability (provided the individual benefits from education). Were it not completely insane, intervening on shoe size would not change $P(Y \mid do(X))$, but the observational quantity $P(Y \mid X)$ does change as $X$ changes.&lt;/p&gt;
-&lt;p&gt;It was not intuitive for me that the effect of an intervention that has not actually been carried out could be estimated from observational data, but Pearl builds up these ideas in &lt;em&gt;The Book of Why&lt;/em&gt; to explain (in Chapter 7) that 3 rules of &lt;em&gt;do&lt;/em&gt;-calculus suffice for determining if a particular causal effect can be estimated from observation data given a causal diagram. &lt;a href=&#34;https://www.inference.vc/untitled/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog post&lt;/a&gt; gives more technical details about causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus, and the &lt;a href=&#34;https://arxiv.org/abs/1305.5506&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;introductory paper&lt;/a&gt; cited in that post explains the 3 rules in detail.&lt;/p&gt;
-&lt;p&gt;The combination of causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus is a powerful idea for me because of the precision of language that it offers for making causal queries. We first must lay our assumptions bare with a causal diagram. This was not a hard point to sell me on because I am already a firm believer in the power of network methods to organize domain knowledge. &lt;em&gt;Do&lt;/em&gt;-calculus on the other hand is quite surprising. Still, the 3 rules provide clear guidelines on how to express a causal effect from observational data, and this clarity in allowable expressions is for me a compelling motivator for their use. Pearl mentions in the book that these rules have been algorithmized, and in my brief searching, I have found the R package called &lt;a href=&#34;http://www.dagitty.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;daggity&lt;/a&gt; that seems to implement the rules of &lt;em&gt;do&lt;/em&gt;-calculus.&lt;/p&gt;
-&lt;h2 id=&#34;history-a-idhistorya&#34;&gt;History &lt;a id=&#34;history&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Another major theme of this book is understanding history. One entire chapter is devoted to tracing the history of how causal inference came to be. Pearl and Mackenzie start by recounting the tale of Francis Galton, a British scientist who was on a quest to understand the genetic determinants of features like height and intelligence. He eventually stumbled upon the phenomenon of regression to the mean and saw it as a physical, casual process because it was able to reconcile some peculiar features of models that he had developed for height distributions across generations. However, he eventually grew dissatisfied with the idea after finding that the phenomenon persisted regardless of which variable was treated as the causal agent. He was never able to resolve his initial causal queries about genetic determinants, but he did pass on ideas of scatterplots and correlation to future generations of statisticians. In particular, Karl Pearson took to the idea of correlation quite excitedly and came to eschew ideas of causality, which he viewed as imprecise and vague in contrast to his clean, mathematized correlation coefficient. Such was a major force behind the lack of causality research in statistics for some time. Pearl and Mackenzie end this historical chapter with the tale of Sewall Wright, who seems to have been one of the first to come up with the idea of using causal diagrams. Through Wright&amp;rsquo;s tale we see a reemergence of the willingness to study casuality rigorously and quantitatively.&lt;/p&gt;
-&lt;p&gt;This historical discussion is fascinating because it allows us (with our hindsight goggles on) to understand why research progressed the way that it did. Through understanding the personalities and culture of these historical figures, we can understand why certain ideas were pursued, why shortcomings arose, and hopefully mediate ourselves to be better scientists because of this understanding.&lt;/p&gt;
-&lt;h2 id=&#34;cognition-a-idcognitiona&#34;&gt;Cognition &lt;a id=&#34;cognition&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The importance of an awareness of human cognition is also a recurring idea in the book. Pearl motivates his journey through causal inference with his interests in artificial intelligence, and he claims that causal inference methods should ideally try to emulate the powerful causal reasoning faculties within our own minds that stem from simply asking the question: why? I like the apparent simplicity of this. It is easy to see how asking this question could give rise to causal diagrams. Each &amp;ldquo;because&amp;rdquo; becomes a directed connection from nodes that represent variables in our &amp;ldquo;because&amp;rdquo; statement. Still, at the same time, I wondered: should there not be some higher standard to which causal inference methods should aspire? Why simply aim to replicate human reasoning? Shouldn&amp;rsquo;t we strive for our methods to achieve something &lt;em&gt;more&lt;/em&gt; than just human reasoning in some sense? After thinking about this, I feel that these goals are too lofty. We humans are limited by our capabilities, so even if causal inference methods could achieve beyond-human reasoning, we wouldn&amp;rsquo;t &lt;em&gt;know&lt;/em&gt; that they were. Given a method that produces some results, we would still evaluate the method by asking, &amp;ldquo;Do those results make sense?&amp;rdquo; We would still be using our (powerful) causal reasoning capabilities to make sense of the results generated by the method. Thus even if some deeper meaning was somehow conveyed by the method, the meaning we would be able to extract from it is limited by the framework of our understanding. I feel that Pearl&amp;rsquo;s claims about using human reasoning as a gold standard for causal inference methods is reasonable. This thinking also reaffirms my belief in the importance of understanding how humans interact with the tools we develop, such as through the fields of ergonomics, human-computer interaction, human-data interaction.&lt;/p&gt;
-&lt;p&gt;An awareness of human cognition is explored most extensively in a chapter on several paradoxes: the Monty Hall problem, Berkson&amp;rsquo;s paradox, Simpson&amp;rsquo;s paradox, and Lord&amp;rsquo;s paradox. I had actualy never heard of Berkson&amp;rsquo;s paradox, but it is the appearance of an association in a subpopulation that is not seen in the general population. Pearl explores all of these paradoxes in light of causal diagrams, and I actually did find it helpful to view these problems with this causal lens. The causal diagrams were useful in generalizing the structure of the situations governing the paradoxes, which I think is helpful in recognizing when they occur. Further, Pearl lays forth a reasonable set of criteria for dealing with paradoxes:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Any claim to resolve a paradox (especially one that is decades old)
-should meet some basic criteria. First, as I said above in connection
-with the Monty Hall paradox, it should explain why people find the
-paradox surprising or unbelievable. Second, it should identify the
-class of scenarios in which the paradox can occur. Third, it should
-inform us of scenarios, if any, in which the paradox cannot occur.
-Finally, when the paradox does occur, and we have to make a choice
-between two plausible yet contradictory statements, it should tell us
-which statement is correct. (p. 202)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;teaching-a-idteachinga&#34;&gt;Teaching &lt;a id=&#34;teaching&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;By its nature, the book aims to inform readers about the development of and about central ideas in causal inference, but teaching and pedagogy are not direct themes of the book. That being said, I was amazed at how appropriate the writing of the book is for a classroom textbook. There are a lot of great thought experiments, historical examples, and activities to engage students at the undergraduate level and beyond. In particular, the chapters that recount the evolution of the smoking-lung cancer debate (Chapter 5) and that explore &amp;ldquo;statistical&amp;rdquo; paradoxes through a causal lens (Chapter 6) are great sources of classroom content.&lt;/p&gt;
-&lt;h2 id=&#34;conclusions-a-idconclusionsa&#34;&gt;Conclusions &lt;a id=&#34;conclusions&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I highly recommend this book to anyone who cares about science. Even if causal inference isn&amp;rsquo;t an area of interest for you, the ideas in this book are important for understanding the causal research that we otherwise consume or hear about. Pearl is very invested in these ideas, so the language in the book is very enthusiastically in favor of these methods. I can see how this might irritate some readers, but I found that the ideas he presented were compelling and interesting in their own right. Certainly these methods are not a panacea, but I do believe that they can be quite useful. Reading the book has motivated me to continue learning about these topics, and I hope that I can eventually fully understand the answers to some questions I was left with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Is there no reconciliation at all for Rubin causal model type methods and &lt;em&gt;do&lt;/em&gt;-calculus methods?&lt;/li&gt;
-&lt;li&gt;How can causal diagrams and &lt;em&gt;do&lt;/em&gt;-calculus be used to study networks that evove with time?&lt;/li&gt;
-&lt;li&gt;How is interference between units handled?&lt;/li&gt;
-&lt;li&gt;How can we measure the causal effect of several variables simultaneously?&lt;/li&gt;
-&lt;li&gt;I have heard of edges being random variables in the graphical model literature. (i.e. Arrows can point to arrows.) Is this part of the &lt;em&gt;do&lt;/em&gt;-calculus framework?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I just finished reading The Book of Why by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning.</description>
     </item>
     
     <item>
       <title>Tips for using the Hugo academic theme</title>
       <link>/post/hugo-academic-tips/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
       <guid>/post/hugo-academic-tips/</guid>
-      <description>&lt;p&gt;I recently migrated my personal website and &lt;a href=&#34;https://lesliemyint.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wordpress blog&lt;/a&gt; to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;. As an academic, it was natural to use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.&lt;/p&gt;
-&lt;p&gt;The source and rendered files for my website are available on GitHub:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Public, rendered site&lt;/a&gt;: the &lt;code&gt;public&lt;/code&gt; directory within my blogdown/Hugo project&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/personal_site&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo content and source files&lt;/a&gt;: all files and directories within my blogdown/Hugo project (i.e. TOML files, &lt;code&gt;archetypes/&lt;/code&gt;, &lt;code&gt;content/&lt;/code&gt;, &lt;code&gt;data/&lt;/code&gt;, &lt;code&gt;layouts/&lt;/code&gt;, &lt;code&gt;static/&lt;/code&gt;, &lt;code&gt;themes/&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#start-with-config-toml&#34;&gt;Start with &lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#full-content-rss&#34;&gt;Full content RSS feeds for categories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#modifying-contact-section&#34;&gt;Modifying the Contact section&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-cv&#34;&gt;Adding a CV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#version-control&#34;&gt;Version control&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;resources-a-idresourcesa&#34;&gt;Resources &lt;a id=&#34;resources&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown book&lt;/a&gt; by Yihui Xie, Amber Thomas, and Alison Presmanes Hill&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Up and running with blogdown&lt;/a&gt; by Alison Presmanes Hill&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://amber.rbind.io/blog/2016/12/19/creatingsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Making a Website Using Blogdown, Hugo, and GitHub pages&lt;/a&gt; by Amber Thomas&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;start-with-configtoml-a-idstart-with-config-tomla&#34;&gt;Start with &lt;code&gt;config.toml&lt;/code&gt; &lt;a id=&#34;start-with-config-toml&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The key-value pairs in &lt;code&gt;config.toml&lt;/code&gt; are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&amp;rsquo;ll mention next are ones where I had to spend a little more time.&lt;/p&gt;
-&lt;h3 id=&#34;color-theme&#34;&gt;Color theme&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = &amp;quot;custom&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This sets the color scheme for your site. I changed the theme to &amp;ldquo;custom&amp;rdquo; and made created a file called &lt;code&gt;custom.toml&lt;/code&gt; in &lt;code&gt;themes/hugo-academic/data/themes/&lt;/code&gt;. I have the following in my &lt;code&gt;custom.toml&lt;/code&gt; file:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# Theme metadata
-name = &amp;quot;custom&amp;quot;
-
-# Is theme light or dark?
-light = true
-
-# Primary
-primary = &amp;quot;#328cc1&amp;quot;
-primary_light = &amp;quot;#328cc1&amp;quot;
-primary_dark = &amp;quot;#DA2536&amp;quot;
-
-# Menu
-menu_primary = &amp;quot;#494949&amp;quot;
-menu_text = &amp;quot;#fff&amp;quot;
-menu_text_active = &amp;quot;#328cc1&amp;quot;
-menu_title = &amp;quot;#fff&amp;quot;
-
-# Backgrounds
-background = &amp;quot;#fff&amp;quot;
-home_section_odd = &amp;quot;#fff&amp;quot;
-home_section_even = &amp;quot;#f7f7f7&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &amp;ldquo;Primary&amp;rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &amp;ldquo;Menu&amp;rdquo; section changes the colors in the top menu bar. The &amp;ldquo;Backgrounds&amp;rdquo; section changes the color of the section panels on the first page.&lt;/p&gt;
-&lt;h3 id=&#34;highlightjs&#34;&gt;highlight.js&lt;/h3&gt;
-&lt;p&gt;In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of &lt;code&gt;config.toml&lt;/code&gt;, you can visit &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34;&gt;https://cdnjs.com/libraries/highlight.js/&lt;/a&gt; to see the list of languages supported (URls ending in &lt;code&gt;languages/LANGUAGE_NAME.min.js&lt;/code&gt;). You&amp;rsquo;ll also see a list of color schemes (URLs ending in &lt;code&gt;styles/STYLE_NAME.min.css&lt;/code&gt;). I wanted to know what these color schemes looked like, so I searched and found &lt;a href=&#34;https://highlightjs.org/static/demo/&#34;&gt;https://highlightjs.org/static/demo/&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;full-content-rss-feeds-for-categories-a-idfull-content-rssa&#34;&gt;Full content RSS feeds for categories &lt;a id=&#34;full-content-rss&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. &lt;a href=&#34;https://lmyint.github.io/post/index.xml,&#34;&gt;https://lmyint.github.io/post/index.xml,&lt;/a&gt; &lt;a href=&#34;https://lmyint.github.io/categories/r/index.xml&#34;&gt;https://lmyint.github.io/categories/r/index.xml&lt;/a&gt;) contained only a brief summary of my posts in the &lt;code&gt;description&lt;/code&gt; tags as opposed to the full post content. Only my home page RSS feed (&lt;a href=&#34;https://lmyint.github.io/index.xml&#34;&gt;https://lmyint.github.io/index.xml&lt;/a&gt;) had full content of posts.&lt;/p&gt;
-&lt;p&gt;Following the advice &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues/346&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; by changing the outputs in &lt;code&gt;config.toml&lt;/code&gt; to the TOML below did not fix the issue.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[outputs]
-  home = [ &amp;quot;HTML&amp;quot;, &amp;quot;CSS&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  section = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  taxonomy = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-  taxonomyTerm = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot; ]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;The fix:&lt;/strong&gt; If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as &lt;a href=&#34;https://www.r-bloggers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Bloggers&lt;/a&gt;), do the following:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Put these posts in one &lt;strong&gt;category&lt;/strong&gt; (not &lt;strong&gt;tag&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://gohugo.io/templates/rss/#the-embedded-rss-xml&#34;&gt;https://gohugo.io/templates/rss/#the-embedded-rss-xml&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Look in the third row of the table: Taxonomy list in categories&lt;/li&gt;
-&lt;li&gt;Create &lt;code&gt;layouts/categories/category.rss.xml&lt;/code&gt; and use the default RSS template at the bottom of the page replacing&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Summary | html }}&amp;lt;/description&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;with&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;description&amp;gt;{{ .Content | html }}&amp;lt;/description&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After this, the RSS feeds for your category pages should have full post content.&lt;/p&gt;
-&lt;h2 id=&#34;modifying-the-contact-section-a-idmodifying-contact-sectiona&#34;&gt;Modifying the Contact section &lt;a id=&#34;modifying-contact-section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;By default, the Contact section of the page will display certain items in the &lt;code&gt;params&lt;/code&gt; table of your &lt;code&gt;config.toml&lt;/code&gt; file. With the TOML below, the Contact section would only contain my e-mail address.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Some other stuff...
-
-  email = &amp;quot;lmyint@macalester.edu&amp;quot;
-  address = &amp;quot;&amp;quot;
-  office_hours = &amp;quot;&amp;quot;
-  phone = &amp;quot;&amp;quot;
-  skype = &amp;quot;&amp;quot;
-  telegram = &amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
-  # Some other stuff...
-
-  email = &amp;quot;lmyint@macalester.edu&amp;quot;
-  address = &amp;quot;&amp;quot;
-  office_hours = &amp;quot;&amp;quot;
-  phone = &amp;quot;&amp;quot;
-  skype = &amp;quot;&amp;quot;
-  telegram = &amp;quot;&amp;quot;
-  twitter = &amp;quot;lesliemyint&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I also had to update &lt;code&gt;themes/hugo-academic/layouts/partials/widgets/contact.html&lt;/code&gt;. I duplicated the section of the HTML that displays the e-mail address parameter:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.email }}
-&amp;lt;li&amp;gt;
-  &amp;lt;i class=&amp;quot;fa-li fa fa-envelope fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-  &amp;lt;span id=&amp;quot;person-email&amp;quot; itemprop=&amp;quot;email&amp;quot;&amp;gt;
-  {{- if $autolink }}&amp;lt;a href=&amp;quot;mailto:{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;{{ else }}{{ . }}{{ end -}}
-  &amp;lt;/span&amp;gt;
-&amp;lt;/li&amp;gt;
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And I modified it to access the Twitter parameter (&lt;code&gt;$.Site.Params.twitter&lt;/code&gt;), use the Twitter icon (&lt;code&gt;class=&amp;quot;fa-twitter&amp;quot;&lt;/code&gt;), and link to the Twitter website.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{ with $.Site.Params.twitter }}
-&amp;lt;li&amp;gt;
-  &amp;lt;i class=&amp;quot;fa-li fa fa-twitter fa-2x&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-  &amp;lt;span&amp;gt;
-  &amp;lt;a href=&amp;quot;https://twitter.com/{{ . }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt;
-  &amp;lt;/span&amp;gt;
-&amp;lt;/li&amp;gt;
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;adding-a-cv-a-idadding-cva&#34;&gt;Adding a CV &lt;a id=&#34;adding-cv&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I use an &lt;a href=&#34;http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML template&lt;/a&gt; for my CV and wanted to link to both the HTML and PDF versions.&lt;/p&gt;
-&lt;p&gt;First, I added a CV section to my top menu bar by adding the following TOML to &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[menu.main]]
-  name = &amp;quot;CV&amp;quot;
-  url = &amp;quot;#cv&amp;quot;
-  weight = 5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next, I created a directory called &lt;code&gt;cv/&lt;/code&gt; within the &lt;code&gt;content/&lt;/code&gt; directory and added the HTML and PDF versions of my CV, &lt;code&gt;index.html&lt;/code&gt; and &lt;code&gt;cv.pdf&lt;/code&gt; respectively to &lt;code&gt;content/cv/&lt;/code&gt;. Because my HTML CV relies on a stylesheet (&lt;code&gt;cv.css&lt;/code&gt;), I added it to &lt;code&gt;static/css/&lt;/code&gt;, and I link to it in &lt;code&gt;index.html&lt;/code&gt; with the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link type=&amp;quot;text/css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;../css/cv.css&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The relative linking (&lt;code&gt;../css/cv.css&lt;/code&gt;) looks as such because the directory structure that is generated in &lt;code&gt;public/&lt;/code&gt; looks like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|-public/
-|---index.html
-|---css/
-|------cv.css
-|---cv/
-|------cv.pdf
-|------index.html
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Last, I created &lt;code&gt;cv.md&lt;/code&gt; in &lt;code&gt;content/home/&lt;/code&gt; by duplicating the &lt;code&gt;teaching.md&lt;/code&gt; file that comes with the theme by default. You can view my &lt;code&gt;cv.md&lt;/code&gt; file &lt;a href=&#34;https://raw.githubusercontent.com/lmyint/personal_site/master/content/home/cv.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on GitHub&lt;/a&gt;. The main hurdle in linking external resources is figuruing out the correct relative paths to these files. Again, looking at the generated directory structure above, we have to specify paths relative to &lt;code&gt;index.html&lt;/code&gt;. So I include the following in &lt;code&gt;cv.md&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;My CV is available in [HTML](cv/) or [PDF](cv/cv.pdf) form.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;version-control-a-idversion-controla&#34;&gt;Version control &lt;a id=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;My website is hosted with &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub pages&lt;/a&gt;, and the &lt;a href=&#34;https://github.com/lmyint/lmyint.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;associated repository&lt;/a&gt; only contains the file in the &lt;code&gt;public&lt;/code&gt; directory of my Hugo project.&lt;/p&gt;
-&lt;p&gt;I used the &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Host on GitHub&lt;/a&gt; tutorial to figure out that the &lt;code&gt;public&lt;/code&gt; directory can be set up as a &lt;a href=&#34;https://github.com/blog/2104-working-with-submodules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git submodule&lt;/a&gt; within an enclosing git repository containing source files. The enclosing git repository for my website is available at: &lt;a href=&#34;https://github.com/lmyint/personal_site&#34;&gt;https://github.com/lmyint/personal_site&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.</description>
     </item>
     
     <item>
       <title>Fight every battle everywhere: this is science</title>
       <link>/post/fight-every-battle/</link>
       <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
+      
       <guid>/post/fight-every-battle/</guid>
-      <description>&lt;p&gt;I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind. Everyone is your enemy, everyone is your friend. Every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you’ve seen before.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As I let my mind wander away from work for a bit today, I realized that this is a wonderful quote about science!&lt;/p&gt;
-&lt;h3 id=&#34;fight-every-battle-everywhere-always-in-your-mind&#34;&gt;Fight every battle everywhere, always, in your mind&lt;/h3&gt;
-&lt;p&gt;Baelish is a shrewd, obsessive planner. In planning for everything that could possibly happen, he always seems to be prepared, get what he wants, and stay alive. Just like staying alive in Westeros in positions of power, doing good science can be quite difficult because we are set adrift in extremely complex systems. There are so many paths that that can be followed to answer a research question (including the formulation of the question itself!), and all could be the subject of an intellectual battle with a critic. Studying the effect of yearly bonuses for teachers on long-term student outcomes? How do you define long-term? What outcomes will you measure and how? How will you prevent dropout? How do you make differing bonus amounts comparable for teachers who differ in terms of what they teach, where they live, what composition of students they teach from year to year? How would you even define &amp;ldquo;composition of students&amp;rdquo;? Also why study student outcomes as opposed to community outcomes? There is no way that a single study could address all of these concerns, or the ones that I couldn&amp;rsquo;t think of, but these concerns need to be thought about because they need to be &lt;em&gt;answered&lt;/em&gt; for us to have any hope of meaningful, actionable conclusions. Just the act of forecasting these hypothetical intellectual battles can motivate the design of better studies.&lt;/p&gt;
-&lt;h3 id=&#34;everyone-is-your-enemy-everyone-is-your-friend&#34;&gt;Everyone is your enemy, everyone is your friend&lt;/h3&gt;
-&lt;p&gt;Baelish is calculating and knows how effective people can be in various contexts. It can be helpful to think of everyone in the scientific community as your enemy—enemies ready to question every aspect of your work and find every possible hole—but only if it indeed motivates &lt;em&gt;you&lt;/em&gt; to do those very things. Only by heavily scrutinizing our own work can we make ourselves the best scientists possible. Acknowledging limitations in private and subsequently making them known to others is key to moving the state of knowledge forward. I do want to de-emphasize any paranoid or hateful connotations of this quote though! Some people in my field take the &amp;ldquo;everyone is your enemy&amp;rdquo; part too seriously and critique others in inflammatory ways.&lt;/p&gt;
-&lt;p&gt;Now the friends part&amp;hellip;this probably works out better for science than for Baelish. Scientists form a community, and ideally &lt;a href=&#34;https://simplystatistics.org/2015/12/11/instead-of-research-on-reproducibility-just-do-reproducible-research/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sharing everything&lt;/a&gt; about our work would facilitate a team effort to find even more limitations and address them fruitfully to get leaps and bounds closer to useful answers. But my impression is that things generally don&amp;rsquo;t happen this way. Groups work somewhat in isolation on different aspects of a problem. Perhaps consortia try to harmonize efforts in some respects, but useful information is still needed from external sources and not able to be integrated easily. Just as it is hard in Westeros to find good allies, it can be difficult in science to find good collaborators. But when it does happen, great deeds are in the works.&lt;/p&gt;
-&lt;h3 id=&#34;every-possible-series-of-events-is-happening-all-at-once&#34;&gt;Every possible series of events is happening all at once&lt;/h3&gt;
-&lt;p&gt;In Westeros, livelihoods dance on the whims of nobles and on the breath of armies that can be traded with coin coffers or decimated in an afternoon. This creates a palpable urgency for Baelish to always stay ahead of the game. This immediacy isn&amp;rsquo;t really felt in science. We don&amp;rsquo;t gamble with our lives when we submit a paper and wait for the review process to unfold. I think that the scientific community is lured to progress slowly with our &lt;a href=&#34;http://www.sciencemag.org/news/2015/12/got-just-single-observation-new-journal-will-publish-it&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recognition system&lt;/a&gt; favoring large numbers of publications. Researchers who have large projects are incentivized to break the project up into several publications. I don&amp;rsquo;t think this is necessarily bad if the scientists have actually completed this larger body of research. The flaw I see is if it incentivizes scientists to publish work that isn&amp;rsquo;t as complete out of time pressure and fail to follow up with more complete validation because they feel the validation work isn&amp;rsquo;t &amp;ldquo;enough&amp;rdquo; for its own publication. There is &lt;a href=&#34;http://www.sciencemag.org/news/2016/02/if-you-fail-reproduce-another-scientist-s-results-journal-wants-know&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;some effort to recognize replication attempts&lt;/a&gt;, but I wish that there were more urgency and incentive to conduct more complete studies the first time around because it sets the baseline higher for future work.&lt;/p&gt;
-</description>
+      <description>I love Game of Thrones. I particularly liked this mini-speech from Petyr Baelish earlier in Season 7:
+ Don’t fight in the North or the South. Fight every battle everywhere, always, in your mind.</description>
     </item>
     
     <item>
       <title>Creating a Shiny app with Google login</title>
       <link>/post/shiny-app-with-google-login/</link>
       <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
+      
       <guid>/post/shiny-app-with-google-login/</guid>
-      <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.&lt;/p&gt;
-&lt;div id=&#34;step-1-install-packages&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Step 1: Install packages&lt;/h1&gt;
-&lt;p&gt;You will need the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR&#34;&gt;&lt;code&gt;googleAuthR&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;&lt;code&gt;googleID&lt;/code&gt;&lt;/a&gt; packages to allow for Google authentication and login. If you plan to publish your app on shinyapps.io, you’ll also need the &lt;code&gt;shinyjs&lt;/code&gt; package to avoid a clunky “Disconnected from the server” message on logout. You can install these packages with&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(c(&amp;quot;googleAuthR&amp;quot;, &amp;quot;shinyjs&amp;quot;))
-devtools::install_github(&amp;quot;MarkEdmondson1234/googleID&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is important to install the &lt;code&gt;googleID&lt;/code&gt; package with the command above to avoid an “Unable to retrieve package records” error when publishing your app (see &lt;a href=&#34;https://groups.google.com/forum/#!topic/shiny-discuss/l6nug9hMh7g&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;step-2-setup-google-apis&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Step 2: Setup Google APIs&lt;/h1&gt;
-&lt;div id=&#34;setup-a-google-api-project&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Setup a Google API project&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Make sure that you are logged into Google and visit the &lt;a href=&#34;https://console.developers.google.com/iam-admin/projects&#34;&gt;Google APIs project page&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.&lt;/li&gt;
-&lt;li&gt;Click on the &lt;a href=&#34;https://console.developers.google.com/apis/api/plus/overview&#34;&gt;Google+ API link&lt;/a&gt; under “Social APIs” and click the “Enable” link at the top to activate the Google+ API.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;setup-authentication-credentials&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Setup authentication credentials&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Click the “Credentials” link in the menu on the left.&lt;/li&gt;
-&lt;li&gt;Navigate to the “OAuth consent screen” tab near the top.&lt;/li&gt;
-&lt;li&gt;Fill in the “Product name shown to users” form with the name of your Shiny application. The information you provide in this tab populate the authentication screen that pops up when users click the “Login with Google” link in your app (&lt;a href=&#34;https://developers.google.com/accounts/images/OAuth2Consent.png&#34;&gt;example&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Navigate to the “Credentials” tab at the top.&lt;/li&gt;
-&lt;li&gt;On the “Create Credentials” dropdown menu, select “OAuth client ID” and select “Web application” for the application type.&lt;/li&gt;
-&lt;li&gt;Fill in any descriptive name for this authentication client.&lt;/li&gt;
-&lt;li&gt;In the redirect URLs field, fill in
-* the URL for your Shiny app (e.g. &lt;a href=&#34;https://yourdomain.shinyapps.io/appName&#34; class=&#34;uri&#34;&gt;https://yourdomain.shinyapps.io/appName&lt;/a&gt;)
-* &lt;a href=&#34;http://127.0.0.1:1221&#34; class=&#34;uri&#34;&gt;http://127.0.0.1:1221&lt;/a&gt;
-This is to facilitate local development and testing of your app.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;After saving this information, a client ID and secret will pop up. Copy and paste these for use in your code later.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;step-3-code&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Step 3: Code&lt;/h1&gt;
-&lt;p&gt;Include the following code at the top of your &lt;code&gt;app.R&lt;/code&gt; file to setup scopes for the relevant API functions you’ll be using and to specify the client ID and secret you received in step 8 above:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;options(googleAuthR.scopes.selected = c(&amp;quot;https://www.googleapis.com/auth/userinfo.email&amp;quot;,
-                                        &amp;quot;https://www.googleapis.com/auth/userinfo.profile&amp;quot;))
-options(&amp;quot;googleAuthR.webapp.client_id&amp;quot; = &amp;quot;YOUR_CLIENT_ID&amp;quot;)
-options(&amp;quot;googleAuthR.webapp.client_secret&amp;quot; = &amp;quot;YOUR_CLIENT_SECRET&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Below is the shell of an app.R file that will create a login/logout button using Google authentication. I’ll explain the individual components afterward.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ui &amp;lt;- navbarPage(
-    title = &amp;quot;App Name&amp;quot;,
-    windowTitle = &amp;quot;Browser window title&amp;quot;,
-    tabPanel(&amp;quot;Tab 1&amp;quot;,
-        useShinyjs(),
-        sidebarLayout(
-            sidebarPanel(
-                p(&amp;quot;Welcome!&amp;quot;),
-                googleAuthUI(&amp;quot;gauth_login&amp;quot;)
-            ),
-            mainPanel(
-                textOutput(&amp;quot;display_username&amp;quot;)
-            )
-        )
-    ),
-    tabPanel(&amp;quot;Tab 2&amp;quot;,
-        p(&amp;quot;Layout for tab 2&amp;quot;)
-    )
-)
-
-server &amp;lt;- function(input, output, session) {
-    ## Global variables needed throughout the app
-    rv &amp;lt;- reactiveValues(
-        login = FALSE
-    )
-
-    ## Authentication
-    accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
-        login_class = &amp;quot;btn btn-primary&amp;quot;,
-        logout_class = &amp;quot;btn btn-primary&amp;quot;)
-    userDetails &amp;lt;- reactive({
-        validate(
-            need(accessToken(), &amp;quot;not logged in&amp;quot;)
-        )
-        rv$login &amp;lt;- TRUE
-        with_shiny(get_user_info, shiny_access_token = accessToken())
-    })
-
-    ## Display user&amp;#39;s Google display name after successful login
-    output$display_username &amp;lt;- renderText({
-        validate(
-            need(userDetails(), &amp;quot;getting user details&amp;quot;)
-        )
-        userDetails()$displayName
-    })
-
-    ## Workaround to avoid shinyaps.io URL problems
-    observe({
-        if (rv$login) {
-            shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
-                shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
-        }
-    })
-}
-
-shinyApp(ui = ui, server = server)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The login/logout button is created as part of the UI by calling the &lt;code&gt;googleAuthUI&lt;/code&gt; function and supplying an ID:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;googleAuthUI(&amp;quot;gauth_login&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Use the same ID to call the Google authentication module with &lt;code&gt;callModule&lt;/code&gt;. It is also possible to set the classes of the login and logout buttons. For styling purposes, I’ve set the classes of the login and logout buttons to be the same which renders the buttons as flat blue buttons with white text. By default, the logout button just has the &lt;code&gt;btn&lt;/code&gt; class and is a standard silver button.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;accessToken &amp;lt;- callModule(googleAuth, &amp;quot;gauth_login&amp;quot;,
-    login_class = &amp;quot;btn btn-primary&amp;quot;,
-    logout_class = &amp;quot;btn btn-primary&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;userDetails&lt;/code&gt; object is a reactive expression that is a list of several pieces of information from the user’s Google profile (see the &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleID&#34;&gt;googleID example&lt;/a&gt;). Until the access token is generated, any output that depends on &lt;code&gt;userDetails&lt;/code&gt; will instead display “not logged in.”&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;userDetails &amp;lt;- reactive({
-    validate(
-        need(accessToken(), &amp;quot;not logged in&amp;quot;)
-    )
-    rv$login &amp;lt;- TRUE
-    with_shiny(get_user_info, shiny_access_token = accessToken())
-})&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If parts of the UI are to be rendered based on this information after user login, include a &lt;code&gt;validate()&lt;/code&gt; command:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;output$display_username &amp;lt;- renderText({
-    validate(
-        need(userDetails(), &amp;quot;getting user details&amp;quot;)
-    )
-    userDetails()$displayName
-})&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Without the last piece of code using &lt;code&gt;shinyjs&lt;/code&gt;, clicking the logout button would cause the app to be &lt;a href=&#34;https://github.com/MarkEdmondson1234/googleAuthR/issues/17&#34;&gt;disconnected from the server&lt;/a&gt;. This results in a clunky, undesirable logout experience. This last piece of code redirects to the specified URL when the logout button is clicked.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;observe({
-    if (rv$login) {
-        shinyjs::onclick(&amp;quot;gauth_login-googleAuthUi&amp;quot;,
-            shinyjs::runjs(&amp;quot;window.location.href = &amp;#39;https://yourdomain.shinyapps.io/appName&amp;#39;;&amp;quot;))
-    }
-})&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;other-considerations&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Other considerations&lt;/h1&gt;
-&lt;p&gt;The steps above should help you quickly get started developing a Shiny application with Google login. The meat of the app will depend on your needs, but if you want to keep track of user information, consider using some &lt;a href=&#34;https://shiny.rstudio.com/articles/persistent-data-storage.html&#34;&gt;online file system or database&lt;/a&gt; to map users’ Google IDs to your app’s own set of profile information.&lt;/p&gt;
-&lt;/div&gt;
-</description>
+      <description>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files.</description>
     </item>
     
     <item>
       <title>What is likelihood?</title>
       <link>/post/what-is-likelihood/</link>
       <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
+      
       <guid>/post/what-is-likelihood/</guid>
-      <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
-&lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
-&lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
-&lt;p&gt;“So what &lt;em&gt;is&lt;/em&gt; likelihood?”&lt;/p&gt;
-&lt;p&gt;“Good question! Let me ask you this: what’s the probability of rolling a one on a six-sided die?”&lt;/p&gt;
-&lt;p&gt;“One-sixth…”&lt;/p&gt;
-&lt;p&gt;“Ah - what if I told you that it was actually 90%?”&lt;/p&gt;
-&lt;p&gt;Silence or contemplation.&lt;/p&gt;
-&lt;p&gt;“So why did you say one-sixth?”&lt;/p&gt;
-&lt;p&gt;“Because there’s a single one out of the six sides.”&lt;/p&gt;
-&lt;p&gt;“Right - so you assumed a &lt;strong&gt;model&lt;/strong&gt; of a fair die. And using a model for a fair die, each number has a one-sixth chance of being rolled. I assumed a model of an exquisitely crafted loaded die where the chance of getting a one is 90% and the other five numbers is 2% each.”&lt;/p&gt;
-&lt;p&gt;“Ok…”&lt;/p&gt;
-&lt;p&gt;“We’re getting close to the meat of it! So I have a model in mind, and you have a model in mind…who’s right? The only way to hope to answer this is with data. Say I rolled this hypothetical die and got a 2, 3, 4, 6, and then a 2. What die model do you think is better?”&lt;/p&gt;
-&lt;p&gt;“The fair one.”&lt;/p&gt;
-&lt;p&gt;“Right - why?”&lt;/p&gt;
-&lt;p&gt;“There wasn’t even a single one rolled, and your loaded die is supposed to have a 90% chance to roll a one.”&lt;/p&gt;
-&lt;p&gt;“Excellent! So the &lt;strong&gt;likelihood&lt;/strong&gt; of our data is higher for the fair die than for my loaded die, which is what led you to prefer the fair die model. Specifically you can calculate the likelihood of the data under your fair die model as &lt;span class=&#34;math inline&#34;&gt;\(\left(\frac{1}{6}\right)^5\)&lt;/span&gt;, and I can calculate the likelihood of the data under my loaded die model as &lt;span class=&#34;math inline&#34;&gt;\((0.02)^5\)&lt;/span&gt;, which is way lower. We can apply the thinking for this scenario analogously to regression! In regression, we are proposing models for the data just like we were in this dice scenario. It’s just that we’re using a different probability model. Specifically, we assume that the outcomes come from a normal distribution and that the mean of the distribution is some linear combination of covariates. Knowing the covariate information for everyone in our data is just like knowing the sequence of die rolls, and knowing the density function for the normal distribution is just like knowing the probabilities for the six sides of the die!”&lt;/p&gt;
-&lt;p&gt;The last bit of this would vary depending on the student’s understanding of the assumptions and setup of linear regression, but I like this line of explanation more than my original one for two teaching strategies that it employs.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Setting the student up to be contradicted.&lt;/strong&gt; Arguably lessons are more memorable for students when they are fairly confident in an answer but end up being told otherwise. Here I wanted to make them think intuitively about a common situation but bring to light their unconscious assumptions by bringing in unusual but plausible assumptions of my own. One of the main points of the explanation, the key dependence of likelihood on the model being proposed, hinges on this awareness of the connection between having a model in mind and being able to calculate probabilities. So making this memorable is key.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Framing the unfamiliar in the familiar.&lt;/strong&gt; Abstract concepts are often so because students are not accustomed to the language that we instructors are using to describe them. However, by framing the concept in a familiar context, students can more easily make the leap. It’s also a nice way to explain something twice without just repeating yourself twice. Essentially, analogies are the way to go when explaining something complex.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What is likelihood?</description>
     </item>
     
     <item>
       <title>Teaching real math with computers</title>
       <link>/post/teaching-real-math-with-computers/</link>
       <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
+      
       <guid>/post/teaching-real-math-with-computers/</guid>
-      <description>&lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
-&lt;h1 id=&#34;mathematics-can-be-taught-via-programming&#34;&gt;Mathematics can be taught via programming&lt;/h1&gt;
-&lt;p&gt;Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts. I completely agree that if you truly understand a concept, you can program it, but it’s worthwhile trying to consider how this might actually play out in middle and high school curricula.&lt;/p&gt;
-&lt;p&gt;It is useful to think about why this was such an interesting idea to many people in the first place. (It did get a TED talk after all.) The main point is that programming is not something that most people have any real idea of until they try it. I really didn’t understand what programming was about until I took an introductory class in college. I ended up loving it because I enjoyed the thorough and organized type of thinking that it encouraged, and I saw how useful it could be. People who are programmers or use programming regularly, like Mr. Wolfram, are very much convinced of its utility and are naturally excited about introducing this type of thinking earlier on in the education process. There are a few points that came to mind when weighing the pros and cons of a programming-oriented mathematics education:&lt;/p&gt;
-&lt;h2 id=&#34;programming-can-be-a-great-way-to-reinforce-concepts&#34;&gt;Programming can be a great way to &lt;strong&gt;reinforce&lt;/strong&gt; concepts&lt;/h2&gt;
-&lt;p&gt;I remember learning how to solve the tower of Hanoi puzzle in the children’s section of museums and in puzzle games long before I saw it again in my freshman year programming class. If placed before me, I probably would have been able to go through the motions from rough recollections or intuition, but the task at hand was to write a program that would solve an arbitrary tower of Hanoi puzzle (i.e. with any number of discs). Suddenly rough intuition needed to be transformed into a precise set of instructions, and it was the fact that I was seeing a familiar problem recast in a more general way that made the exercise relevant and memorable.&lt;/p&gt;
-&lt;p&gt;With standard pre-college mathematics education, a similar strategy could be adopted. As a specific example, solving systems of two equations with two unknowns is a standard algebra topic that could benefit from programming-type exercises. After students learn the technique of solving these problems, they hone their skills on practice problems and ideally are able to develop intuition on how to solve them by sight. Making this intuition more precise is where a programming exercise could come in. After students gain facility with solving the problems, we have them make their understanding more rigorous by asking them to write a very specific set of instructions to solve any such system of equations. Suddenly they must think about how &lt;em&gt;exactly&lt;/em&gt; they choose the scaling numbers for the equations and how they choose to add or subtract the two equations.&lt;/p&gt;
-&lt;h2 id=&#34;programming-is-probably-not-the-best-way-to-introduce-a-topic&#34;&gt;Programming is probably not the best way to &lt;strong&gt;introduce&lt;/strong&gt; a topic&lt;/h2&gt;
-&lt;p&gt;Just because an activity truly assesses understanding doesn’t mean that it automatically lays the foundation for a lesson plan. If all of my algebra lessons had been formatted as a series of instructions in the way that a programming perspective would emphasize, I know I would have enjoyed my math class a lot less. And I definitely would not have been ready to write a program to solve arbitrary systems of equations the day the topic was introduced. When material is presented as formulaic, as a procedure, students are compelled to simply memorize the steps involved in solving problems. The intuition is removed, and the concepts don’t stick past the next test. I still think that teachers should strive to motivate the material as much as possible—whether that be through telling a story or getting students to see how useful the concept can be. This is important in both a classroom instructional setting and in a homework design setting.&lt;/p&gt;
-&lt;h2 id=&#34;some-features-of-programming-can-be-useful-for-structuring-material&#34;&gt;Some features of programming can be useful for &lt;strong&gt;structuring&lt;/strong&gt; material&lt;/h2&gt;
-&lt;p&gt;One of the main reasons why people write code is to organize groups of related procedures and perform them in a consistent way in many different occasions. I can see this being useful in a geometry classroom, for example. Students could organize their knowledge of geometrical formulas by having classes containing functions used for computing perimeters, areas, and volumes. Also, the process of writing the actual functions is an exercise in helping students remember precisely what quantities are needed to calculate others. The way that students would end up using these functions is another source of excitement for people who code regularly. Students would use their library of geometry functions to solve more involved problems by creating an organized sequence of function calls to solve each step of the problem in sequence. Programmers love being able to clearly see the overall flow of a complex procedure as a sequence of smaller tasks. Essentially, the function-oriented nature of programming enables students to put &lt;a href=&#34;http://simplystatistics.org/2015/02/04/knowledge-units-the-atoms-of-statistical-education/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;knowledge units&lt;/a&gt; into a documented story-like framework, which hopefully would encourage big picture understanding.&lt;/p&gt;
-&lt;h1 id=&#34;technology-can-enrich-education-not-dumb-it-down&#34;&gt;Technology can enrich education, not &amp;ldquo;dumb it down&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;While Mr. Wolfram’s big idea was to use programming to teach math, I think the main subtheme of his talk was the increased incorporation of technology in math classrooms. Not &amp;ldquo;&lt;a href=&#34;http://www.informationweek.com/mobile/ipads-in-the-classroom-worth-doing-right/d/d-id/1110490?&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technology for technology’s sake&lt;/a&gt;&amp;rdquo; in terms of gadgets like &lt;a href=&#34;http://theinnovativeeducator.blogspot.com/2010/05/why-smartboards-are-dumb-initiative.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Smartboards&lt;/a&gt; and iPads, but thoughtfully constructed, computer-oriented lesson-plans, assignments, and activities. Technology, when appropriately used, can enrich education, and I think that the main avenue for this is through simulation and exploration.&lt;/p&gt;
-&lt;p&gt;Simulation can be an amazing activity for getting students to think about real-world applications of what they are learning. For example, a lot of the simulations provided on &lt;a href=&#34;http://serc.carleton.edu/sp/library/simulations/examples.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this site&lt;/a&gt; have to do with the very practical task of learning about economics and could quite feasibly fit into an algebra curriculum. Just covered equations of lines? Well how about reinforcing those concepts and showing their utility by exploring linear trends that pop up in economics? If it is not common already, simulations should be more seriously considered by educators as add-on exercises to enhance a curriculum. I find simulations appealing as a teaching tool because they allow students to quickly try lots of things, allowing them to see a wide variety of phenomena in a short span of time. Most importantly, this allows them to &lt;strong&gt;discuss&lt;/strong&gt; and &lt;strong&gt;write&lt;/strong&gt; much more just because they have observed so much that they can comment on. Talking, and even more so writing due to its slower and more structured nature, is a &lt;a href=&#34;http://files.eric.ed.gov/fulltext/ED544239.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;great way&lt;/a&gt; to assess the extent to which students understand a topic, and if high quality writing is emphasized, it can really get students to internalize ideas. So in short, technology should be used as a means of facilitating a high volume of &lt;strong&gt;exploration&lt;/strong&gt; so as to facilitate more &lt;strong&gt;writing&lt;/strong&gt; and &lt;strong&gt;discussion&lt;/strong&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-&lt;p&gt;Programming can definitely enrich math education by helping students organize concepts and reinforce their understanding of the material. However, we still have to make sure that we motivate material and put it into a memorable context for students. Regarding the broader goal of increasing the presence of technology in education, expensive and ineffective approaches should be abandoned for activities that can be performed on computers and equipment already available in schools. Activities such as simulations can markedly deepen investigation of a topic and are easily performed with the materials available in most classrooms. Amending curricula to incorporate these ideas and activities might involve some time investment, but it could definitely improve the quality of student learning.&lt;/p&gt;
-</description>
+      <description>As per a friend’s suggestion, I watched Conrad Wolfram’s TED talk on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming.</description>
     </item>
     
     <item>
       <title>Adapting education style to improve relevance and practical skills</title>
       <link>/post/adapting-education-style/</link>
       <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
+      
       <guid>/post/adapting-education-style/</guid>
-      <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
-&lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
-&lt;p&gt;As I’ve explained in previous posts, case-based learning is a great way to motivate the concepts being taught in class so that students can see their practical uses and therefore remember the ideas for the long-term. In creating examples and giving context to classroom content, we need to think hard about what those examples will be. Perhaps the best way to really engage students and get them to care about what they’re learning is to use the most current issues possible. For example, I think that someone who decided to create a case-based statistics course for the current generation might have a lot of success using both news and research articles about social inequality. I think the key is to relate what is being presented in the news to what research has actually been performed and get students to closely examine the relationship between these sources of information.&lt;/p&gt;
-&lt;p&gt;Rational argumentation is another skill that is lacking in our generation. Very often we tend to talk to and become friends with like-minded people, and we are not as easily forced to question our views and see fallacies in the bases for our opinions. Forcing conversation in an educational setting is a great way to break that comfort zone because there is such a diversity of opinion. I love that the statistics course that I taught for emphasized writing because it forced students to at least put some words behind what they were learning. Just having those words is several steps above rote calculation and memorization in terms of really embedding meaning and understanding. But the way to truly make the most of those words is to construct them carefully to tell a story, to make a point. Words as a list of facts do little to reinforce understanding. To this end, I think that educators should elevate the role of writing to the level of speech and debate. I see this having great potential in mathematics and statistics classrooms. Throughout a statistics course we teach students about tools and the assumptions behind them that are used to draw conclusions from data. To truly assess their understanding of statistical concepts and to put these concepts in a meaningful context, perhaps one of the key assignments or activities of the course would be to read scientific papers and have a debate. In this way, we can prepare students for the types of discussions that they’ll have throughout their life by helping them recognize reasoning flaws in the arguments of others as well as their own.&lt;/p&gt;
-</description>
+      <description>Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules.</description>
     </item>
     
     <item>
       <title>Motivating the question</title>
       <link>/post/motivating-the-question/</link>
       <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
+      
       <guid>/post/motivating-the-question/</guid>
-      <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
-&lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
-&lt;p&gt;As I explained in my &lt;a href=&#34;../imp-perspectives&#34;&gt;last post&lt;/a&gt;, the Interactive Mathematics Program (IMP) puts in an admirable effort to motivate the need for mathematical concepts. It presents a tough multi-faceted problem at the beginning of each unit and develops the need for various math topics as it pertains to this overarching problem. I felt that one of the most memorable and instructive units was one in which we attempted to solve the unit problem on the very first day without any formal tools whatsoever. The best part (though frustrating at the time for me) was that this was &lt;em&gt;really hard&lt;/em&gt;. There is definitely something that can be said for having students try to do things inefficiently to learn the &lt;em&gt;merits&lt;/em&gt; of the concepts that teachers are so excited to get to. Or in Dan’s words, there is definitely something that can be said for &amp;ldquo;being less helpful&amp;rdquo;—not jumping straight to teaching students about power tools but momentarily convincing them that the logs on their desks can only be cut with butter knives.&lt;/p&gt;
-&lt;p&gt;Introductory statistics courses can definitely benefit from a more problem-oriented and &amp;ldquo;less helpful&amp;rdquo; mentality. For one, I think there is a deluge of formulae for students to learn, and most of the time, the reasons for using them were never really developed or lost in the memorization process. The topic of confidence intervals serves as a great example here. We drill into students’ minds that the formula for a confidence interval is an estimate plus or minus some multiple of the standard error. And we can tell them that the interval gives us a range of possible values for the true population mean. But why are these possible values good ones? Why do we even have to give a confidence interval? Why isn’t it enough to just say that the mean is &lt;em&gt;around&lt;/em&gt; 5, say? When do I ever see confidence intervals in real life?&lt;/p&gt;
-&lt;p&gt;A better way to teach this idea than to present a formula and give a two-minute interpretation is to make students see how the idea of a confidence interval is one they are exposed to frequently but in disguise. One way to do this is to present the students with common types of advertisement tricks.&lt;/p&gt;
-&lt;img src=&#34;http://images.teamsugar.com/files/upl2/1/15259/20_2009/ce49a981caec0edd_cheerios.preview.jpg&#34; width=550&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.popsugar.com/food/FDA-Packaged-Foods-Health-Claims-Make-Them-Drugs-3147756&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&#34;http://lesliemyint.files.wordpress.com/2014/10/c7ae7-colgate.jpg&#34; width=550&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.bitedowndeals.com/blog/category/preventive-dentistry&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The statistics presented on these ads are instinctively somewhat convincing. Hey a 4% reduction in cholesterol is pretty good. Wow, 90% of doctors recommend this product! These are definitely worth buying! But we can also think about what numbers on these ads would make us less convinced of the products&#39; worth. A cholesterol reduction of 0 to 1% would definitely not make me want to buy Cheerios. And I would be much less impressed by this Colgate toothpaste if 50% or less of doctors recommended it.&lt;/p&gt;
-&lt;p&gt;Now we give the students data—several sets of data that support or fail to substantiate the Cheerios claim to varying degrees—and ask them to make their own conclusions based on this data. I would expect many of them to take the average lowering of cholesterol as a summary measure; some might look at the median or mode; some might look at the percentage of people who had their cholesterol lowered by some minimal percentage level. No matter how they choose to look at the data the key idea is that the students see how their chosen summary measure(s) vary from dataset to dataset. Sometimes the claims in the ad are supported, and other times they are definitely not. It’s just that companies often only report their summary measures and not how much that measure would vary had they tested their product on different groups of individuals.&lt;/p&gt;
-&lt;p&gt;After this point, I think that students would be a little more ready to learn about confidence intervals because they have seen how advertisements, something they encounter all the time, can use (or really conceal) them in misleading ways. And no one likes being duped.&lt;/p&gt;
-&lt;p&gt;This is by far not the best way of motivating confidence intervals, but it is a lot more than can be said for the majority of introductory statistics classes. Just taking a little bit more time to think about the everyday applications of statistics can go a long way in making lessons less formulaic and more engaging, and this is something that the statistics community should strive for.&lt;/p&gt;
-</description>
+      <description>Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?</description>
     </item>
     
     <item>
       <title>Perspectives on the Interactive Mathematics Program</title>
       <link>/post/imp-perspectives/</link>
       <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
+      
       <guid>/post/imp-perspectives/</guid>
-      <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
-&lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
-&lt;p&gt;Another aspect of IMP that is particularly well suited to higher education is its emphasis on summarizing and organizing knowledge gained over the course of a unit. At the end of every unit, students are required to create a portfolio of reflections, class notes, and assignments that were instrumental in their comprehension of the main topics. So for example, in my “Cookies” portfolio, I included the first day of class activity that had us take a stab at the unit problem. I also included my class notes on feasible regions and solving systems of linear inequalities. I also wrote a cover letter summarizing the goals of the unit, what I learned from the assignments that I included in the portfolio, and my impressions of how these concepts were useful in everyday life. Portfolio time was always a laborious and dreadful experience for me during middle and high school, but I recognize now how useful a practice it is for being serious about retaining knowledge. As a graduate student, I have been exposed to several fundamental concepts time and time again in different courses, and I have found myself consciously wishing that I had put together portfolios for many of the classes that I took during college. Not only is the act of putting together a portfolio an invaluable synthesis activity, but the portfolio also serves as a one-of-a-kind reference manual. Because it is a collection of notes, homeworks, etc. created, curated, and edited by you, it can be infinitely more readable then a textbook. If you want it to, it can contain all of the steps in the proofs of key theorems, all of the exhaustive explanation that you worked through on your own, all of the fine details that finally made a concept click. A portfolio is a mini-textbook written in the language of your mind and can thus potentially serve as a reference for a very long time. It is a wonderful idea for IMP to introduce this concept to younger students, and I feel that it would be very useful for many high school and college classes to adopt.&lt;/p&gt;
-&lt;p&gt;So essentially the Interactive Mathematics Program, though by no means flawless, takes steps beyond traditional education practices that definitely have merit. Its case-based structuring of learning and its emphasis on creating concept portfolios can really impact the depth of learning and are ideas that nearly all higher education courses can benefit from.&lt;/p&gt;
-</description>
+      <description>My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects.</description>
     </item>
     
     <item>
       <title>Why statistics can be scary</title>
       <link>/post/why-statistics-can-be-scary/</link>
       <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
+      
       <guid>/post/why-statistics-can-be-scary/</guid>
-      <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog! Everyone cares about something, and blogging is a great way to (1) make sure you know your stuff, (2) learn stuff, and (3) share stuff. As a PhD student (1) and (2) are constantly among my worries, and I care about (3) because I love teaching and talking about ideas that are interesting to me.&lt;/p&gt;
-&lt;p&gt;So let’s get to the interesting stuff (I hope)! I love statistics, but I know that most people do not feel the same way that I do. I know I can’t inspire a love of the field for everyone who reads this, but I do want to motivate statistics and offer some opinions as to why statistics tends to elicit grimaces from non-practitioners.&lt;/p&gt;
-&lt;p&gt;As I was planning to start this blog, I asked my friends about their opinions about statistics, and it was pointed out that a particularly unsatisfying part of learning statistics is that students tend to get the feeling that they aren’t certain about anything. I won’t try to deny this because it’s completely true. But when are we ever 100% certain about anything &lt;strong&gt;interesting&lt;/strong&gt;? See if you can come up with an example of something that you know with absolute certainty and that actually raises your eyebrows. I’m coming up with “I will type the word ‘statistics’ at least one more time in this post” and “I will eat a brownie in the next week.” These are completely inevitable and therefore (to me) completely uninteresting statements. Even inevitabilities can have degrees of uncertainty when we pose them in a different way:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“A new president will be elected next term.” But &lt;strong&gt;who&lt;/strong&gt; will win the election?&lt;/li&gt;
-&lt;li&gt;“March Madness will come to an end soon.” But &lt;strong&gt;what team&lt;/strong&gt; will come out on top?&lt;/li&gt;
-&lt;li&gt;“Another research paper in statistical genomics will be published in the next month.” But will it be any &lt;strong&gt;good&lt;/strong&gt;?&lt;/li&gt;
-&lt;li&gt;“The government will spend money on scientific research next year.” But &lt;strong&gt;how much&lt;/strong&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The point is that although we are certain about the occurrence or non-occurrences of many events, we tend to be more interested in the &lt;strong&gt;details&lt;/strong&gt; surrounding these events, and these details are what give rise to uncertainty. Statistics cannot change this inherent uncertainty in the world but it can give us a tool to make more informed predictions. For example, if I were trying to find the best place to buy gas in my neighborhood, I could look at the daily history of prices per gallon at all of the local stations and do a statistical analysis to determine which station tends to be the cheapest. Statistics will not allow me to be certain of the price per gallon at these stations tomorrow. The only way I could know this with certainty is if I had infinite and perfect knowledge of how gas prices are determined each day. This would entail knowing everything about the workings of the economy and the mindsets of CEOs of gas companies among many other things. But I don’t have this infinite knowledge. I have to work with the limited data available to me, and statistics is a structured framework for doing so.&lt;/p&gt;
-&lt;p&gt;The structure in statistics is in large part governed by models. Model specification is a core part of statistics, and I contend that it is also what makes our field so scary. Models can be useful because they allow us to propose reasons for why we observe what we do in a concrete, structured, and reproducible way. I’ll illustrate this with an example.&lt;/p&gt;
-&lt;p&gt;Suppose you work at a company that does a weekly lottery for a gift certificate to a local restaurant. Each week, a computer randomly selects one of the 500 total employees to receive the prize so that each of the 500 employees has an equal chance of being picked (1 in 500). For many, intuition says, “I should have a higher chance of being selected as the weeks go by.” This is not a correct statement, but it is an easy mistake to make if you are not thinking about the mathematics behind the statement. This is why models can be useful. They can help us translate statements like these into mathematical expressions that precisely quantify the probabilities we are trying to calculate. This lottery is exactly an example of what statisticians would call a “binomial experiment.” It is a model that allows us to calculate the probability of different numbers of successes in a series of independent trials and allows us to supply the (fixed) probability of success, the number of trials, and the number of successes. So in this situation, the fixed probability of success is 1/500, the number of trials is the number of weeks the lottery has been taking place, and the number of successes of interest is zero because we are interested in the probability of never being picked in a given number of weeks.&lt;/p&gt;
-&lt;p&gt;The statement “I should have a higher chance of being selected as the weeks go by” translates to the question “What is the probability that I am chosen in week X?” and is a question that is easily answerable by our model of the lottery. Because our model requires a fixed probability of success (1/500), the probability of being chosen in week X is 1/500 &lt;strong&gt;regardless of what week it is&lt;/strong&gt;. More intuitively, why is this so? Our question is one about the characteristics of the &lt;strong&gt;lottery&lt;/strong&gt;, which is a fixed procedure. We can’t change the fact that there are 500 employees, and we can’t change the computer that is picking between the 500 employees equally.&lt;/p&gt;
-&lt;p&gt;However, by keeping in mind that our model of the lottery allows us to calculate probabilities of numbers of successes, we should instead ask, “What is the probability that I am chosen exactly zero times in X weeks?” which translates to the intuition “It should be increasing unlikely for me to never be picked in all the weeks the lottery has been going on.” This question concerns the outcome of the lottery, which is uncertain, whereas we had previously been inquiring about a characteristic of the lottery design, which was quite certain. Our model easily answers this question, and the probabilities as a function of the number of weeks X are shown in the graph on the left below. The probabilities for the complementary question “What is the probability that I am chosen at least once in X weeks?” are shown below on the right. (The R code for making the plots is also shown below.)&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;p &amp;lt;- 1/500
-weeks &amp;lt;- 1:500
-prob_notchosen &amp;lt;- (1-p)^weeks
-prob_chosen &amp;lt;- 1-prob_notchosen
-par(mfrow = c(1,2), mar = c(4,4,2,1), bty = &amp;quot;l&amp;quot;)
-plot(weeks, prob_notchosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Never being chosen&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))
-plot(weeks, prob_chosen, xlab = &amp;quot;Week&amp;quot;, ylab = &amp;quot;Probability&amp;quot;, main = &amp;quot;Chosen at least once&amp;quot;, type = &amp;quot;l&amp;quot;, ylim = c(0,1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2014-03-27-why-statistics-can-be-scary_files/figure-html/lottery-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;We can see that as weeks go by, the probability of never once being chosen declines, and the complementary probability of being chosen at least once increases. So the initial intuition “I should have a higher chance of being selected as the weeks go by” is wrong because we did not carefully form our question. What we really wanted to express is the increasing probability of being picked at least once in a larger and larger time frame. And this was a lot easier to express once we had cast the lottery as a binomial model and determined the types of questions that our model was suited to answer.&lt;/p&gt;
-&lt;p&gt;In this example of the lottery, the binomial model was an exact description of the situation. But very rarely in real life are the situations we want to study so clear cut. Most of the time interesting systems are complex, and statisticians have to make many simplifying assumptions in order to even begin the modeling process. The oft-quoted line from George Box illustrates this situation “Essentially, all models are wrong, but some are useful.” The “some are useful” part of Box’s quote is what can make statistics so scary. How can we know whether our models are really useful? In other words, how can we know whether our models still closely approximate reality? We tend to fall in love with our models because we invest so much time in them, and this is partly why our collaborators in non-statistical fields find our process mystifying. We often adopt models because they &lt;strong&gt;seem&lt;/strong&gt; to fit reality well enough and mostly because they are convenient. But in order to make meaningful discoveries, we can’t just guess and assume that our reasoning alone justifies the models we create. We either need to do a better job at incorporating the extensive knowledge of field-specific experts into our models or restrain the urge to take the modeling approach altogether.&lt;/p&gt;
-</description>
+      <description>I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted.</description>
     </item>
     
   </channel>
