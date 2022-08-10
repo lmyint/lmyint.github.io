@@ -1,5 +1,5 @@
 (() => {
-  // ns-hugo:/var/folders/4g/9d97qqxn5ll8rjg8_f9_5vd00000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20201224144527-9cce661db8d7/assets/js/wowchemy-theming.js
+  // ns-hugo:/var/folders/21/d5kzs1gj6894nllx6cb8pz5c0000gq/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20201224144527-9cce661db8d7/assets/js/wowchemy-theming.js
   const body = document.body;
   function getThemeMode() {
     return parseInt(localStorage.getItem("wcTheme") || 2);
