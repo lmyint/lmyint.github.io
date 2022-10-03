@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.101.0" />
+<title>Teaching real math with computers | Hugo Apéro</title>
+
+
+<meta property="twitter:site" content="@lesliemyint">
+<meta property="twitter:creator" content="@lesliemyint">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="">
+
+
+<meta property="og:site_name" content="Hugo Apéro">
+<meta property="og:title" content="Teaching real math with computers | Hugo Apéro">
+<meta property="og:description" content="" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/writing/teaching-real-math-with-computers/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/writing/sidebar-listing.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/writing/sidebar-listing.jpg" >
+    
+    
+  <meta itemprop="name" content="Teaching real math with computers">
+<meta itemprop="description" content="As per a friend’s suggestion, I watched Conrad Wolfram’s TED talk on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.
+Mathematics can be taught via programming Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts."><meta itemprop="datePublished" content="2015-03-20T17:03:46+00:00" />
+<meta itemprop="dateModified" content="2015-03-20T17:03:46+00:00" />
+<meta itemprop="wordCount" content="1303">
+<meta itemprop="keywords" content="" />
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '334918311', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f5b393169c6d4ed54822d49b30854045f8ce4d37b84a4d87fa90a135a7127d41.css" integrity="sha256-9bOTFpxtTtVIItSbMIVARfjOTTe4Sk2H&#43;pChNacSfUE=" media="screen">
+  
+  
+  <script src="/panelset.min.dca42702d7daf6fd31dc352efd2bcf0e4ac8c05ccaa58d9293f6177462de5d5f.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.e92ad7b9e787494154fc36b9339af913daaa89ea0a47d9e5acb8fd0932378aa1.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/favicon.png" class="dib db-l h2 w-auto" alt="Hugo Apéro">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Leslie">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/writing/" title="Writing">Writing</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/teaching/" title="Teaching">Teaching</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Teaching real math with computers</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Leslie Myint in <a href="/categories/teaching">Teaching</a> </p>
+        <p class="f7 db mv0 ttu">March 20, 2015</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>As per a friend’s suggestion, I watched Conrad Wolfram’s 
+<a href="http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers" target="_blank" rel="noopener">TED talk</a> on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.</p>
+
+
+
+
+<h1 id="mathematics-can-be-taught-via-programming">Mathematics can be taught via programming
+  <a href="#mathematics-can-be-taught-via-programming"></a>
+</h1>
+<p>Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts. I completely agree that if you truly understand a concept, you can program it, but it’s worthwhile trying to consider how this might actually play out in middle and high school curricula.</p>
+<p>It is useful to think about why this was such an interesting idea to many people in the first place. (It did get a TED talk after all.) The main point is that programming is not something that most people have any real idea of until they try it. I really didn’t understand what programming was about until I took an introductory class in college. I ended up loving it because I enjoyed the thorough and organized type of thinking that it encouraged, and I saw how useful it could be. People who are programmers or use programming regularly, like Mr. Wolfram, are very much convinced of its utility and are naturally excited about introducing this type of thinking earlier on in the education process. There are a few points that came to mind when weighing the pros and cons of a programming-oriented mathematics education:</p>
+
+
+
+
+<h2 id="programming-can-be-a-great-way-to-reinforce-concepts">Programming can be a great way to <strong>reinforce</strong> concepts
+  <a href="#programming-can-be-a-great-way-to-reinforce-concepts"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I remember learning how to solve the tower of Hanoi puzzle in the children’s section of museums and in puzzle games long before I saw it again in my freshman year programming class. If placed before me, I probably would have been able to go through the motions from rough recollections or intuition, but the task at hand was to write a program that would solve an arbitrary tower of Hanoi puzzle (i.e. with any number of discs). Suddenly rough intuition needed to be transformed into a precise set of instructions, and it was the fact that I was seeing a familiar problem recast in a more general way that made the exercise relevant and memorable.</p>
+<p>With standard pre-college mathematics education, a similar strategy could be adopted. As a specific example, solving systems of two equations with two unknowns is a standard algebra topic that could benefit from programming-type exercises. After students learn the technique of solving these problems, they hone their skills on practice problems and ideally are able to develop intuition on how to solve them by sight. Making this intuition more precise is where a programming exercise could come in. After students gain facility with solving the problems, we have them make their understanding more rigorous by asking them to write a very specific set of instructions to solve any such system of equations. Suddenly they must think about how <em>exactly</em> they choose the scaling numbers for the equations and how they choose to add or subtract the two equations.</p>
+
+
+
+
+<h2 id="programming-is-probably-not-the-best-way-to-introduce-a-topic">Programming is probably not the best way to <strong>introduce</strong> a topic
+  <a href="#programming-is-probably-not-the-best-way-to-introduce-a-topic"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Just because an activity truly assesses understanding doesn’t mean that it automatically lays the foundation for a lesson plan. If all of my algebra lessons had been formatted as a series of instructions in the way that a programming perspective would emphasize, I know I would have enjoyed my math class a lot less. And I definitely would not have been ready to write a program to solve arbitrary systems of equations the day the topic was introduced. When material is presented as formulaic, as a procedure, students are compelled to simply memorize the steps involved in solving problems. The intuition is removed, and the concepts don’t stick past the next test. I still think that teachers should strive to motivate the material as much as possible—whether that be through telling a story or getting students to see how useful the concept can be. This is important in both a classroom instructional setting and in a homework design setting.</p>
+
+
+
+
+<h2 id="some-features-of-programming-can-be-useful-for-structuring-material">Some features of programming can be useful for <strong>structuring</strong> material
+  <a href="#some-features-of-programming-can-be-useful-for-structuring-material"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>One of the main reasons why people write code is to organize groups of related procedures and perform them in a consistent way in many different occasions. I can see this being useful in a geometry classroom, for example. Students could organize their knowledge of geometrical formulas by having classes containing functions used for computing perimeters, areas, and volumes. Also, the process of writing the actual functions is an exercise in helping students remember precisely what quantities are needed to calculate others. The way that students would end up using these functions is another source of excitement for people who code regularly. Students would use their library of geometry functions to solve more involved problems by creating an organized sequence of function calls to solve each step of the problem in sequence. Programmers love being able to clearly see the overall flow of a complex procedure as a sequence of smaller tasks. Essentially, the function-oriented nature of programming enables students to put 
+<a href="http://simplystatistics.org/2015/02/04/knowledge-units-the-atoms-of-statistical-education/" target="_blank" rel="noopener">knowledge units</a> into a documented story-like framework, which hopefully would encourage big picture understanding.</p>
+
+
+
+
+<h1 id="technology-can-enrich-education-not-dumb-it-down">Technology can enrich education, not &ldquo;dumb it down&rdquo;
+  <a href="#technology-can-enrich-education-not-dumb-it-down"></a>
+</h1>
+<p>While Mr. Wolfram’s big idea was to use programming to teach math, I think the main subtheme of his talk was the increased incorporation of technology in math classrooms. Not &ldquo;
+<a href="http://www.informationweek.com/mobile/ipads-in-the-classroom-worth-doing-right/d/d-id/1110490?" target="_blank" rel="noopener">technology for technology’s sake</a>&rdquo; in terms of gadgets like 
+<a href="http://theinnovativeeducator.blogspot.com/2010/05/why-smartboards-are-dumb-initiative.html" target="_blank" rel="noopener">Smartboards</a> and iPads, but thoughtfully constructed, computer-oriented lesson-plans, assignments, and activities. Technology, when appropriately used, can enrich education, and I think that the main avenue for this is through simulation and exploration.</p>
+<p>Simulation can be an amazing activity for getting students to think about real-world applications of what they are learning. For example, a lot of the simulations provided on 
+<a href="http://serc.carleton.edu/sp/library/simulations/examples.html" target="_blank" rel="noopener">this site</a> have to do with the very practical task of learning about economics and could quite feasibly fit into an algebra curriculum. Just covered equations of lines? Well how about reinforcing those concepts and showing their utility by exploring linear trends that pop up in economics? If it is not common already, simulations should be more seriously considered by educators as add-on exercises to enhance a curriculum. I find simulations appealing as a teaching tool because they allow students to quickly try lots of things, allowing them to see a wide variety of phenomena in a short span of time. Most importantly, this allows them to <strong>discuss</strong> and <strong>write</strong> much more just because they have observed so much that they can comment on. Talking, and even more so writing due to its slower and more structured nature, is a 
+<a href="http://files.eric.ed.gov/fulltext/ED544239.pdf" target="_blank" rel="noopener">great way</a> to assess the extent to which students understand a topic, and if high quality writing is emphasized, it can really get students to internalize ideas. So in short, technology should be used as a means of facilitating a high volume of <strong>exploration</strong> so as to facilitate more <strong>writing</strong> and <strong>discussion</strong>.</p>
+
+
+
+
+<h1 id="summary">Summary
+  <a href="#summary"></a>
+</h1>
+<p>Programming can definitely enrich math education by helping students organize concepts and reinforce their understanding of the material. However, we still have to make sure that we motivate material and put it into a memorable context for students. Regarding the broader goal of increasing the presence of technology in education, expensive and ineffective approaches should be abandoned for activities that can be performed on computers and equipment already available in schools. Activities such as simulations can markedly deepen investigation of a topic and are easily performed with the materials available in most classrooms. Amending curricula to incorporate these ideas and activities might involve some time investment, but it could definitely improve the quality of student learning.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">March 20, 2015</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">7 minute read, 1303 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/teaching">Teaching</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/writing/what-is-likelihood/">&larr; What is likelihood?</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/writing/adapting-education-style/">Adapting education style to improve relevance and practical skills &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="apreshill/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Macalester College, St. Paul, MN
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/lmyint" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?hl=en&amp;user=dWRpRisAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0003-2478-0331" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/leslie-myint-b9433bb4/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss" >
+      <i class="fas fa-rss fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

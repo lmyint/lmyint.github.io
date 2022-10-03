@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Hugo Apéro</title>
+    <link>/categories/teaching/</link>
+    <description>Recent content in Teaching on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grading doesn&#39;t have to suck</title>
+      <link>/writing/grading-can-be-inspiring/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/grading-can-be-inspiring/</guid>
+      <description>Grading doesn&amp;rsquo;t have to suck—for teachers or for students. Two books on grading have inspired me to adopt a reinvigorated mindset towards grading and feedback: Specifications Grading by Linda Nilson and Grading for Equity by Joe Feldman. In this post, I want to summarize key ideas from both books and share my thought process for course preparation that incorporates the essential parts of both frameworks.
+Table of Contents Why change grading systems?</description>
+    </item>
+    
+    <item>
+      <title>What is likelihood?</title>
+      <link>/writing/what-is-likelihood/</link>
+      <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
+      
+      <guid>/writing/what-is-likelihood/</guid>
+      <description>I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What is likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.
+I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting.</description>
+    </item>
+    
+    <item>
+      <title>Teaching real math with computers</title>
+      <link>/writing/teaching-real-math-with-computers/</link>
+      <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
+      
+      <guid>/writing/teaching-real-math-with-computers/</guid>
+      <description>As per a friend’s suggestion, I watched Conrad Wolfram’s TED talk on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.
+Mathematics can be taught via programming Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts.</description>
+    </item>
+    
+    <item>
+      <title>Adapting education style to improve relevance and practical skills</title>
+      <link>/writing/adapting-education-style/</link>
+      <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
+      
+      <guid>/writing/adapting-education-style/</guid>
+      <description>Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics.</description>
+    </item>
+    
+    <item>
+      <title>Motivating the question</title>
+      <link>/writing/motivating-the-question/</link>
+      <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
+      
+      <guid>/writing/motivating-the-question/</guid>
+      <description>Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.</description>
+    </item>
+    
+    <item>
+      <title>Perspectives on the Interactive Mathematics Program</title>
+      <link>/writing/imp-perspectives/</link>
+      <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
+      
+      <guid>/writing/imp-perspectives/</guid>
+      <description>My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,172 +1,180 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>/collection/day02/01-netlify/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day01/01-github/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/prework/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day01/</loc>
+    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day01/02-postcards/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day02/02-blogdown/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day02/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day01/03-distill/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day02/03-blogdown/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/equity/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/grading/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/grading-can-be-inspiring/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2022_08_10_jsm/</loc>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/invited/</loc>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/oral-presentation/</loc>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2022-08-10T09:25:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2022_04_01_stthomas/</loc>
+    <lastmod>2022-04-01T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/equity/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+  </url><url>
+    <loc>/tags/grading/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/writing/grading-can-be-inspiring/</loc>
+    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/teaching/</loc>
+  </url><url>
+    <loc>/categories/teaching/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/dnd/</loc>
+  </url><url>
+    <loc>/writing/</loc>
+    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2021_08_05_bioc/</loc>
+    <lastmod>2021-08-05T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/constributed/</loc>
+    <lastmod>2021-08-05T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/poster/</loc>
+    <lastmod>2021-08-05T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2020_10_30_minne_wiads/</loc>
+    <lastmod>2020-10-30T10:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2019_10_22_carleton/</loc>
+    <lastmod>2019-10-22T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2019_03_22_creighton/</loc>
+    <lastmod>2019-03-22T15:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/contact/</loc>
+    <lastmod>2019-02-25T13:38:41-06:00</lastmod>
+  </url><url>
+    <loc>/form/</loc>
+    <lastmod>2019-02-25T13:38:41-06:00</lastmod>
+  </url><url>
+    <loc>/elements/</loc>
+    <lastmod>2019-02-18T12:27:33-06:00</lastmod>
+  </url><url>
+    <loc>/tags/dnd/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/dnd-scraping-rvest-rselenium/</loc>
+  </url><url>
+    <loc>/writing/dnd-scraping-rvest-rselenium/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
+  </url><url>
+    <loc>/categories/r/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/rselenium/</loc>
+  </url><url>
+    <loc>/tags/rselenium/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/rvest/</loc>
+  </url><url>
+    <loc>/tags/rvest/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/books/</loc>
+  </url><url>
+    <loc>/categories/books/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/causal-diagrams/</loc>
+  </url><url>
+    <loc>/tags/causal-diagrams/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/causal-inference/</loc>
+  </url><url>
+    <loc>/categories/causal-inference/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/book-of-why/</loc>
+  </url><url>
+    <loc>/writing/book-of-why/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/blogdown/</loc>
+  </url><url>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/hugo-academic-tips/</loc>
+  </url><url>
+    <loc>/writing/hugo-academic-tips/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/fight-every-battle/</loc>
+  </url><url>
+    <loc>/writing/fight-every-battle/</loc>
     <lastmod>2017-08-16T00:46:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/opinion/</loc>
+  </url><url>
+    <loc>/categories/opinion/</loc>
     <lastmod>2017-08-16T00:46:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/shiny-app-with-google-login/</loc>
+  </url><url>
+    <loc>/writing/shiny-app-with-google-login/</loc>
     <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/oauth/</loc>
+  </url><url>
+    <loc>/tags/oauth/</loc>
     <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/shiny/</loc>
+  </url><url>
+    <loc>/tags/shiny/</loc>
     <lastmod>2017-01-01T18:24:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/likelihood/</loc>
+  </url><url>
+    <loc>/tags/likelihood/</loc>
     <lastmod>2016-02-09T03:13:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/what-is-likelihood/</loc>
+  </url><url>
+    <loc>/writing/what-is-likelihood/</loc>
     <lastmod>2016-02-09T03:13:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/teaching-real-math-with-computers/</loc>
+  </url><url>
+    <loc>/writing/teaching-real-math-with-computers/</loc>
     <lastmod>2015-03-20T17:03:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/adapting-education-style/</loc>
+  </url><url>
+    <loc>/writing/adapting-education-style/</loc>
     <lastmod>2014-12-24T17:41:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/motivating-the-question/</loc>
+  </url><url>
+    <loc>/writing/motivating-the-question/</loc>
     <lastmod>2014-10-05T23:42:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/imp-perspectives/</loc>
+  </url><url>
+    <loc>/writing/imp-perspectives/</loc>
     <lastmod>2014-09-23T02:57:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/why-statistics-can-be-scary/</loc>
+  </url><url>
+    <loc>/writing/why-statistics-can-be-scary/</loc>
     <lastmod>2014-03-27T02:52:57+00:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+  </url><url>
+    <loc>/license/</loc>
+  </url><url>
+    <loc>/project/</loc>
+  </url><url>
+    <loc>/series/</loc>
+  </url><url>
+    <loc>/teaching/</loc>
   </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
 </urlset>

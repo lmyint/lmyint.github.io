@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Hugo Apéro</title>
+    <link>/tags/blogdown/</link>
+    <description>Recent content in blogdown on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips for using the Hugo academic theme</title>
+      <link>/writing/hugo-academic-tips/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/hugo-academic-tips/</guid>
+      <description>I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.
+The source and rendered files for my website are available on GitHub:
+Public, rendered site: the public directory within my blogdown/Hugo project Hugo content and source files: all files and directories within my blogdown/Hugo project (i.</description>
+    </item>
+    
+  </channel>
+</rss>

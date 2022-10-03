@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.101.0" />
+<title>Tips for using the Hugo academic theme | Hugo Apéro</title>
+
+
+<meta property="twitter:site" content="@lesliemyint">
+<meta property="twitter:creator" content="@lesliemyint">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="">
+
+
+<meta property="og:site_name" content="Hugo Apéro">
+<meta property="og:title" content="Tips for using the Hugo academic theme | Hugo Apéro">
+<meta property="og:description" content="" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/writing/hugo-academic-tips/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/writing/sidebar-listing.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/writing/sidebar-listing.jpg" >
+    
+    
+  <meta itemprop="name" content="Tips for using the Hugo academic theme">
+<meta itemprop="description" content="I recently migrated my personal website and Wordpress blog to blogdown. As an academic, it was natural to use the Academic theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.
+The source and rendered files for my website are available on GitHub:
+Public, rendered site: the public directory within my blogdown/Hugo project Hugo content and source files: all files and directories within my blogdown/Hugo project (i."><meta itemprop="datePublished" content="2018-06-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-06-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1122">
+<meta itemprop="keywords" content="blogdown," />
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '334918311', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f5b393169c6d4ed54822d49b30854045f8ce4d37b84a4d87fa90a135a7127d41.css" integrity="sha256-9bOTFpxtTtVIItSbMIVARfjOTTe4Sk2H&#43;pChNacSfUE=" media="screen">
+  
+  
+  <script src="/panelset.min.dca42702d7daf6fd31dc352efd2bcf0e4ac8c05ccaa58d9293f6177462de5d5f.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.e92ad7b9e787494154fc36b9339af913daaa89ea0a47d9e5acb8fd0932378aa1.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/favicon.png" class="dib db-l h2 w-auto" alt="Hugo Apéro">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Leslie">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/writing/" title="Writing">Writing</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/teaching/" title="Teaching">Teaching</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Tips for using the Hugo academic theme</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Leslie Myint in <a href="/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">June 27, 2018</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>I recently migrated my personal website and 
+<a href="https://lesliemyint.wordpress.com/" target="_blank" rel="noopener">Wordpress blog</a> to 
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown</a>. As an academic, it was natural to use the 
+<a href="https://github.com/gcushen/hugo-academic" target="_blank" rel="noopener">Academic</a> theme. The blogdown package made the conversion fairly straighforward, but I still had to spend some time figuring out how to work with this Hugo theme.</p>
+<p>The source and rendered files for my website are available on GitHub:</p>
+<ul>
+<li>
+<a href="https://github.com/lmyint/lmyint.github.io" target="_blank" rel="noopener">Public, rendered site</a>: the <code>public</code> directory within my blogdown/Hugo project</li>
+<li>
+<a href="https://github.com/lmyint/personal_site" target="_blank" rel="noopener">Hugo content and source files</a>: all files and directories within my blogdown/Hugo project (i.e. TOML files, <code>archetypes/</code>, <code>content/</code>, <code>data/</code>, <code>layouts/</code>, <code>static/</code>, <code>themes/</code>)</li>
+</ul>
+
+
+
+
+<h2 id="table-of-contents">Table of Contents
+  <a href="#table-of-contents"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ol>
+<li>
+<a href="#resources">Resources</a></li>
+<li>
+<a href="#start-with-config-toml">Start with <code>config.toml</code></a></li>
+<li>
+<a href="#full-content-rss">Full content RSS feeds for categories</a></li>
+<li>
+<a href="#modifying-contact-section">Modifying the Contact section</a></li>
+<li>
+<a href="#adding-cv">Adding a CV</a></li>
+<li>
+<a href="#version-control">Version control</a></li>
+</ol>
+
+
+
+
+<h2 id="resources-a-idresourcesa">Resources <a id="resources"></a>
+  <a href="#resources-a-idresourcesa"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This post contains a minimal set of notes that I used to configure specfic parts of the Academic theme and is not a full tutorial on starting a blogdown website. The references and tutorials below are helpful for the initial setup of your site.</p>
+<ul>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown book</a> by Yihui Xie, Amber Thomas, and Alison Presmanes Hill</li>
+<li>
+<a href="https://alison.rbind.io/post/up-and-running-with-blogdown/" target="_blank" rel="noopener">Up and running with blogdown</a> by Alison Presmanes Hill</li>
+<li>
+<a href="https://amber.rbind.io/blog/2016/12/19/creatingsite/" target="_blank" rel="noopener">Making a Website Using Blogdown, Hugo, and GitHub pages</a> by Amber Thomas</li>
+</ul>
+
+
+
+
+<h2 id="start-with-configtoml-a-idstart-with-config-tomla">Start with <code>config.toml</code> <a id="start-with-config-toml"></a>
+  <a href="#start-with-configtoml-a-idstart-with-config-tomla"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The key-value pairs in <code>config.toml</code> are pretty straightforward, and I was able to very quickly fill in basic information to populate the home page. The places I&rsquo;ll mention next are ones where I had to spend a little more time.</p>
+
+
+
+
+<h3 id="color-theme">Color theme
+  <a href="#color-theme"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[params]
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic"># Color theme.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">#   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.</span>
+</span></span><span style="display:flex;"><span>  color_theme = <span style="color:#d14">&#34;custom&#34;</span>
+</span></span></code></pre></div><p>This sets the color scheme for your site. I changed the theme to &ldquo;custom&rdquo; and made created a file called <code>custom.toml</code> in <code>themes/hugo-academic/data/themes/</code>. I have the following in my <code>custom.toml</code> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Theme metadata</span>
+</span></span><span style="display:flex;"><span>name = <span style="color:#d14">&#34;custom&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Is theme light or dark?</span>
+</span></span><span style="display:flex;"><span>light = <span style="color:#000;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Primary</span>
+</span></span><span style="display:flex;"><span>primary = <span style="color:#d14">&#34;#328cc1&#34;</span>
+</span></span><span style="display:flex;"><span>primary_light = <span style="color:#d14">&#34;#328cc1&#34;</span>
+</span></span><span style="display:flex;"><span>primary_dark = <span style="color:#d14">&#34;#DA2536&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Menu</span>
+</span></span><span style="display:flex;"><span>menu_primary = <span style="color:#d14">&#34;#494949&#34;</span>
+</span></span><span style="display:flex;"><span>menu_text = <span style="color:#d14">&#34;#fff&#34;</span>
+</span></span><span style="display:flex;"><span>menu_text_active = <span style="color:#d14">&#34;#328cc1&#34;</span>
+</span></span><span style="display:flex;"><span>menu_title = <span style="color:#d14">&#34;#fff&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Backgrounds</span>
+</span></span><span style="display:flex;"><span>background = <span style="color:#d14">&#34;#fff&#34;</span>
+</span></span><span style="display:flex;"><span>home_section_odd = <span style="color:#d14">&#34;#fff&#34;</span>
+</span></span><span style="display:flex;"><span>home_section_even = <span style="color:#d14">&#34;#f7f7f7&#34;</span>
+</span></span></code></pre></div><p>The &ldquo;Primary&rdquo; section changes the color of links and icons depending on whether you want a dark or light-colored theme. The &ldquo;Menu&rdquo; section changes the colors in the top menu bar. The &ldquo;Backgrounds&rdquo; section changes the color of the section panels on the first page.</p>
+
+
+
+
+<h3 id="highlightjs">highlight.js
+  <a href="#highlightjs"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>In this section, you can configure the languages for which you want to support syntax highlighting. As mentioned in the comments in this section of <code>config.toml</code>, you can visit 
+<a href="https://cdnjs.com/libraries/highlight.js/" target="_blank" rel="noopener">https://cdnjs.com/libraries/highlight.js/</a> to see the list of languages supported (URls ending in <code>languages/LANGUAGE_NAME.min.js</code>). You&rsquo;ll also see a list of color schemes (URLs ending in <code>styles/STYLE_NAME.min.css</code>). I wanted to know what these color schemes looked like, so I searched and found 
+<a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">https://highlightjs.org/static/demo/</a>.</p>
+
+
+
+
+<h2 id="full-content-rss-feeds-for-categories-a-idfull-content-rssa">Full content RSS feeds for categories <a id="full-content-rss"></a>
+  <a href="#full-content-rss-feeds-for-categories-a-idfull-content-rssa"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>When I first started building my site with the Academic theme, I noticed that most of my RSS feeds (e.g. 
+<a href="https://lmyint.github.io/post/index.xml" target="_blank" rel="noopener">https://lmyint.github.io/post/index.xml</a>, 
+<a href="https://lmyint.github.io/categories/r/index.xml" target="_blank" rel="noopener">https://lmyint.github.io/categories/r/index.xml</a>) contained only a brief summary of my posts in the <code>description</code> tags as opposed to the full post content. Only my home page RSS feed (
+<a href="https://lmyint.github.io/index.xml" target="_blank" rel="noopener">https://lmyint.github.io/index.xml</a>) had full content of posts.</p>
+<p>Following the advice 
+<a href="https://github.com/gcushen/hugo-academic/issues/346" target="_blank" rel="noopener">here</a> by changing the outputs in <code>config.toml</code> to the TOML below did not fix the issue.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[outputs]
+</span></span><span style="display:flex;"><span>  home = [ <span style="color:#d14">&#34;HTML&#34;</span>, <span style="color:#d14">&#34;CSS&#34;</span>, <span style="color:#d14">&#34;RSS&#34;</span> ]
+</span></span><span style="display:flex;"><span>  section = [ <span style="color:#d14">&#34;HTML&#34;</span>, <span style="color:#d14">&#34;RSS&#34;</span> ]
+</span></span><span style="display:flex;"><span>  taxonomy = [ <span style="color:#d14">&#34;HTML&#34;</span>, <span style="color:#d14">&#34;RSS&#34;</span> ]
+</span></span><span style="display:flex;"><span>  taxonomyTerm = [ <span style="color:#d14">&#34;HTML&#34;</span>, <span style="color:#d14">&#34;RSS&#34;</span> ]
+</span></span></code></pre></div><p><strong>The fix:</strong> If you would like to contribute certain posts to a content aggregator that requires full post content on the RSS feed (such as 
+<a href="https://www.r-bloggers.com/" target="_blank" rel="noopener">R-Bloggers</a>), do the following:</p>
+<ol>
+<li>Put these posts in one <strong>category</strong> (not <strong>tag</strong>)</li>
+<li>Go to 
+<a href="https://gohugo.io/templates/rss/#the-embedded-rss-xml" target="_blank" rel="noopener">https://gohugo.io/templates/rss/#the-embedded-rss-xml</a></li>
+<li>Look in the third row of the table: Taxonomy list in categories</li>
+<li>Create <code>layouts/categories/category.rss.xml</code> and use the default RSS template at the bottom of the page replacing</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000080">description</span>&gt;{{ .Summary | html }}&lt;/<span style="color:#000080">description</span>&gt;
+</span></span></code></pre></div><p>with</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000080">description</span>&gt;{{ .Content | html }}&lt;/<span style="color:#000080">description</span>&gt;
+</span></span></code></pre></div><p>After this, the RSS feeds for your category pages should have full post content.</p>
+
+
+
+
+<h2 id="modifying-the-contact-section-a-idmodifying-contact-sectiona">Modifying the Contact section <a id="modifying-contact-section"></a>
+  <a href="#modifying-the-contact-section-a-idmodifying-contact-sectiona"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>By default, the Contact section of the page will display certain items in the <code>params</code> table of your <code>config.toml</code> file. With the TOML below, the Contact section would only contain my e-mail address.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[params]
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic"># Some other stuff...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  email = <span style="color:#d14">&#34;lmyint@macalester.edu&#34;</span>
+</span></span><span style="display:flex;"><span>  address = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  office_hours = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  phone = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  skype = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  telegram = <span style="color:#d14">&#34;&#34;</span>
+</span></span></code></pre></div><p>I wanted to modify the Contact section to also show my Twitter handle, so I changed the TOML to the following.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[params]
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic"># Some other stuff...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  email = <span style="color:#d14">&#34;lmyint@macalester.edu&#34;</span>
+</span></span><span style="display:flex;"><span>  address = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  office_hours = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  phone = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  skype = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  telegram = <span style="color:#d14">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  twitter = <span style="color:#d14">&#34;lesliemyint&#34;</span>
+</span></span></code></pre></div><p>I also had to update <code>themes/hugo-academic/layouts/partials/widgets/contact.html</code>. I duplicated the section of the HTML that displays the e-mail address parameter:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ with $.Site.Params.email }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000080">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">i</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;fa-li fa fa-envelope fa-2x&#34;</span> <span style="color:#008080">aria-hidden</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;true&#34;</span>&gt;&lt;/<span style="color:#000080">i</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">span</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;person-email&#34;</span> <span style="color:#008080">itemprop</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;email&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  {{- if $autolink }}&lt;<span style="color:#000080">a</span> <span style="color:#008080">href</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;mailto:{{ . }}&#34;</span>&gt;{{ . }}&lt;/<span style="color:#000080">a</span>&gt;{{ else }}{{ . }}{{ end -}}
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#000080">span</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000080">li</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>And I modified it to access the Twitter parameter (<code>$.Site.Params.twitter</code>), use the Twitter icon (<code>class=&quot;fa-twitter&quot;</code>), and link to the Twitter website.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ with $.Site.Params.twitter }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000080">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">i</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;fa-li fa fa-twitter fa-2x&#34;</span> <span style="color:#008080">aria-hidden</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;true&#34;</span>&gt;&lt;/<span style="color:#000080">i</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">span</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">a</span> <span style="color:#008080">href</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;https://twitter.com/{{ . }}&#34;</span>&gt;{{ . }}&lt;/<span style="color:#000080">a</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#000080">span</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000080">li</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div>
+
+
+
+<h2 id="adding-a-cv-a-idadding-cva">Adding a CV <a id="adding-cv"></a>
+  <a href="#adding-a-cv-a-idadding-cva"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I use an 
+<a href="http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template" target="_blank" rel="noopener">HTML template</a> for my CV and wanted to link to both the HTML and PDF versions.</p>
+<p>First, I added a CV section to my top menu bar by adding the following TOML to <code>config.toml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[[menu.main]]
+</span></span><span style="display:flex;"><span>  name = <span style="color:#d14">&#34;CV&#34;</span>
+</span></span><span style="display:flex;"><span>  url = <span style="color:#d14">&#34;#cv&#34;</span>
+</span></span><span style="display:flex;"><span>  weight = <span style="color:#099">5</span>
+</span></span></code></pre></div><p>Next, I created a directory called <code>cv/</code> within the <code>content/</code> directory and added the HTML and PDF versions of my CV, <code>index.html</code> and <code>cv.pdf</code> respectively to <code>content/cv/</code>. Because my HTML CV relies on a stylesheet (<code>cv.css</code>), I added it to <code>static/css/</code>, and I link to it in <code>index.html</code> with the following:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000080">link</span> <span style="color:#008080">type</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/css&#34;</span> <span style="color:#008080">rel</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;stylesheet&#34;</span> <span style="color:#008080">href</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;../css/cv.css&#34;</span>&gt;
+</span></span></code></pre></div><p>The relative linking (<code>../css/cv.css</code>) looks as such because the directory structure that is generated in <code>public/</code> looks like this:</p>
+<pre tabindex="0"><code>|-public/
+|---index.html
+|---css/
+|------cv.css
+|---cv/
+|------cv.pdf
+|------index.html
+</code></pre><p>Last, I created <code>cv.md</code> in <code>content/home/</code> by duplicating the <code>teaching.md</code> file that comes with the theme by default. You can view my <code>cv.md</code> file 
+<a href="https://raw.githubusercontent.com/lmyint/personal_site/master/content/home/cv.md" target="_blank" rel="noopener">on GitHub</a>. The main hurdle in linking external resources is figuruing out the correct relative paths to these files. Again, looking at the generated directory structure above, we have to specify paths relative to <code>index.html</code>. So I include the following in <code>cv.md</code>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>My CV is available in [<span style="color:#000080">HTML</span>](<span style="color:#008080">cv/</span>) or [<span style="color:#000080">PDF</span>](<span style="color:#008080">cv/cv.pdf</span>) form.
+</span></span></code></pre></div>
+
+
+
+<h2 id="version-control-a-idversion-controla">Version control <a id="version-control"></a>
+  <a href="#version-control-a-idversion-controla"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>My website is hosted with 
+<a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub pages</a>, and the 
+<a href="https://github.com/lmyint/lmyint.github.io" target="_blank" rel="noopener">associated repository</a> only contains the file in the <code>public</code> directory of my Hugo project.</p>
+<p>I used the 
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank" rel="noopener">Host on GitHub</a> tutorial to figure out that the <code>public</code> directory can be set up as a 
+<a href="https://github.com/blog/2104-working-with-submodules" target="_blank" rel="noopener">git submodule</a> within an enclosing git repository containing source files. The enclosing git repository for my website is available at: 
+<a href="https://github.com/lmyint/personal_site" target="_blank" rel="noopener">https://github.com/lmyint/personal_site</a>.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">June 27, 2018</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">6 minute read, 1122 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/r">R</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="/tags/blogdown">blogdown</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/writing/book-of-why/">&larr; The Book of Why</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/writing/fight-every-battle/">Fight every battle everywhere: this is science &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="apreshill/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Macalester College, St. Paul, MN
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/lmyint" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?hl=en&amp;user=dWRpRisAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0003-2478-0331" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/leslie-myint-b9433bb4/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss" >
+      <i class="fas fa-rss fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

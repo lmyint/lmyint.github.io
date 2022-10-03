@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.101.0" />
+<title>Creating a Shiny app with Google login | Hugo Apéro</title>
+
+
+<meta property="twitter:site" content="@lesliemyint">
+<meta property="twitter:creator" content="@lesliemyint">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="">
+
+
+<meta property="og:site_name" content="Hugo Apéro">
+<meta property="og:title" content="Creating a Shiny app with Google login | Hugo Apéro">
+<meta property="og:description" content="" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/writing/shiny-app-with-google-login/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/writing/sidebar-listing.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/writing/sidebar-listing.jpg" >
+    
+    
+  <meta itemprop="name" content="Creating a Shiny app with Google login">
+<meta itemprop="description" content="Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook."><meta itemprop="datePublished" content="2017-01-01T18:24:29+00:00" />
+<meta itemprop="dateModified" content="2017-01-01T18:24:29+00:00" />
+<meta itemprop="wordCount" content="915">
+<meta itemprop="keywords" content="Shiny,OAuth," />
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '334918311', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f5b393169c6d4ed54822d49b30854045f8ce4d37b84a4d87fa90a135a7127d41.css" integrity="sha256-9bOTFpxtTtVIItSbMIVARfjOTTe4Sk2H&#43;pChNacSfUE=" media="screen">
+  
+  
+  <script src="/panelset.min.dca42702d7daf6fd31dc352efd2bcf0e4ac8c05ccaa58d9293f6177462de5d5f.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.e92ad7b9e787494154fc36b9339af913daaa89ea0a47d9e5acb8fd0932378aa1.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/favicon.png" class="dib db-l h2 w-auto" alt="Hugo Apéro">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Leslie">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/writing/" title="Writing">Writing</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/teaching/" title="Teaching">Teaching</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Creating a Shiny app with Google login</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Leslie Myint in <a href="/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">January 1, 2017</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.</p>
+<div id="step-1-install-packages" class="section level1">
+<h1>Step 1: Install packages</h1>
+<p>You will need the <a href="https://github.com/MarkEdmondson1234/googleAuthR"><code>googleAuthR</code></a> and <a href="https://github.com/MarkEdmondson1234/googleID"><code>googleID</code></a> packages to allow for Google authentication and login. If you plan to publish your app on shinyapps.io, you’ll also need the <code>shinyjs</code> package to avoid a clunky “Disconnected from the server” message on logout. You can install these packages with</p>
+<pre class="r"><code>install.packages(c(&quot;googleAuthR&quot;, &quot;shinyjs&quot;))
+devtools::install_github(&quot;MarkEdmondson1234/googleID&quot;)</code></pre>
+<p>It is important to install the <code>googleID</code> package with the command above to avoid an “Unable to retrieve package records” error when publishing your app (see <a href="https://groups.google.com/forum/#!topic/shiny-discuss/l6nug9hMh7g">here</a>).</p>
+</div>
+<div id="step-2-setup-google-apis" class="section level1">
+<h1>Step 2: Setup Google APIs</h1>
+<div id="setup-a-google-api-project" class="section level2">
+<h2>Setup a Google API project</h2>
+<ol style="list-style-type: decimal">
+<li>Make sure that you are logged into Google and visit the <a href="https://console.developers.google.com/iam-admin/projects">Google APIs project page</a>.</li>
+<li>Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.</li>
+<li>Click on the <a href="https://console.developers.google.com/apis/api/plus/overview">Google+ API link</a> under “Social APIs” and click the “Enable” link at the top to activate the Google+ API.</li>
+</ol>
+</div>
+<div id="setup-authentication-credentials" class="section level2">
+<h2>Setup authentication credentials</h2>
+<ol style="list-style-type: decimal">
+<li>Click the “Credentials” link in the menu on the left.</li>
+<li>Navigate to the “OAuth consent screen” tab near the top.</li>
+<li>Fill in the “Product name shown to users” form with the name of your Shiny application. The information you provide in this tab populate the authentication screen that pops up when users click the “Login with Google” link in your app (<a href="https://developers.google.com/accounts/images/OAuth2Consent.png">example</a>).</li>
+<li>Navigate to the “Credentials” tab at the top.</li>
+<li>On the “Create Credentials” dropdown menu, select “OAuth client ID” and select “Web application” for the application type.</li>
+<li>Fill in any descriptive name for this authentication client.</li>
+<li>In the redirect URLs field, fill in
+* the URL for your Shiny app (e.g. <a href="https://yourdomain.shinyapps.io/appName" class="uri">https://yourdomain.shinyapps.io/appName</a>)
+* <a href="http://127.0.0.1:1221" class="uri">http://127.0.0.1:1221</a>
+This is to facilitate local development and testing of your app.<br />
+</li>
+<li>After saving this information, a client ID and secret will pop up. Copy and paste these for use in your code later.</li>
+</ol>
+</div>
+</div>
+<div id="step-3-code" class="section level1">
+<h1>Step 3: Code</h1>
+<p>Include the following code at the top of your <code>app.R</code> file to setup scopes for the relevant API functions you’ll be using and to specify the client ID and secret you received in step 8 above:</p>
+<pre class="r"><code>options(googleAuthR.scopes.selected = c(&quot;https://www.googleapis.com/auth/userinfo.email&quot;,
+                                        &quot;https://www.googleapis.com/auth/userinfo.profile&quot;))
+options(&quot;googleAuthR.webapp.client_id&quot; = &quot;YOUR_CLIENT_ID&quot;)
+options(&quot;googleAuthR.webapp.client_secret&quot; = &quot;YOUR_CLIENT_SECRET&quot;)</code></pre>
+<p>Below is the shell of an app.R file that will create a login/logout button using Google authentication. I’ll explain the individual components afterward.</p>
+<pre class="r"><code>ui &lt;- navbarPage(
+    title = &quot;App Name&quot;,
+    windowTitle = &quot;Browser window title&quot;,
+    tabPanel(&quot;Tab 1&quot;,
+        useShinyjs(),
+        sidebarLayout(
+            sidebarPanel(
+                p(&quot;Welcome!&quot;),
+                googleAuthUI(&quot;gauth_login&quot;)
+            ),
+            mainPanel(
+                textOutput(&quot;display_username&quot;)
+            )
+        )
+    ),
+    tabPanel(&quot;Tab 2&quot;,
+        p(&quot;Layout for tab 2&quot;)
+    )
+)
+
+server &lt;- function(input, output, session) {
+    ## Global variables needed throughout the app
+    rv &lt;- reactiveValues(
+        login = FALSE
+    )
+
+    ## Authentication
+    accessToken &lt;- callModule(googleAuth, &quot;gauth_login&quot;,
+        login_class = &quot;btn btn-primary&quot;,
+        logout_class = &quot;btn btn-primary&quot;)
+    userDetails &lt;- reactive({
+        validate(
+            need(accessToken(), &quot;not logged in&quot;)
+        )
+        rv$login &lt;- TRUE
+        with_shiny(get_user_info, shiny_access_token = accessToken())
+    })
+
+    ## Display user&#39;s Google display name after successful login
+    output$display_username &lt;- renderText({
+        validate(
+            need(userDetails(), &quot;getting user details&quot;)
+        )
+        userDetails()$displayName
+    })
+
+    ## Workaround to avoid shinyaps.io URL problems
+    observe({
+        if (rv$login) {
+            shinyjs::onclick(&quot;gauth_login-googleAuthUi&quot;,
+                shinyjs::runjs(&quot;window.location.href = &#39;https://yourdomain.shinyapps.io/appName&#39;;&quot;))
+        }
+    })
+}
+
+shinyApp(ui = ui, server = server)</code></pre>
+<p>The login/logout button is created as part of the UI by calling the <code>googleAuthUI</code> function and supplying an ID:</p>
+<pre class="r"><code>googleAuthUI(&quot;gauth_login&quot;)</code></pre>
+<p>Use the same ID to call the Google authentication module with <code>callModule</code>. It is also possible to set the classes of the login and logout buttons. For styling purposes, I’ve set the classes of the login and logout buttons to be the same which renders the buttons as flat blue buttons with white text. By default, the logout button just has the <code>btn</code> class and is a standard silver button.</p>
+<pre class="r"><code>accessToken &lt;- callModule(googleAuth, &quot;gauth_login&quot;,
+    login_class = &quot;btn btn-primary&quot;,
+    logout_class = &quot;btn btn-primary&quot;)</code></pre>
+<p>The <code>userDetails</code> object is a reactive expression that is a list of several pieces of information from the user’s Google profile (see the <a href="https://github.com/MarkEdmondson1234/googleID">googleID example</a>). Until the access token is generated, any output that depends on <code>userDetails</code> will instead display “not logged in.”</p>
+<pre class="r"><code>userDetails &lt;- reactive({
+    validate(
+        need(accessToken(), &quot;not logged in&quot;)
+    )
+    rv$login &lt;- TRUE
+    with_shiny(get_user_info, shiny_access_token = accessToken())
+})</code></pre>
+<p>If parts of the UI are to be rendered based on this information after user login, include a <code>validate()</code> command:</p>
+<pre class="r"><code>output$display_username &lt;- renderText({
+    validate(
+        need(userDetails(), &quot;getting user details&quot;)
+    )
+    userDetails()$displayName
+})</code></pre>
+<p>Without the last piece of code using <code>shinyjs</code>, clicking the logout button would cause the app to be <a href="https://github.com/MarkEdmondson1234/googleAuthR/issues/17">disconnected from the server</a>. This results in a clunky, undesirable logout experience. This last piece of code redirects to the specified URL when the logout button is clicked.</p>
+<pre class="r"><code>observe({
+    if (rv$login) {
+        shinyjs::onclick(&quot;gauth_login-googleAuthUi&quot;,
+            shinyjs::runjs(&quot;window.location.href = &#39;https://yourdomain.shinyapps.io/appName&#39;;&quot;))
+    }
+})</code></pre>
+</div>
+<div id="other-considerations" class="section level1">
+<h1>Other considerations</h1>
+<p>The steps above should help you quickly get started developing a Shiny application with Google login. The meat of the app will depend on your needs, but if you want to keep track of user information, consider using some <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html">online file system or database</a> to map users’ Google IDs to your app’s own set of profile information.</p>
+</div>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 1, 2017</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">5 minute read, 915 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/r">R</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="/tags/shiny">Shiny</a>  <a href="/tags/oauth">OAuth</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/writing/fight-every-battle/">&larr; Fight every battle everywhere: this is science</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/writing/what-is-likelihood/">What is likelihood? &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="apreshill/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Macalester College, St. Paul, MN
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/lesliemyint" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/lmyint" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?hl=en&amp;user=dWRpRisAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0003-2478-0331" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/leslie-myint-b9433bb4/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss" >
+      <i class="fas fa-rss fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>causal diagrams on Hugo Apéro</title>
+    <link>/tags/causal-diagrams/</link>
+    <description>Recent content in causal diagrams on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/causal-diagrams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Book of Why</title>
+      <link>/writing/book-of-why/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/book-of-why/</guid>
+      <description>I just finished reading The Book of Why by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the &amp;ldquo;Causal Revolution&amp;rdquo;, a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then.</description>
+    </item>
+    
+  </channel>
+</rss>

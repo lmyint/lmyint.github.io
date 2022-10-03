@@ -1,16 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories | Leslie Myint</title>
+    <title>Categories on Hugo Apéro</title>
     <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <description>Categories</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
-      <title>Categories</title>
-      <link>/categories/</link>
-    </image>
+    <description>Recent content in Categories on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Aug 2022 09:25:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invited</title>
+      <link>/categories/invited/</link>
+      <pubDate>Wed, 10 Aug 2022 09:25:00 +0000</pubDate>
+      
+      <guid>/categories/invited/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oral Presentation</title>
+      <link>/categories/oral-presentation/</link>
+      <pubDate>Wed, 10 Aug 2022 09:25:00 +0000</pubDate>
+      
+      <guid>/categories/oral-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/categories/teaching/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constributed</title>
+      <link>/categories/constributed/</link>
+      <pubDate>Thu, 05 Aug 2021 17:00:00 +0000</pubDate>
+      
+      <guid>/categories/constributed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster</title>
+      <link>/categories/poster/</link>
+      <pubDate>Thu, 05 Aug 2021 17:00:00 +0000</pubDate>
+      
+      <guid>/categories/poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/categories/books/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal Inference</title>
+      <link>/categories/causal-inference/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/causal-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion</title>
+      <link>/categories/opinion/</link>
+      <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
+      
+      <guid>/categories/opinion/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

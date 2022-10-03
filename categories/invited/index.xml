@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invited on Hugo Apéro</title>
+    <link>/categories/invited/</link>
+    <description>Recent content in Invited on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Aug 2022 09:25:00 +0000</lastBuildDate><atom:link href="/categories/invited/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Causal inference throughout the statistics curriculum</title>
+      <link>/talk/2022_08_10_jsm/</link>
+      <pubDate>Wed, 10 Aug 2022 09:25:00 +0000</pubDate>
+      
+      <guid>/talk/2022_08_10_jsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A metabolic view of symptoms in kidney disease</title>
+      <link>/talk/2022_04_01_stthomas/</link>
+      <pubDate>Fri, 01 Apr 2022 15:00:00 +0000</pubDate>
+      
+      <guid>/talk/2022_04_01_stthomas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What did I just read?</title>
+      <link>/talk/2020_10_30_minne_wiads/</link>
+      <pubDate>Fri, 30 Oct 2020 10:45:00 +0000</pubDate>
+      
+      <guid>/talk/2020_10_30_minne_wiads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphs Galore! Representing Knowledge in the Sciences and Humanities</title>
+      <link>/talk/2019_10_22_carleton/</link>
+      <pubDate>Tue, 22 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>/talk/2019_10_22_carleton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical methods for querying the regulatory role of DNA</title>
+      <link>/talk/2019_03_22_creighton/</link>
+      <pubDate>Fri, 22 Mar 2019 15:30:00 +0000</pubDate>
+      
+      <guid>/talk/2019_03_22_creighton/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

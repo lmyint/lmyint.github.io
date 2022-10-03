@@ -1,16 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Leslie Myint</title>
+    <title>Tags on Hugo Apéro</title>
     <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/icon_hu43d5dce61d5c3d4d64899382e97bf121_37040_512x512_fill_lanczos_center_2.png</url>
-      <title>Tags</title>
-      <link>/tags/</link>
-    </image>
+    <description>Recent content in Tags on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>equity</title>
+      <link>/tags/equity/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/equity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grading</title>
+      <link>/tags/grading/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dnd</title>
+      <link>/tags/dnd/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dnd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rselenium</title>
+      <link>/tags/rselenium/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rselenium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rvest</title>
+      <link>/tags/rvest/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rvest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>causal diagrams</title>
+      <link>/tags/causal-diagrams/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/causal-diagrams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OAuth</title>
+      <link>/tags/oauth/</link>
+      <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
+      
+      <guid>/tags/oauth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Sun, 01 Jan 2017 18:24:29 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>likelihood</title>
+      <link>/tags/likelihood/</link>
+      <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
+      
+      <guid>/tags/likelihood/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
