@@ -6,7 +6,7 @@
     <description>Recent content in Hi, I&#39;m Leslie Myint on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Aug 2022 09:25:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,6 +84,16 @@ Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apres
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    
+    <item>
+      <title>Lightning Lure</title>
+      <link>/writing/lightning-lure/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/lightning-lure/</guid>
+      <description>Whenever my husband and I have a conversation with someone new, my heart races. Is he going to ask it or will I? It&amp;rsquo;s usually him…but how will he ask it? He better time it well and not ask it right off the bat. Otherwise there will be stern words over dinner.
+The conversation warms up with talk about hometowns, living in Minnesota, being new parents, the challenges of being first-time homeowners, jobs.</description>
     </item>
     
     <item>
