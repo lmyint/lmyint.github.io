@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent and Upcoming Talks on Hugo Apéro</title>
+    <title>Recent and Upcoming Talks on Leslie Myint</title>
     <link>/talk/</link>
-    <description>Recent content in Recent and Upcoming Talks on Hugo Apéro</description>
+    <description>Recent content in Recent and Upcoming Talks on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 10 Aug 2022 09:25:00 +0000</lastBuildDate><atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
