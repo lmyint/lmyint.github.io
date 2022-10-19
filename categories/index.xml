@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opinion</title>
+      <link>/categories/opinion/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/opinion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Joy</title>
       <link>/categories/joy/</link>
@@ -44,11 +53,11 @@
     </item>
     
     <item>
-      <title>Constributed</title>
-      <link>/categories/constributed/</link>
+      <title>Contributed</title>
+      <link>/categories/contributed/</link>
       <pubDate>Thu, 05 Aug 2021 17:00:00 +0000</pubDate>
       
-      <guid>/categories/constributed/</guid>
+      <guid>/categories/contributed/</guid>
       <description></description>
     </item>
     
@@ -85,15 +94,6 @@
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/causal-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinion</title>
-      <link>/categories/opinion/</link>
-      <pubDate>Wed, 16 Aug 2017 00:46:20 +0000</pubDate>
-      
-      <guid>/categories/opinion/</guid>
       <description></description>
     </item>
     

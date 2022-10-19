@@ -6,7 +6,7 @@
     <description>Recent content in Hi, I&#39;m Leslie Myint on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,6 +84,15 @@ Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apres
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    
+    <item>
+      <title>The quest to find invisible giants: the myth of progress</title>
+      <link>/writing/invisible-giants-myth-of-progress/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/invisible-giants-myth-of-progress/</guid>
+      <description>Sir Isaac Newton once said, &amp;ldquo;If I have seen further, it is by standing on the shoulders of giants.&amp;rdquo; This quote has come to represent the admiration of progress in human knowledge. It&amp;rsquo;s a beautiful quote. It inspires: it prompts us to look forward, to yearn to see further. It humbles: it turns our gaze backwards for a moment, to pay homage to the labors granting us these higher vantage points.</description>
     </item>
     
     <item>
