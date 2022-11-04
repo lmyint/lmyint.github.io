@@ -6,7 +6,7 @@
     <description>Recent content in Hi, I&#39;m Leslie Myint on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,6 +84,17 @@ Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apres
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    
+    <item>
+      <title>Coach, don&#39;t just teach</title>
+      <link>/writing/coach-dont-just-teach/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/coach-dont-just-teach/</guid>
+      <description>Over the course of a 7 hour conversation, one woman changed the course of my marriage, yet she spoke for only 30 minutes.
+She was a marriage therapist. But in many ways she felt like a coach.
+How did you feel? Was it always that way? Say a little more. With these simple nudges, she drew my gaze beyond the fresco of my marriage and helped me see the brushstrokes and the artists behind the stormy scarlets and blissful blues.</description>
     </item>
     
     <item>
