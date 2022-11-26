@@ -6,7 +6,7 @@
     <description>Recent content in Hi, I&#39;m Leslie Myint on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,6 +84,18 @@ Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apres
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    
+    <item>
+      <title>12 Favorite Problems: The key to classroom community</title>
+      <link>/writing/12-favorite-problems-class-community/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/12-favorite-problems-class-community/</guid>
+      <description>What are you obsessed with?
+This question has the power to completely change the game in classroom community-building.
+Building community: why and first attempts Community is more than just hot chocolate for a teacher&amp;rsquo;s heart—it has immense benefits for students:
+Community building is vital to active student engagement in a course across all modalities. Research shows that when students feel that they belong to their academic community, that they matter to one another, and that they can find emotional, social, and cognitive support for one another, they are able to engage in dialogue and reflection more actively and take ownership and responsibility of their own learning.</description>
     </item>
     
     <item>
